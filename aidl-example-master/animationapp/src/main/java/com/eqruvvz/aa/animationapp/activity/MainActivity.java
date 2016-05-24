@@ -8,10 +8,17 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Adapter;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import com.eqruvvz.aa.animationapp.R;
 
 public class MainActivity extends ActivityBase {
+
+    private ListView lv_main_activity;
+    private ArrayAdapter lvMainAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +35,24 @@ public class MainActivity extends ActivityBase {
                         .setAction("Action", null).show();
             }
         });
+
+
+        initMainListView();
+
+    }
+
+    private void initMainListView(){
+        lv_main_activity = (ListView)findViewById(R.id.lv_main_activity);
+        String [] menuList = this.getResources().getStringArray(R.array.MenuActivityMain);
+        lvMainAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, menuList);
+        lv_main_activity.setAdapter(lvMainAdapter);
+        lv_main_activity.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+            }
+        });
+
     }
 
     @Override

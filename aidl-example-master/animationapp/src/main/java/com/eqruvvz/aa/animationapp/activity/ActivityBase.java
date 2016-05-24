@@ -30,6 +30,8 @@ public class ActivityBase extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setClass(this,classA);
         startActivity(intent);
+       // overridePendingTransition(R.anim.zoomin, R.anim.zoomout);
+       // overridePendingTransition(R.anim.move_in_right, R.anim.move_out_right);
     }
 
     protected LayoutInflater getLayouInflater() {

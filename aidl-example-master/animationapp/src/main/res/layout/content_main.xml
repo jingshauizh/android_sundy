@@ -12,8 +12,9 @@
     tools:context=".activity.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <ListView
+        android:id="@+id/lv_main_activity"
+        android:layoutAnimation="@anim/list_anim_layout"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_height="wrap_content" />
 </RelativeLayout>
