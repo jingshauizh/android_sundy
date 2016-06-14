@@ -1,1 +1,1 @@
-include ':app', ':receiver', ':IPCServer', ':animationapp'
+include ':app', ':receiver', ':IPCServer', ':animationapp', ':EventApp', ':AppMenu'

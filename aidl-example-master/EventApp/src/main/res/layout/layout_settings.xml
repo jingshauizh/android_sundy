@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Portal Server Url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_strPortalURL"  />
+    <EditText
+        android:text="Portal Server Url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edv_serverStartURL" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:text="DRM"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_str_DRM"  />
+        <Switch
+            android:layout_weight="0"
+            android:layout_toRightOf="@+id/tv_str_DRM"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="Switch DRM"
+            android:switchMinWidth="30dp"
+            android:checked="true"
+            android:id="@+id/swch_DRM"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:text="DRM Server Ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_drm_serverip"  />
+    <EditText
+        android:text="10.170.78.173"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edv_drm_serverip" />
+
+    <TextView
+        android:text="DRM Server Port"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_drm_serverport"  />
+    <EditText
+        android:text="80"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edv_drm_serverport" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingBottom="30dp"
+        >
+        <TextView
+            android:text="Use Analysis"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_star_analysis"  />
+        <Switch
+            android:text="Switch Analysis"
+            android:layout_weight="0"
+            android:checked="true"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/tv_star_analysis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/swch_analysis"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

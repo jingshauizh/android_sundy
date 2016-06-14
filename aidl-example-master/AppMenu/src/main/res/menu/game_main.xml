@@ -1,0 +1,85 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.appmenu.MainActivity">
+    <item
+        android:id="@+id/game_settings"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings1"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings2"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings3"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings4"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings5"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings6"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings7"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings8"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings9"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings10"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings16"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings17"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings18"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings19"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/game_settings11"
+        android:orderInCategory="100"
+        android:title="@string/game_settings"
+        app:showAsAction="never" />
+</menu>
