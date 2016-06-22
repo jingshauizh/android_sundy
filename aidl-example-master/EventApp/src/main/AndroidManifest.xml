@@ -7,20 +7,25 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/android:Theme.Light.NoTitleBar">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme">
+        <activity android:name=".AnimationActivity"></activity>
+        <activity
+            android:name=".ActvityStateSave"
+            android:label="@string/title_activity_actvity_state_save"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ActivityDialog" />
+        <activity android:name=".Activityenu" />
+        <activity android:name=".activity.ActivitMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ActvityStateSave"
-            android:label="@string/title_activity_actvity_state_save"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ActivityDialog" />
-        <activity android:name=".Activityenu"></activity>
+        <activity android:name=".activity.ActivityEvent" />
+        <activity android:name=".activity.AcDialog"
+            android:theme="@android:style/Theme.Dialog"
+            ></activity>
     </application>
 
 </manifest>

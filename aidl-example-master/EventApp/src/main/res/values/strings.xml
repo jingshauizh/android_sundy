@@ -2,4 +2,14 @@
     <string name="app_name">EventApp</string>
     <string name="title_activity_actvity_state_save">ActvityStateSave</string>
     <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="action_value_animator">action_value_animator</string>
+    <string name="ButtonTextYes">Yes</string>
+    <string name="ButtonTextNo">No</string>
+    <string name="action_roatate">action_roatate</string>
+    <string name="title_activity_activity_roatate">ActivityRoatate</string>
+    <string name="activity_event">activity_event</string>
+    <string name="action_activity_animation">action_activity_animation</string>
+
+
 </resources>

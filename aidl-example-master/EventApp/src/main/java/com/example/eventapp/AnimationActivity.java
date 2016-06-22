@@ -14,7 +14,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-public class MainActivity extends Activity {
+public class AnimationActivity extends Activity {
     private Button mButtonHello;
     private Button mImageView;
     private LinearLayout myLayout;
@@ -77,51 +77,51 @@ public class MainActivity extends Activity {
            @Override
             public void onClick(View v) {
                 Log.i(TAG,"button1 setOnClickListener");
-//               Intent _intent = new Intent(MainActivity.this,ActivityDialog.class);
-//               startActivity(_intent);
-
-               Intent _intent = new Intent(MainActivity.this,Activityenu.class);
+               Intent _intent = new Intent(AnimationActivity.this,ActivityDialog.class);
                startActivity(_intent);
+
+
             }
         });
 
-//        myLayout.setOnTouchListener(new View.OnTouchListener() {
-//            @Override
-//            public boolean onTouch(View v, MotionEvent event) {
-//                Log.i(TAG,"myLayout onTouch");
-//                return false;
-//            }
-//        });
-//        mButtonHello.setOnTouchListener(new View.OnTouchListener() {
-//            @Override
-//            public boolean onTouch(View v, MotionEvent event) {
-//                Log.i(TAG,"button1 onTouch");
-//                return false;
-//            }
-//        });
-//
-//        mButtonHello.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Log.i(TAG,"button1 setOnClickListener");
-//            }
-//        });
-//
-//        mImageView.setOnTouchListener(new View.OnTouchListener() {
-//            @Override
-//            public boolean onTouch(View v, MotionEvent event) {
-//                Log.i(TAG,"button2  onTouch");
-//                return false;
-//            }
-//        });
-//
-//        mImageView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent mintent = new Intent(MainActivity.this, ActvityStateSave.class);
-//                startActivity(mintent);
-//                Log.i(TAG,"button2  setOnClickListener");
-//            }
-//        });
+
+        myLayout.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                Log.i(TAG,"myLayout onTouch");
+                return false;
+            }
+        });
+        mButtonHello.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                Log.i(TAG,"button1 onTouch");
+                return false;
+            }
+        });
+
+        mButtonHello.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(TAG,"button1 setOnClickListener");
+            }
+        });
+
+        mImageView.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                Log.i(TAG,"button2  onTouch");
+                return false;
+            }
+        });
+
+        mImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mintent = new Intent(AnimationActivity.this, ActvityStateSave.class);
+                startActivity(mintent);
+                Log.i(TAG,"button2  setOnClickListener");
+            }
+        });
     }
 }

@@ -25,6 +25,8 @@ import android.widget.Button;
 
 
 import com.example.videoapp.R;
+import com.example.videoapp.camera.ActivityCamrea;
+import com.example.videoapp.camera.ActivityCaramView;
 import com.example.videoapp.media.crasy.ActivityediaAudio;
 import com.example.videoapp.media.crasy.SoundPoolActivity;
 
@@ -95,7 +97,7 @@ public class MediaPlayerDemo extends Activity {
         public void onClick(View v) {
             Intent intent =
                     new Intent(MediaPlayerDemo.this,
-                            MediaPlayerDemo_Video.class);
+                            ActivityCaramView.class);
             intent.putExtra(MEDIA, STREAM_VIDEO);
             startActivity(intent);
 
