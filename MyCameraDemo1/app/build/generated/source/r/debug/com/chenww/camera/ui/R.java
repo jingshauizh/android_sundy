@@ -22,7 +22,9 @@ public final class R {
         public static final int camera_surfaceview=0x7f080000;
     }
     public static final class layout {
-        public static final int activity_camera=0x7f030000;
+        public static final int activity_activity_start=0x7f030000;
+        public static final int activity_camera=0x7f030001;
+        public static final int activity_camera_no_view=0x7f030002;
     }
     public static final class menu {
         public static final int camera=0x7f070000;

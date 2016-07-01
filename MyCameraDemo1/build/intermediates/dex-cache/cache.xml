@@ -2,25 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\1jason\3code\git_code\android_sundy\MyCameraDemo1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="80cdb69aed3a277dc7ea94ee177c7af12f770010">
-        <dex dex="C:\1jason\3code\git_code\android_sundy\MyCameraDemo1\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_76b1183f829ca6b776567fbfd35c901c79c875c8.jar" />
-    </item>
-    <item
         jar="C:\1jason\4java\android_sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         revision="23.0.3"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
         <dex dex="C:\1jason\3code\git_code\android_sundy\MyCameraDemo1\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_d96199c6b2dca7c5e5773d63b94c5799f44fa5e5.jar" />
-    </item>
-    <item
-        jar="C:\1jason\3code\git_code\android_sundy\MyCameraDemo1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="0fa4fb51e4a5d4a17f27276272c4a4ed2428e795">
-        <dex dex="C:\1jason\3code\git_code\android_sundy\MyCameraDemo1\app\build\intermediates\pre-dexed\debug\instant-run_6639d5af49c20651866217cd88fbb361f1d9ffb8.jar" />
     </item>
 
 </items>

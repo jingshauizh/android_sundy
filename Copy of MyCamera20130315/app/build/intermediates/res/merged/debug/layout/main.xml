@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<FrameLayout 
+	    android:id="@+id/cameraframe"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	    <SurfaceView 
+	        android:id="@+id/camera_screen"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"/>
+	    <org.example.camera.SVDraw
+	        android:id="@+id/small_camera_screen"
+	        android:layout_width="100dip"
+	        android:layout_height="200dip">
+	    </org.example.camera.SVDraw>
+	    
+	    
+	</FrameLayout>
+	<LinearLayout 
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:layout_alignParentBottom="true">
+    <Button 
+        android:id="@+id/takepicture"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="take"
+        android:layout_weight="1"/>
+    <Button 
+        android:id="@+id/setpic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="openpic"
+        android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\1jason\4java\android_sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_a41a282c937326aadc12b918cb7e34e346f01267.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_b18f220c7bb1031b901fcbb4f774af8480bac0aa.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_211221069a690c7bb9797742366bc8bf6c54ce91.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_c0162b14c1d54af1dcc40ab2d0515a7f8de1226e.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\app\build\intermediates\exploded-aar\TestService\appcommonlib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="839d703a2abdb428e1a497584e7072a08e827e45">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\app\build\intermediates\pre-dexed\debug\TestService-appcommonlib-unspecified_578aef0a861e2a610ecac40b4d08eaacf1d4b4c3.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_53e970c0a8302c07b6ee50f84a32834f6ec22edf.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_a421b2a4daca64ff9827d2518a8f73d15119c750.jar" />
+    </item>
+
+</items>

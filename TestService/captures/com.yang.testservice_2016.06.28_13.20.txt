@@ -1,0 +1,32 @@
+Applications Memory Usage (kB):
+Uptime: 62376701 Realtime: 141858400
+
+** MEMINFO in pid 12633 [com.yang.testservice] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap        0        0        0        0     5828     5807       20
+  Dalvik Heap     7986     7752        0     6572    22340    21845      495
+ Dalvik Other     1393     1244        0     1316                           
+        Stack      100      100        0       12                           
+    Other dev      801      792        8        0                           
+     .so mmap     2824     1616      476     2740                           
+    .apk mmap       11        0        0        0                           
+    .dex mmap      408       32      112      168                           
+   Other mmap        7        4        0        0                           
+           GL     3876     3876        0        0                           
+      Unknown     1743     1728        0      532                           
+        TOTAL    19149    17144      596    11340    28168    27652      515
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        3           Activities:        0
+              Assets:        5        AssetManagers:        5
+       Local Binders:       10        Proxy Binders:       17
+    Death Recipients:        1
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
