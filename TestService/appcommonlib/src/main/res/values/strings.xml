@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AppCommonLib</string>
+    <string name="ButtonTextYes">YES</string>
+    <string name="ButtonTextNo">NO</string>
 </resources>

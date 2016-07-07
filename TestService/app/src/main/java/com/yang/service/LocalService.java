@@ -125,8 +125,9 @@ public class LocalService extends Service {
 		PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
 				new Intent(this, MainActivity.class), 0);
 		Notification notification = builder.setContentIntent(contentIntent).setContentTitle(NOTIFY_TEXT).setContentText(text).build();
-//		notification.setLatestEventInfo(this,
-//				getText(R.string.local_service_label), text, contentIntent);
+		notification.tickerText = "Message received!";
+
+		notification.when = System.currentTimeMillis();
 		mNM.notify(NOTIFICATION, notification);
 	}
 
