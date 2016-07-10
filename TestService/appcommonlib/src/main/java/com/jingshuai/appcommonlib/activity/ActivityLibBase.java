@@ -16,7 +16,7 @@ import java.lang.reflect.Field;
 /**
  * Created by Administrator on 16-4-7.
  */
-public class ActivityLibBase extends Activity {
+public abstract class ActivityLibBase extends Activity {
 
     protected static final int SHOW_TIME = 1;
     private ProgressDialog m_ProgressDialog;
@@ -75,5 +75,14 @@ public class ActivityLibBase extends Activity {
         {
             m_ProgressDialog.dismiss();
         }
+    }
+
+    //provider a method to cancel the network request
+    protected abstract boolean cancelRequest();
+
+    @Override
+    protected void onPause() {
+        cancelRequest();
+        super.onPause();
     }
 }

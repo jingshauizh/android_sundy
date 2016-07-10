@@ -37,28 +37,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LocalService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yang/service/LocalService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="67" column="17" selection-start-line="54" selection-start-column="4" selection-end-line="67" selection-end-column="17" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -74,27 +62,27 @@
       </file>
       <file leaf-file-name="fragment_book_list.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/res/layout/fragment_book_list.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="fragment_book_desc.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/res/layout/fragment_book_desc.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -103,7 +91,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,21 +103,33 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main_fregment.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/res/layout-land/activity_main_fregment.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.181818">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main_fregment.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/res/layout-land/activity_main_fregment.xml">
+      <file leaf-file-name="ActivityLibBase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/activity/ActivityLibBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7098121">
-              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.6619318">
+              <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -136,23 +138,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_main_fregment.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/res/layout/activity_main_fregment.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -3338,7 +3338,6 @@
         <option value="$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/util/ui/UITool.java" />
         <option value="$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/activity/ActivityBase.java" />
         <option value="$PROJECT_DIR$/appcommonlib/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/activity/ActivityLibBase.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yang/service/LocalService.java" />
         <option value="$PROJECT_DIR$/fregmentapp/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/fregmentapp/src/main/res/values/strings.xml" />
@@ -3349,14 +3348,15 @@
         <option value="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/FragmentBookList.java" />
         <option value="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/FragmentDescription.java" />
         <option value="$PROJECT_DIR$/fregmentapp/src/main/res/layout-land/activity_main_fregment.xml" />
+        <option value="$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/activity/ActivityLibBase.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -3383,6 +3383,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3401,12 +3405,72 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestService" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcommonlib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestService" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcommonlib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestService" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcommonlib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcommonlib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestService" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcommonlib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcommonlib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3758,16 +3822,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.49755502" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35788262" sideWeight="0.4932763" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20476772" sideWeight="0.28113878" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.204236" sideWeight="0.29473683" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35327962" sideWeight="0.27811736" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35327962" sideWeight="0.72188264" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35264054" sideWeight="0.28214827" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35264054" sideWeight="0.71785176" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.49511003" order="2" side_tool="false" content_ui="tabs" />
@@ -3776,7 +3840,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20476772" sideWeight="0.7188612" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.204236" sideWeight="0.70526314" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3824,13 +3888,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_camera_no_view.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.7818182">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/captures/com.yang.testservice_2016.06.28_13.20.txt">
@@ -3905,7 +3969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3913,7 +3976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3942,7 +4004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3978,7 +4039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34615386">
           <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3986,7 +4046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3897436">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4024,13 +4083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/activity/ActivityLibBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/util/DateTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4063,13 +4115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3181#3182#0" expanded="false" />
-            <element signature="e#3214#3215#0" expanded="false" />
-            <element signature="e#3361#3362#0" expanded="false" />
-            <element signature="e#3397#3398#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4077,10 +4122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#496#497#0" expanded="false" />
-            <element signature="e#532#533#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4095,120 +4136,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="25" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#217447#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#23994#23995#0" expanded="false" />
-            <element signature="e#24026#24027#0" expanded="false" />
-            <element signature="e#24680#24681#0" expanded="false" />
-            <element signature="e#24711#24712#0" expanded="false" />
-            <element signature="e#35588#35589#0" expanded="false" />
-            <element signature="e#35626#35627#0" expanded="false" />
-            <element signature="e#35849#35850#0" expanded="false" />
-            <element signature="e#35893#35894#0" expanded="false" />
-            <element signature="e#38833#38834#0" expanded="false" />
-            <element signature="e#38879#38880#0" expanded="false" />
-            <element signature="e#40714#40715#0" expanded="false" />
-            <element signature="e#40746#40747#0" expanded="false" />
-            <element signature="e#41563#41564#0" expanded="false" />
-            <element signature="e#41616#41617#0" expanded="false" />
-            <element signature="e#41665#41666#0" expanded="false" />
-            <element signature="e#41720#41721#0" expanded="false" />
-            <element signature="e#47599#47600#0" expanded="false" />
-            <element signature="e#47676#47677#0" expanded="false" />
-            <element signature="e#48827#48828#0" expanded="false" />
-            <element signature="e#48882#48883#0" expanded="false" />
-            <element signature="e#49692#49693#0" expanded="false" />
-            <element signature="e#49744#49745#0" expanded="false" />
-            <element signature="e#50488#50489#0" expanded="false" />
-            <element signature="e#50539#50540#0" expanded="false" />
-            <element signature="e#60106#60107#0" expanded="false" />
-            <element signature="e#60130#60131#0" expanded="false" />
-            <element signature="e#63800#63801#0" expanded="false" />
-            <element signature="e#63855#63856#0" expanded="false" />
-            <element signature="e#63915#63916#0" expanded="false" />
-            <element signature="e#63968#63969#0" expanded="false" />
-            <element signature="e#69639#69640#0" expanded="false" />
-            <element signature="e#69672#69673#0" expanded="false" />
-            <element signature="e#69803#69804#0" expanded="false" />
-            <element signature="e#69836#69837#0" expanded="false" />
-            <element signature="e#70025#70026#0" expanded="false" />
-            <element signature="e#70058#70059#0" expanded="false" />
-            <element signature="e#70558#70559#0" expanded="false" />
-            <element signature="e#70635#70636#0" expanded="false" />
-            <element signature="e#113848#113849#0" expanded="false" />
-            <element signature="e#113902#113903#0" expanded="false" />
-            <element signature="e#118887#118888#0" expanded="false" />
-            <element signature="e#118936#118937#0" expanded="false" />
-            <element signature="e#136805#136806#0" expanded="false" />
-            <element signature="e#136843#136844#0" expanded="false" />
-            <element signature="e#138240#138241#0" expanded="false" />
-            <element signature="e#138315#138316#0" expanded="false" />
-            <element signature="e#138881#138882#0" expanded="false" />
-            <element signature="e#138949#138950#0" expanded="false" />
-            <element signature="e#139758#139759#0" expanded="false" />
-            <element signature="e#139806#139807#0" expanded="false" />
-            <element signature="e#145000#145001#0" expanded="false" />
-            <element signature="e#145035#145036#0" expanded="false" />
-            <element signature="e#145985#145986#0" expanded="false" />
-            <element signature="e#146028#146029#0" expanded="false" />
-            <element signature="e#150869#150870#0" expanded="false" />
-            <element signature="e#150912#150913#0" expanded="false" />
-            <element signature="e#154982#154983#0" expanded="false" />
-            <element signature="e#155025#155026#0" expanded="false" />
-            <element signature="e#161374#161375#0" expanded="false" />
-            <element signature="e#161417#161418#0" expanded="false" />
-            <element signature="e#168196#168197#0" expanded="false" />
-            <element signature="e#168232#168233#0" expanded="false" />
-            <element signature="e#182760#182761#0" expanded="false" />
-            <element signature="e#182799#182800#0" expanded="false" />
-            <element signature="e#184826#184827#0" expanded="false" />
-            <element signature="e#184871#184872#0" expanded="false" />
-            <element signature="e#186834#186835#0" expanded="false" />
-            <element signature="e#186871#186872#0" expanded="false" />
-            <element signature="e#187861#187862#0" expanded="false" />
-            <element signature="e#187903#187904#0" expanded="false" />
-            <element signature="e#188262#188263#0" expanded="false" />
-            <element signature="e#188305#188306#0" expanded="false" />
-            <element signature="e#189171#189172#0" expanded="false" />
-            <element signature="e#189221#189222#0" expanded="false" />
-            <element signature="e#191054#191055#0" expanded="false" />
-            <element signature="e#191104#191105#0" expanded="false" />
-            <element signature="e#191983#191984#0" expanded="false" />
-            <element signature="e#192022#192023#0" expanded="false" />
-            <element signature="e#193304#193305#0" expanded="false" />
-            <element signature="e#193352#193353#0" expanded="false" />
-            <element signature="e#194300#194301#0" expanded="false" />
-            <element signature="e#194351#194352#0" expanded="false" />
-            <element signature="e#195179#195180#0" expanded="false" />
-            <element signature="e#195250#195251#0" expanded="false" />
-            <element signature="e#197049#197050#0" expanded="false" />
-            <element signature="e#197115#197116#0" expanded="false" />
-            <element signature="e#200222#200223#0" expanded="false" />
-            <element signature="e#200271#200272#0" expanded="false" />
-            <element signature="e#204602#204603#0" expanded="false" />
-            <element signature="e#204639#204640#0" expanded="false" />
-            <element signature="e#205449#205450#0" expanded="false" />
-            <element signature="e#205490#205491#0" expanded="false" />
-            <element signature="e#206142#206143#0" expanded="false" />
-            <element signature="e#206192#206193#0" expanded="false" />
-            <element signature="e#207884#207885#0" expanded="false" />
-            <element signature="e#207932#207933#0" expanded="false" />
-            <element signature="e#208167#208168#0" expanded="false" />
-            <element signature="e#208218#208219#0" expanded="false" />
-            <element signature="e#208431#208432#0" expanded="false" />
-            <element signature="e#208489#208490#0" expanded="false" />
-            <element signature="e#208727#208728#0" expanded="false" />
-            <element signature="e#208784#208785#0" expanded="false" />
-            <element signature="e#208923#208924#0" expanded="false" />
-            <element signature="e#208975#208976#0" expanded="false" />
-            <element signature="e#209339#209340#0" expanded="false" />
-            <element signature="e#209394#209395#0" expanded="false" />
-            <element signature="e#213033#213034#0" expanded="false" />
-            <element signature="e#213084#213085#0" expanded="false" />
-            <element signature="e#216983#216984#0" expanded="false" />
-            <element signature="e#217020#217021#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4217,7 +4144,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4231,21 +4158,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="17" selection-start-line="54" selection-start-column="4" selection-end-line="67" selection-end-column="17" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/FragmentBookList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4253,50 +4182,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/res/layout/fragment_book_desc.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/res/layout/fragment_book_list.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/res/layout/fragment_book_list.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/res/layout/activity_main_fregment.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/res/layout/activity_main_fregment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4304,7 +4233,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4312,19 +4243,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fregmentapp/src/main/res/layout-land/activity_main_fregment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7098121">
+        <state vertical-scroll-proportion="-6.181818">
           <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/activity/ActivityLibBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6619318">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
