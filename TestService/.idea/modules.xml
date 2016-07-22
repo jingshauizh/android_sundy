@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/appcommonlib/appcommonlib.iml" filepath="$PROJECT_DIR$/appcommonlib/appcommonlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/applib/applib.iml" filepath="$PROJECT_DIR$/applib/applib.iml" />
       <module fileurl="file://$PROJECT_DIR$/fregmentapp/fregmentapp.iml" filepath="$PROJECT_DIR$/fregmentapp/fregmentapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocr/ocr.iml" filepath="$PROJECT_DIR$/ocr/ocr.iml" />
     </modules>
   </component>
 </project>

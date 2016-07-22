@@ -1,1 +1,1 @@
-include ':app', ':appcommonlib', ':fregmentapp'
+include ':app', ':appcommonlib', ':fregmentapp', ':ocr'

@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/appcommonlib" />
             <option value="$PROJECT_DIR$/fregmentapp" />
+            <option value="$PROJECT_DIR$/ocr" />
           </set>
         </option>
         <option name="myModules">
@@ -19,6 +20,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/appcommonlib" />
             <option value="$PROJECT_DIR$/fregmentapp" />
+            <option value="$PROJECT_DIR$/ocr" />
           </set>
         </option>
       </GradleProjectSettings>

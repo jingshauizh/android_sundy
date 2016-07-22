@@ -1,13 +1,35 @@
 package com.jingshuai.android.fregmentapp;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
+import android.app.FragmentManager;
 import android.os.Bundle;
+import android.util.Log;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity implements FragmentBookList.MyListener{
 
+    private final String TAG="MainActivity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_fregment);
+    }
+
+    public void onSelectedBookChanged(int bookIndex) {
+        FragmentManager fragmentManager = getFragmentManager();
+        FragmentDescription bookDescFragment = (FragmentDescription)fragmentManager.findFragmentById(R.id.fragmentDescription);
+        bookDescFragment.setBook(bookIndex);
+    }
+
+    @Override
+    public void showDescription(int index) {
+        if(1 == index){
+            //show desc1
+            Log.i(TAG,"index="+index);
+        }
+        else{
+            //show desc2
+            Log.i(TAG,"index="+index);
+        }
+        onSelectedBookChanged(index);
     }
 }

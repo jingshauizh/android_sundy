@@ -2,28 +2,11 @@
     <string name="app_name">FregmentApp</string>
     <string name="dynamicUiTitle">dynamicUiTitle</string>
     <string name="android4NewTitle">android4NewTitle</string>
-    <string name="dynamicUiDescription">07-07 14:01:29.154 25993-25993/com.jingshuai.android.fregmentapp W/dalvikvm: VFY: unable to resolve virtual method 424: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
-07-07 14:01:29.154 25993-25993/com.jingshuai.android.fregmentapp D/dalvikvm: VFY: replacing opcode 0x6e at 0x0002
-07-07 14:01:29.164 25993-25993/com.jingshuai.android.fregmentapp I/dalvikvm: Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.widget.TintTypedArray.getType
-07-07 14:01:29.164 25993-25993/com.jingshuai.android.fregmentapp W/dalvikvm: VFY: unable to resolve virtual method 446: Landroid/content/res/TypedArray;.getType (I)I
-07-07 14:01:29.164 25993-25993/com.jingshuai.android.fregmentapp D/dalvikvm: VFY: replacing opcode 0x6e at 0x0002
-07-07 14:01:29.224 25993-25993/com.jingshuai.android.fregmentapp I/dalvikvm: Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawable
-07-07 14:01:29.224 25993-25993/com.jingshuai.android.fregmentapp W/dalvikvm: VFY: unable to resolve virtual method 387: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
-07-07 14:01:29.224 25993-25993/com.jingshuai.android.fregmentapp D/dalvikvm: VFY: replacing opcode 0x6e at 0x0002
-07-07 14:01:29.224 25993-25993/com.jingshuai.android.fregmentapp I/dalvikvm: Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawableForDensity
-07-07 14:01:29.224 25993-25993/com.jingshuai.android.fregmentapp W/dalvikvm: VFY: unable to resolve virtual method 389: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
-07-07 14:01:29.224 25993-25993/com.jingshuai.android.fregmentapp D/dalvikvm: VFY: replacing opcode 0x6e at 0x0002
-07-07 14:01:29.314 25993-25993/com.jingshuai.android.fregmentapp I/Adreno-EEGL 1.4 QUALCOMM build:  ()
-                                                                               OpenGL ES Shader Compiler Version: E031.24.02.07
-                                                                               Build Date: 03/30/15 Mon
-                                                                               Local Branch:
-                                                                               Remote Branch:
-                                                                               Local Patches:
-                                                                               Reconstruct Branch:
-07-07 14:01:29.334 25993-25993/com.jingshuai.android.fregmentapp D/OpenGLRenderer: Enabling debug mode 0
-07-07 14:01:29.534 25993-25993/com.jingshuai.android.fregmentapp I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@42554058 time:86796792</string>
+    <string name="dynamicUiDescription2">rrrrrrrrrrrrrrrrrrrrrrrrrrrrttttttttttttttttttttttttttttttttttttttttttttt</string>
+    <string name="dynamicUiDescription">111111111111111111112222222222222222222222222222222222</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_desc">DescActivity</string>
 
 </resources>
