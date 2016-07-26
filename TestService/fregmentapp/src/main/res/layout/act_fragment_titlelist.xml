@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:name="com.jingshuai.android.fregmentapp.fragment.TitlesFragment"
+        android:name="com.jingshuai.android.fregmentapp.fragment.TitlesListFragment"
         android:id="@+id/fragmentTitles"/>
     <!-- Description of selected book -->
     <fragment

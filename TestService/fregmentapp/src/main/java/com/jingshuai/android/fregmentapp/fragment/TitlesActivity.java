@@ -9,7 +9,7 @@ import com.jingshuai.android.fregmentapp.R;
 import com.jingshuai.android.fregmentapp.activity.DescActivity;
 import com.jingshuai.android.fregmentapp.fragment.dummy.DummyContent;
 
-public class TitlesActivity extends FragmentActivity implements TitlesFragment.OnListFragmentInteractionListener {
+public class TitlesActivity extends FragmentActivity implements TitlesFragment.OnListFragmentInteractionListener,OnListFragmentIndexChangeListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,22 @@ public class TitlesActivity extends FragmentActivity implements TitlesFragment.O
         }
     }
 
-
-
+    @Override
+    public void onListFragmentInteraction(int index) {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        // Get the book description fragment
+        TitleDescriptionFragment bookDescFragment = (TitleDescriptionFragment)
+                fragmentManager.findFragmentById
+                        (R.id.fragmentDescription);
+        // Display the book title
+        if (bookDescFragment == null || !bookDescFragment.isVisible()) {
+            Intent intent = new Intent(this, DescActivity.class);
+            intent.putExtra("bookIndex", index);
+            startActivity(intent);
+        } else {
+            // Use contained fragment to display description
+            bookDescFragment.setBook(index);
+        }
+    }
 }
 

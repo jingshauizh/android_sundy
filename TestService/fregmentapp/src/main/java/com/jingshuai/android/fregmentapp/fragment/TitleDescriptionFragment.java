@@ -18,11 +18,9 @@ public class TitleDescriptionFragment extends Fragment {
     private TextView mBookDescriptionTextView;
     private String[] mBookDescriptions;
 
-
     public TitleDescriptionFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -37,7 +35,6 @@ public class TitleDescriptionFragment extends Fragment {
         return viewHierarchy;
 
     }
-
 
     @Override
     public void onAttach(Context context) {
@@ -60,6 +57,4 @@ public class TitleDescriptionFragment extends Fragment {
             mBookDescriptionTextView.setText(bookDescription2);
         }
     }
-
-
 }
