@@ -10,11 +10,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.jingshuai.android.fregmentapp.activity.DescActivity"
-    tools:showIn="@layout/activity_desc">
+    tools:showIn="@layout/act_activity_desc">
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:name="com.jingshuai.android.fregmentapp.FragmentDescription"
+        android:name="com.jingshuai.android.fregmentapp.DescriptionFragment"
         android:id="@+id/fragmentDescription"/>
 </RelativeLayout>

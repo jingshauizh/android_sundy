@@ -5,23 +5,23 @@ import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.jingshuai.android.fregmentapp.FragmentBookList;
-import com.jingshuai.android.fregmentapp.FragmentDescription;
+import com.jingshuai.android.fregmentapp.BookListFragment;
+import com.jingshuai.android.fregmentapp.DescriptionFragment;
 import com.jingshuai.android.fregmentapp.R;
 
-public class ListActivity extends Activity implements FragmentBookList.MyListener {
+public class ListActivity extends Activity implements BookListFragment.MyListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_list);
+        setContentView(R.layout.act_activity_list);
     }
 
     @Override
     public void showDescription(int index) {
         FragmentManager fragmentManager = getFragmentManager();
         // Get the book description fragment
-        FragmentDescription bookDescFragment = (FragmentDescription)
+        DescriptionFragment bookDescFragment = (DescriptionFragment)
                 fragmentManager.findFragmentById
                         (R.id.fragmentDescription);
         // Display the book title

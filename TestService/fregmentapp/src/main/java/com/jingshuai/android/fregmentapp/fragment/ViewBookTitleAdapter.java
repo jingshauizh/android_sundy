@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.jingshuai.android.fregmentapp.R;
-import com.jingshuai.android.fregmentapp.fragment.FragmenTitles.OnListFragmentInteractionListener;
+import com.jingshuai.android.fregmentapp.fragment.TitlesFragment.OnListFragmentInteractionListener;
 import com.jingshuai.android.fregmentapp.fragment.dummy.DummyContent.DummyItem;
 
 import java.util.List;
@@ -17,12 +17,12 @@ import java.util.List;
  * specified {@link OnListFragmentInteractionListener}.
  * TODO: Replace the implementation with code for your data type.
  */
-public class ViewAdapteookTitle extends RecyclerView.Adapter<ViewAdapteookTitle.ViewHolder> {
+public class ViewBookTitleAdapter extends RecyclerView.Adapter<ViewBookTitleAdapter.ViewHolder> {
 
     private final List<DummyItem> mValues;
     private final OnListFragmentInteractionListener mListener;
 
-    public ViewAdapteookTitle(List<DummyItem> items, OnListFragmentInteractionListener listener) {
+    public ViewBookTitleAdapter(List<DummyItem> items, OnListFragmentInteractionListener listener) {
         mValues = items;
         mListener = listener;
     }
@@ -30,7 +30,7 @@ public class ViewAdapteookTitle extends RecyclerView.Adapter<ViewAdapteookTitle.
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.fragment_item, parent, false);
+                .inflate(R.layout.item_fragment, parent, false);
         return new ViewHolder(view);
     }
 

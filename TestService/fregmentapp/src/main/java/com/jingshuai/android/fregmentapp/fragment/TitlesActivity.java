@@ -9,19 +9,19 @@ import com.jingshuai.android.fregmentapp.R;
 import com.jingshuai.android.fregmentapp.activity.DescActivity;
 import com.jingshuai.android.fregmentapp.fragment.dummy.DummyContent;
 
-public class TitlesActivity extends FragmentActivity implements FragmenTitles.OnListFragmentInteractionListener {
+public class TitlesActivity extends FragmentActivity implements TitlesFragment.OnListFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_title_list);
+        setContentView(R.layout.act_fragment_titlelist);
     }
 
     @Override
     public void onListFragmentInteraction(DummyContent.DummyItem item) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         // Get the book description fragment
-        FragmentTitleDescription bookDescFragment = (FragmentTitleDescription)
+        TitleDescriptionFragment bookDescFragment = (TitleDescriptionFragment)
                 fragmentManager.findFragmentById
                         (R.id.fragmentDescription);
         // Display the book title

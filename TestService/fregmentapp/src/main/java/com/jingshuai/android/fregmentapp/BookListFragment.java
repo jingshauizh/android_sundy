@@ -1,7 +1,6 @@
 package com.jingshuai.android.fregmentapp;
 
 import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
@@ -11,13 +10,13 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 
-public class FragmentBookList extends Fragment {
+public class BookListFragment extends Fragment {
 
     private MyListener mMyListener;
     private RadioButton button1;
     private RadioGroup mRadioGroup;
 
-    public FragmentBookList() {
+    public BookListFragment() {
         // Required empty public constructor
     }
 
@@ -31,7 +30,7 @@ public class FragmentBookList extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         mMyListener = (MyListener) getActivity();
-        return inflater.inflate(R.layout.fragment_book_list, container, false);
+        return inflater.inflate(R.layout.frag_book_list, container, false);
     }
 
 

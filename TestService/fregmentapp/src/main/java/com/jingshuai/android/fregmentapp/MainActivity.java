@@ -5,18 +5,18 @@ import android.app.FragmentManager;
 import android.os.Bundle;
 import android.util.Log;
 
-public class MainActivity extends Activity implements FragmentBookList.MyListener{
+public class MainActivity extends Activity implements BookListFragment.MyListener{
 
     private final String TAG="MainActivity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_fregment);
+        setContentView(R.layout.act_main_fregment);
     }
 
     public void onSelectedBookChanged(int bookIndex) {
         FragmentManager fragmentManager = getFragmentManager();
-        FragmentDescription bookDescFragment = (FragmentDescription)fragmentManager.findFragmentById(R.id.fragmentDescription);
+        DescriptionFragment bookDescFragment = (DescriptionFragment)fragmentManager.findFragmentById(R.id.fragmentDescription);
         bookDescFragment.setBook(bookIndex);
     }
 
