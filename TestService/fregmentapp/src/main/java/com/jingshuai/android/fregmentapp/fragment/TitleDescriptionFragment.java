@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.jingshuai.android.fregmentapp.R;
+import com.jingshuai.appcommonlib.log.MLog;
 
 
 public class TitleDescriptionFragment extends Fragment {
@@ -51,6 +52,7 @@ public class TitleDescriptionFragment extends Fragment {
         String bookDescription = getResources().getString(R.string.dynamicUiDescription);
         String bookDescription2 = getResources().getString(R.string.dynamicUiDescription2);
         Log.i(LOG_TAG,"index="+index);
+        MLog.i("index="+index);
         if (index == 1) {
             mBookDescriptionTextView.setText(bookDescription);
         } else {

@@ -37,6 +37,13 @@
         <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\fregmentapp\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_f12e42ac0d0fda4308b9cffb1b6710b4948ed4a3.jar" />
     </item>
     <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\fregmentapp\build\intermediates\exploded-aar\TestService\appcommonlib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="62707e5a576534bd5ef132cd5e8cdce739434703">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\fregmentapp\build\intermediates\pre-dexed\debug\TestService-appcommonlib-unspecified_cd530de2ae1eebeeb3606c80baa0e24d921536a4.jar" />
+    </item>
+    <item
         jar="C:\1jason\3code\git_code\android_sundy\TestService\fregmentapp\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.3"

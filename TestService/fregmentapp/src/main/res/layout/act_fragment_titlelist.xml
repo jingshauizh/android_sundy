@@ -5,6 +5,11 @@
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- List of Book Titles -->
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:id="@+id/btn_titlesactivity_open_dialog">
+    </Button>>
     <fragment
         android:layout_width="match_parent"
         android:layout_height="0dp"
