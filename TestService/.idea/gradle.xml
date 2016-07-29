@@ -8,19 +8,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/appCamera" />
             <option value="$PROJECT_DIR$/appcommonlib" />
             <option value="$PROJECT_DIR$/fregmentapp" />
-            <option value="$PROJECT_DIR$/ocr" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/appCamera" />
             <option value="$PROJECT_DIR$/appcommonlib" />
             <option value="$PROJECT_DIR$/fregmentapp" />
-            <option value="$PROJECT_DIR$/ocr" />
           </set>
         </option>
       </GradleProjectSettings>
