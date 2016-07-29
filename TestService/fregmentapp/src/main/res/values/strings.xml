@@ -22,6 +22,7 @@
     <string name="title_activity_desc">DescActivity</string>
 
     <string name="dialogSimpleFragmentPrompt">dialogSimpleFragmentPrompt</string>
+    <string name="btn_frag_desc_text">Dialog</string>
     <string name="text_yes">text_yes</string>
     <string name="text_no">text_no</string>
 

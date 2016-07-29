@@ -6,8 +6,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- List of Book Titles -->
     <Button
-        android:layout_width="50dp"
-        android:layout_height="30dp"
+        android:text="@string/btn_frag_desc_text"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:id="@+id/btn_titlesactivity_open_dialog">
     </Button>>
     <fragment

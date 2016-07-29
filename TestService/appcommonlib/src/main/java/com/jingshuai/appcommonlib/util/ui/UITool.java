@@ -9,4 +9,6 @@ public class UITool {
     public static int pixelsFromDP( Context pContext,int pixels){
         return (int)(pixels * pContext.getResources().getDisplayMetrics().density + 0.5f);  //return pixels  dp
     }
+
+
 }

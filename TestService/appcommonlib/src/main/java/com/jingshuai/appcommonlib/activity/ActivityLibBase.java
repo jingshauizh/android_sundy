@@ -6,6 +6,9 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 
+import android.graphics.Bitmap;
+import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.widget.Toast;
 
@@ -20,10 +23,39 @@ public abstract class ActivityLibBase extends Activity {
 
     protected static final int SHOW_TIME = 1;
     private ProgressDialog m_ProgressDialog;
-    protected void showMsg(String msg){
-        Integer duration =1000;
-        Toast.makeText(this,msg,Toast.LENGTH_SHORT).show();
+    protected int mScreenWidth;
+    protected int mScreenHeight;
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        // 公共属性
+        DisplayMetrics metric = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(metric);
+        mScreenWidth = metric.widthPixels;
+        mScreenHeight = metric.heightPixels;
+
+        // 定制流程
+        setContentView();
+        initViews();
+        initListeners();
+        initData();
+    }
+
+    public abstract void setContentView();
+
+    public abstract void initViews();
+
+    public abstract void initListeners();
+
+    public abstract void initData();
+
+
+    protected void showToast(String text) {
+        if (text != null && !text.trim().equals("")) {
+            Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
+        }
     }
 
     protected void openActivity(Class<?> classA)  {

@@ -5,9 +5,10 @@
     android:orientation="horizontal">
     <!-- List of Book Titles -->
     <Button
+        android:text="@string/btn_frag_desc_text"
         android:id="@+id/btn_titlesactivity_open_dialog"
-        android:layout_width="50dp"
-        android:layout_height="30dp"></Button>
+        android:layout_width="100dp"
+        android:layout_height="50dp"></Button>
 
     <fragment
         android:id="@+id/fragmentTitles"
