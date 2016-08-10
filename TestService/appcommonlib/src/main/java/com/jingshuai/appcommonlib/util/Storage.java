@@ -21,20 +21,20 @@ import java.util.Date;
 
 /**
  * for storage picture
- * 
+ *
  * @author swj
  *
  */
 public class Storage {
-	public static final String DCIM = Environment.
-	             getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM).toString();
-	
-	public static final String DIRECTORY = "/storage/sdcard1/11test/";
-	
+//	public static final String DCIM = Environment.
+//	             getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM).toString();
+
+	public static final String DCIM  = Environment.getExternalStorageDirectory().toString();
+	public static final String DIRECTORY =DCIM +"/11test/";
+
 	public static boolean savePicture(byte[] jpeg,String fileName,
-			Size pictureSize,int pictureOrientation){
-		
-		
+									  Size pictureSize,int pictureOrientation){
+
 		String path = null;
 		path = DIRECTORY + File.separator + fileName;
 		Log.v("shenwenjian","savePicture DIRECTORY:"+DIRECTORY +" path:"+path);
@@ -45,8 +45,11 @@ public class Storage {
 		FileOutputStream out = null;
 		try {
 			File dir = new File(DIRECTORY);
-			if(!dir.exists()) {dir.mkdirs();Log.v("shenwenjian","not exits ");}
-			YuvImage yuvImage = new YuvImage(jpeg, 
+			if(!dir.exists()) {
+				dir.mkdirs();
+				Log.v("shenwenjian","not exits ");
+			}
+			YuvImage yuvImage = new YuvImage(jpeg,
 					ImageFormat.NV21, pictureSize.width, pictureSize.height, null);
 			ByteArrayOutputStream baos = new ByteArrayOutputStream();
 			yuvImage.compressToJpeg(new Rect(0,0,pictureSize.width,pictureSize.height), 100, baos);
@@ -63,7 +66,7 @@ public class Storage {
 	}
 
 	public static boolean savePicture_Orientation(byte[] jpeg,String fileName,
-									  Size pictureSize,int pictureOrientation){
+												  Size pictureSize,int pictureOrientation){
 
 
 		String path = null;
@@ -147,11 +150,11 @@ public class Storage {
 		int tag = exifInterface.getAttributeInt(ExifInterface.TAG_ORIENTATION, -1);
 		int orientation = 0;
 		switch(tag){
-		case ExifInterface.ORIENTATION_ROTATE_90:  orientation = 90;  break;
-		case ExifInterface.ORIENTATION_ROTATE_180: orientation = 180; break;
-		case ExifInterface.ORIENTATION_ROTATE_270: orientation = 270; break;
+			case ExifInterface.ORIENTATION_ROTATE_90:  orientation = 90;  break;
+			case ExifInterface.ORIENTATION_ROTATE_180: orientation = 180; break;
+			case ExifInterface.ORIENTATION_ROTATE_270: orientation = 270; break;
 		}
-		
+
 		try {
 			exifInterface.setAttribute(ExifInterface.TAG_ORIENTATION, "90");
 			exifInterface.saveAttributes();
@@ -165,5 +168,5 @@ public class Storage {
 	public static void rotatePicture(int orientation,String patch,int width,int height){
 		//Options option = new Options();
 	}
-	
+
 }

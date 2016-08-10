@@ -1,1 +1,1 @@
-include ':appCamera', ':appcommonlib', ':fregmentapp'
+include ':appCamera', ':appcommonlib', ':VirousApp'

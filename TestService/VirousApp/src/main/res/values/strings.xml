@@ -1,0 +1,36 @@
+<resources>
+    <!-- main activity menu -->
+    <string name="frag_listfragment">frag_listfragment</string>
+    <string name="frag_listview">frag_listview</string>
+    <string name="frag_OKHttp_activity">frag_OKHttp_activity</string>
+    <string name="frag_commonAdapter_activity">frag_commonAdapter_activity</string>
+
+
+    <string name="app_name">FregmentApp</string>
+    <string name="dynamicUiTitle">dynamicUiTitle</string>
+    <string name="android4NewTitle">android4NewTitle</string>
+    <string name="dynamicUiDescription2">rrrrrrrrrrrrrrrrrrrrrrrrrrrrttttttttttttttttttttttttttttttttttttttttttttt</string>
+    <string name="dynamicUiDescription">111111111111111111112222222222222222222222222222222222</string>
+
+
+    <string name="androidSysDevTitle">androidSysDevTitle</string>
+    <string name="androidEngineTitle">androidEngineTitle</string>
+    <string name="androidDbProgTitle">androidDbProgTitle</string>
+
+
+    <string name="android4NewDescription">android4NewDescription</string>
+    <string name="androidSysDevDescription">androidSysDevDescription</string>
+    <string name="androidEngineDescription">androidEngineDescription</string>
+    <string name="androidDbProgDescription">androidDbProgDescription</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_desc">DescActivity</string>
+
+    <string name="dialogSimpleFragmentPrompt">dialogSimpleFragmentPrompt</string>
+    <string name="btn_frag_desc_text">Dialog</string>
+    <string name="text_yes">text_yes</string>
+    <string name="text_no">text_no</string>
+    <string name="title_activity_ok_http">OkHttpActivity</string>
+
+</resources>

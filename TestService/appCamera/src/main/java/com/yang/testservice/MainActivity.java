@@ -5,6 +5,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.hardware.Camera;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.view.View;
@@ -22,6 +23,14 @@ public class MainActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_camera_no_view);
+
+		Camera cam = null;
+
+		try {
+			cam = Camera.open(0);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		startMyService();
 	}
 

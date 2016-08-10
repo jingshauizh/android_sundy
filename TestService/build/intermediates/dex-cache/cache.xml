@@ -2,11 +2,53 @@
 <items version="2" >
 
     <item
-        jar="C:\1jason\3code\git_code\android_sundy\TestService\fregmentapp\build\intermediates\exploded-aar\TestService\appcommonlib\unspecified\jars\classes.jar"
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\appCamera\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="fedc97d0787f76ce63c2e8116a643f6f8fd04292">
-        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\fregmentapp\build\intermediates\pre-dexed\debug\TestService-appcommonlib-unspecified_cd530de2ae1eebeeb3606c80baa0e24d921536a4.jar" />
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\appCamera\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_1e322ccff5eb7069f063e1be7dda2bb413a46ae0.jar" />
+    </item>
+    <item
+        jar="C:\1jason\4java\android_sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\appCamera\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_a41a282c937326aadc12b918cb7e34e346f01267.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\appCamera\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\appCamera\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_4a70aa99f200dc14f4caee25fd6e9f7ebccc78d6.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\appCamera\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\appCamera\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_9381226bd4d77f13f175618615e2c491d16c1619.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\appCamera\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\appCamera\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_0a04085ad25aaee0911bea35a26e7ee16ea2744f.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\appCamera\build\intermediates\exploded-aar\TestService\appcommonlib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a357b9c4ae2d1c10f310bd06c3d3a14a41449e07">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\appCamera\build\intermediates\pre-dexed\debug\TestService-appcommonlib-unspecified_555473bc68cdc5023473f091938f513771592575.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\appCamera\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\appCamera\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_0c1bb005e69387c7bc42533cfefc8b423303d8f6.jar" />
     </item>
 
 </items>
