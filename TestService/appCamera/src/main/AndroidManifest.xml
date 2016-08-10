@@ -33,12 +33,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <receiver android:name=".BootBroadcastReveiver">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </receiver>
+
         <service android:name="com.yang.service.LocalService" />
         <service
             android:name="com.yang.service.ServiceCamera"

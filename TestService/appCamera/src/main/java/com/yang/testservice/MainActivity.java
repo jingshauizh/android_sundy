@@ -24,13 +24,6 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_camera_no_view);
 
-		Camera cam = null;
-
-		try {
-			cam = Camera.open(0);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 		startMyService();
 	}
 

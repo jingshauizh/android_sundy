@@ -10,75 +10,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf581ec4-d9a1-4def-98c8-d3a7247a430f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/fregmentapp.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/proguard-rules.pro" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/androidTest/java/com/jingshuai/android/fregmentapp/ApplicationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/BookListFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/DescriptionFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/activity/DescActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/activity/ListActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/fragment/MyDialogFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/fragment/OnListFragmentIndexChangeListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/fragment/TitleDescriptionFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/fragment/TitlesActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/fragment/TitlesFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/fragment/TitlesListFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/fragment/ViewBookTitleAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/fragment/dummy/DummyContent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/java/com/jingshuai/android/fregmentapp/interfaces/OnButtonClickListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/layout-land/act_fragment_titlelist.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/layout-land/act_main_fregment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/layout/act_activity_desc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/layout/act_activity_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/layout/act_fragment_titlelist.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/layout/act_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/layout/act_main_fregment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/layout/content_desc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/layout/frag_book_desc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/layout/frag_book_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/layout/frag_my_dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/layout/fragment_item_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/layout/item_fragment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/values-v21/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/values-w820dp/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/values/array.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/main/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fregmentapp/src/test/java/com/jingshuai/android/fregmentapp/ExampleUnitTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/ExampleApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/handle/PhotoHandler_backup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/service/LocalService_backup$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/service/LocalService_backup$LocalBinder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/service/LocalService_backup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/service/LocalService_original_service$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/service/LocalService_original_service$LocalBinder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/service/LocalService_original_service.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/testservice/BootBroadcastReveiver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/testservice/CameraActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/testservice/CameraActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/testservice/CameraActivity$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/testservice/CameraActivity$CameraHoilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/testservice/CameraActivity$JpegPreviewCallback$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/testservice/CameraActivity$JpegPreviewCallback.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/testservice/CameraActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/src/main/java/com/yang/ExampleApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/src/main/java/com/yang/handle/PhotoHandler_backup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/src/main/java/com/yang/service/LocalService_backup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/src/main/java/com/yang/service/LocalService_original_service.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/BootBroadcastReveiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/CameraActivity.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/testservice/MainActivity.class" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/classes/debug/com/yang/testservice/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/exploded-aar/TestService/appcommonlib/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/exploded-aar/TestService/appcommonlib/unspecified/jars/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/TestService-appcommonlib-unspecified_555473bc68cdc5023473f091938f513771592575.jar" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/TestService-appcommonlib-unspecified_555473bc68cdc5023473f091938f513771592575.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_0c1bb005e69387c7bc42533cfefc8b423303d8f6.jar" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_0c1bb005e69387c7bc42533cfefc8b423303d8f6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_9381226bd4d77f13f175618615e2c491d16c1619.jar" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_9381226bd4d77f13f175618615e2c491d16c1619.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_1e322ccff5eb7069f063e1be7dda2bb413a46ae0.jar" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_1e322ccff5eb7069f063e1be7dda2bb413a46ae0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_0a04085ad25aaee0911bea35a26e7ee16ea2744f.jar" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_0a04085ad25aaee0911bea35a26e7ee16ea2744f.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/debug_45a0215c228f31b31f61a29c46086320218ca946.jar" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/debug_45a0215c228f31b31f61a29c46086320218ca946.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_4a70aa99f200dc14f4caee25fd6e9f7ebccc78d6.jar" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_4a70aa99f200dc14f4caee25fd6e9f7ebccc78d6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_a41a282c937326aadc12b918cb7e34e346f01267.jar" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_a41a282c937326aadc12b918cb7e34e346f01267.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/outputs/apk/appCamera-debug-unaligned.apk" afterPath="$PROJECT_DIR$/appCamera/build/outputs/apk/appCamera-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/outputs/apk/appCamera-debug.apk" afterPath="$PROJECT_DIR$/appCamera/build/outputs/apk/appCamera-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestService.iml" afterPath="$PROJECT_DIR$/TestService.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/appCamera/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/appCamera/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/appCamera/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/MainActivity.java" afterPath="$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcommonlib/appcommonlib.iml" afterPath="$PROJECT_DIR$/appcommonlib/appcommonlib.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcommonlib/build.gradle" afterPath="$PROJECT_DIR$/appcommonlib/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/util/Storage.java" afterPath="$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/util/Storage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <ignored path="TestService.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,21 +79,105 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/VirousApp/build.gradle">
+      <file leaf-file-name="ServiceCamera.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/service/ServiceCamera.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66609883">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="255" column="9" selection-start-line="255" selection-start-column="9" selection-end-line="255" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proguard-rules.pro" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VirousApp/proguard-rules.pro">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCamera/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraHolder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/handle/CameraHolder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraEngine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/camera/CameraEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5212947">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhotoHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/handle/PhotoHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Camera.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../../4java/android_sdk/sources/android-23/android/hardware/Camera.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1376" column="22" selection-start-line="1376" selection-start-column="22" selection-end-line="1376" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/service/LocalService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="227" column="43" selection-start-line="227" selection-start-column="38" selection-end-line="227" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Storage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/util/Storage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VirousApp/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -3324,10 +3388,11 @@
         <option value="$PROJECT_DIR$/VirousApp/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/VirousApp/build.gradle" />
         <option value="$PROJECT_DIR$/appCamera/build.gradle" />
-        <option value="$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/MainActivity.java" />
         <option value="$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/util/Storage.java" />
         <option value="$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/camera/CameraEngine.java" />
         <option value="$PROJECT_DIR$/appcommonlib/build.gradle" />
+        <option value="$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/MainActivity.java" />
+        <option value="$PROJECT_DIR$/appCamera/src/main/java/com/yang/handle/PhotoHandler_backup.java" />
       </list>
     </option>
   </component>
@@ -3391,8 +3456,164 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="appcommonlib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestService" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcommonlib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcommonlib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestService" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcommonlib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcommonlib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestService" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcommonlib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcommonlib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="camera" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestService" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="appCamera" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestService" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCamera" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yang" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestService" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCamera" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yang" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestService" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCamera" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yang" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestService" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appCamera" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3789,15 +4010,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1692" height="1026" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29229" sideWeight="0.61580884" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29229" sideWeight="0.3841912" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29229" sideWeight="0.61764705" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29229" sideWeight="0.38235295" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3805,7 +4026,8 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39930955" sideWeight="0.502445" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22181372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22181372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3360184" sideWeight="0.49754903" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3818,7 +4040,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33607522" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3879,33 +4100,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/MainActivity.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/MainActivity.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/MainActivity.java</url>
           <line>26</line>
           <properties />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/MainActivity.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/MainActivity.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="45" />
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="46" />
@@ -3913,23 +4110,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VirousApp/src/main/res/layout/act_fragment_titlelist.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.036364">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VirousApp/src/main/java/com/jingshuai/android/fregmentapp/fragment/MyDialogFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VirousApp/src/main/res/layout/act_common_adapter.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -4192,57 +4372,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/service/ServiceCamera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="235" column="17" selection-start-line="235" selection-start-column="17" selection-end-line="235" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCamera/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="47" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../4java/android_sdk/sources/android-23/android/hardware/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.064467765">
-          <caret line="473" column="10" selection-start-line="473" selection-start-column="10" selection-end-line="473" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/service/LocalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="187" column="46" selection-start-line="187" selection-start-column="46" selection-end-line="187" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/util/RegexTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/util/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5212947">
-          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -4279,28 +4412,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/camera/CameraEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4616695">
-          <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/camera/utils/CameraUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20272572">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/CameraActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5212947">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -4315,9 +4430,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VirousApp/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66609883">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/testservice/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/handle/CameraHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/handle/PhotoHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/service/ServiceCamera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="255" column="9" selection-start-line="255" selection-start-column="9" selection-end-line="255" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCamera/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appCamera/src/main/java/com/yang/service/LocalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="227" column="43" selection-start-line="227" selection-start-column="38" selection-end-line="227" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/util/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../4java/android_sdk/sources/android-23/android/hardware/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1376" column="22" selection-start-line="1376" selection-start-column="22" selection-end-line="1376" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcommonlib/src/main/java/com/jingshuai/appcommonlib/camera/CameraEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5212947">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
