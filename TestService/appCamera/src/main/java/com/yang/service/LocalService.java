@@ -13,20 +13,25 @@ import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
 import android.os.Binder;
 import android.os.IBinder;
+import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.Display;
 import android.view.Surface;
 import android.view.SurfaceView;
+import android.view.WindowManager;
 import android.widget.Toast;
 
 
-
+import com.jingshuai.appcommonlib.camera.CameraEngine;
 import com.yang.handle.CameraHolder;
 import com.yang.testservice.MainActivity;
 import com.yang.testservice.R;
 import com.jingshuai.appcommonlib.util.Storage;
 
 
+import java.io.IOException;
 import java.util.Date;
+import java.util.List;
 
 public class LocalService extends Service {
 
@@ -48,7 +53,7 @@ public class LocalService extends Service {
 
 	private MonitoHomeReceiver mMonitoHomeReceiver;
 	private long startTime = new Date().getTime();
-
+	private CameraHolder mCameraHolder ;
 
 	/**
 	 * Class for clients to access. Because we know this service always runs in
@@ -73,6 +78,9 @@ public class LocalService extends Service {
 
 
 		camera = openFacingBackCamera();
+		mSurfaceTexture = new SurfaceTexture(344);
+		mSurface = new Surface(mSurfaceTexture);
+		mCameraHolder = new CameraHolder(mSurface);
 
 		// 注册广播
 		IntentFilter filter = new IntentFilter();
@@ -159,11 +167,10 @@ public class LocalService extends Service {
 				if (camera != null && enableCameraFlag) {
 					enableCameraFlag = false;
 					Log.i("LocalService", "on MonitoHomeReceiver open camera" );
-					mSurfaceTexture = new SurfaceTexture(344);
-					mSurface = new Surface(mSurfaceTexture);
+
 					try {
 						startTime = new Date().getTime();
-						CameraHolder mCameraHolder = new CameraHolder(mSurface);
+						//setupPreview(context,camera);
 						camera.setPreviewDisplay(mCameraHolder);
 						camera.startPreview();
 						camera.setPreviewCallback(new PhotoHandlerCallback(
@@ -177,10 +184,97 @@ public class LocalService extends Service {
 		}
 	}
 
+	private void setupPreview(Context context,Camera camera ){
+		Camera.Parameters params = camera.getParameters();
+
+		List<Camera.Size> supportedPictureSizes
+				= SupportedSizesReflect.getSupportedPictureSizes(params);
+		List<Camera.Size> supportedPreviewSizes
+				= SupportedSizesReflect.getSupportedPreviewSizes(params);
+
+		if ( supportedPictureSizes != null &&
+				supportedPreviewSizes != null &&
+				supportedPictureSizes.size() > 0 &&
+				supportedPreviewSizes.size() > 0) {
+
+			//2.x
+			Camera.Size pictureSize = supportedPictureSizes.get(0);
+
+			int maxSize = 1280;
+			if(maxSize > 0){
+				for(Camera.Size size : supportedPictureSizes){
+					if(maxSize >= Math.max(size.width,size.height)){
+						pictureSize = size;
+						break;
+					}
+				}
+			}
+
+			WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+			Display display = windowManager.getDefaultDisplay();
+			DisplayMetrics displayMetrics = new DisplayMetrics();
+			display.getMetrics(displayMetrics);
+
+			Camera.Size previewSize = getOptimalPreviewSize(
+					supportedPreviewSizes,
+					display.getWidth(),
+					display.getHeight());
+
+			params.setPictureSize(pictureSize.width, pictureSize.height);
+			params.setPreviewSize(previewSize.width, previewSize.height);
+
+			params.set("rotation","90");
+
+		}
+		camera.setParameters(params);
+		try {
+			camera.setPreviewDisplay(mCameraHolder);
+			camera.startPreview();
+			camera.setPreviewCallback(new PhotoHandlerCallback(
+					getApplicationContext()));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+	private Camera.Size getOptimalPreviewSize(List<Camera.Size> sizes, int w, int h) {
+		final double ASPECT_TOLERANCE = 0.1;
+		double targetRatio = (double) w / h;
+		if (sizes == null) return null;
+
+		Camera.Size optimalSize = null;
+		double minDiff = Double.MAX_VALUE;
+
+		int targetHeight = h;
+
+		// Try to find an size match aspect ratio and size
+		for (Camera.Size size : sizes) {
+			double ratio = (double) size.width / size.height;
+			if (Math.abs(ratio - targetRatio) > ASPECT_TOLERANCE) continue;
+			if (Math.abs(size.height - targetHeight) < minDiff) {
+				optimalSize = size;
+				minDiff = Math.abs(size.height - targetHeight);
+			}
+		}
+
+		// Cannot find the one match the aspect ratio, ignore the requirement
+		if (optimalSize == null) {
+			minDiff = Double.MAX_VALUE;
+			for (Camera.Size size : sizes) {
+				if (Math.abs(size.height - targetHeight) < minDiff) {
+					optimalSize = size;
+					minDiff = Math.abs(size.height - targetHeight);
+				}
+			}
+		}
+		return optimalSize;
+	}
+
 	private Camera openFacingBackCamera() {
 		Camera cam = null;
 		Camera.CameraInfo cameraInfo = new Camera.CameraInfo();
-		;
+
 		for (int camIdx = 0, cameraCount = Camera.getNumberOfCameras(); camIdx < cameraCount; camIdx++) {
 			Camera.getCameraInfo(camIdx, cameraInfo);
 			if (cameraInfo.facing == Camera.CameraInfo.CAMERA_FACING_BACK) {
@@ -225,14 +319,16 @@ public class LocalService extends Service {
                     checkTime = currentTime;
                     Log.v(TAG,"save jpeg size"+yuvdata.length);
                     String fileName = System.currentTimeMillis() + ".jpeg";
-                    mIsSave = Storage.savePicture(yuvdata, fileName,
+					//byte[] yuvdata90 = CameraEngine.rotateYUV420Degree90(yuvdata,1280,720);
+					mIsSave = Storage.savePicture(yuvdata, fileName,
                             lmcamera.getParameters().getPreviewSize(),
                             90);
                     yuvdata=null;
                 }
-			} catch (Exception e) {
+				} catch (Exception e) {
 				e.printStackTrace();
 			}
+
 
 		}
 	}

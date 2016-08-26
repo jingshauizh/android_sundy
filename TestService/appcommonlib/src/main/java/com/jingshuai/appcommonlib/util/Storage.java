@@ -12,6 +12,8 @@ import android.media.ExifInterface;
 import android.os.Environment;
 import android.util.Log;
 
+import com.jingshuai.appcommonlib.log.MLog;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -26,36 +28,29 @@ import java.util.Date;
  *
  */
 public class Storage {
-//	public static final String DCIM = Environment.
-//	             getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM).toString();
 
 	public static final String DCIM  = Environment.getExternalStorageDirectory().toString();
 	public static final String DIRECTORY =DCIM +"/11test/";
 
 	public static boolean savePicture(byte[] jpeg,String fileName,
-									  Size pictureSize,int pictureOrientation){
+									  Size pictureSize,int pictureRotate){
 
 		String path = null;
 		path = DIRECTORY + File.separator + fileName;
-		Log.v("shenwenjian","savePicture DIRECTORY:"+DIRECTORY +" path:"+path);
-		/**
-		 * YUV TO RGB
-		 * test 3
-		 */
+		MLog.v("savePicture DIRECTORY:"+DIRECTORY +" path:"+path);
 		FileOutputStream out = null;
 		try {
 			File dir = new File(DIRECTORY);
 			if(!dir.exists()) {
 				dir.mkdirs();
-				Log.v("shenwenjian","not exits ");
+				MLog.v("shenwenjian","not exits ");
 			}
 			YuvImage yuvImage = new YuvImage(jpeg,
 					ImageFormat.NV21, pictureSize.width, pictureSize.height, null);
-			ByteArrayOutputStream baos = new ByteArrayOutputStream();
-			yuvImage.compressToJpeg(new Rect(0,0,pictureSize.width,pictureSize.height), 100, baos);
-			byte[] data = baos.toByteArray();
+			Bitmap mBitmap = rotateBitmap(yuvImage,pictureRotate,new Rect(0, 0, yuvImage.getWidth(), yuvImage.getHeight()));
 			out = new FileOutputStream(path);
-			out.write(data);
+			mBitmap.compress(Bitmap.CompressFormat.JPEG, 50, out);
+			out.flush();
 			out.close();
 			yuvImage = null;
 		} catch (Exception e) {
@@ -63,6 +58,18 @@ public class Storage {
 			return true;
 		}
 		return true;
+	}
+
+	private static Bitmap rotateBitmap(YuvImage yuvImage, int orientation, Rect rectangle)
+	{
+		ByteArrayOutputStream os = new ByteArrayOutputStream();
+		yuvImage.compressToJpeg(rectangle, 100, os);
+
+		Matrix matrix = new Matrix();
+		matrix.postRotate(orientation);
+		byte[] bytes = os.toByteArray();
+		Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
+		return Bitmap.createBitmap(bitmap, 0 , 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
 	}
 
 	public static boolean savePicture_Orientation(byte[] jpeg,String fileName,
@@ -113,13 +120,13 @@ public class Storage {
 		String filename =String.valueOf( new Date().getTime());
 		File pictureFile = new File(getDir(), filename+"ca.jpg");
 		try {
-			Log.i("Demo","pictureFile="+pictureFile.getAbsolutePath());
+			MLog.v("Demo","pictureFile="+pictureFile.getAbsolutePath());
 			FileOutputStream fos = new FileOutputStream(pictureFile);
 			bitmap.compress(CompressFormat.PNG, 100, fos);
 			fos.close();
 			return true;
 		} catch (Exception error) {
-			Log.d("Demo", "保存照片失败" + error.toString());
+			MLog.v("Demo", "保存照片失败" + error.toString());
 			error.printStackTrace();
 			return false;
 
