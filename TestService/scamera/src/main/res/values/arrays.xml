@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pictureQuality">
+        <item>Average</item>
+        <item>Fine</item>
+        <item>Best</item>
+    </string-array>
+    <string-array name="pictureSize">
+    <item>VGA</item>
+    <item>1.3 MP</item>
+    <item>2 MP</item>
+    <item>3 MP</item>
+    <item>5 MP</item>
+</string-array>
+    <string-array name="pictureTimeLength">
+        <item>10</item>
+        <item>20</item>
+        <item>300</item>
+        <item>600</item>
+        <item>3600</item>
+    </string-array>
+    <string-array name="picturePerSecond">
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="selectCamera">
+        <item>Front Camera</item>
+        <item>Back Camera</item>
+    </string-array>
+    <string-array name="videoLengths">
+        <item>1 Min</item>
+        <item>10 Mins</item>
+        <item>30 Mins</item>
+        <item>Unlimited</item>
+    </string-array>
+</resources>
