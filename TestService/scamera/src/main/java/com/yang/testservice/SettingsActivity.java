@@ -107,14 +107,14 @@ public class SettingsActivity extends Activity {
 
     private void getAndSaveData() {
         String str1 = this.shutterButtonName.getText().toString();
-        String cameraNo = this.cameraSpinner.getSelectedItem().toString();
+        String cameraName = this.cameraSpinner.getSelectedItem().toString();
         String quality = this.qualitySpinner.getSelectedItem().toString();
         String videoLength = this.videoLenSpinner.getSelectedItem().toString();
         String picCountPerSecondStr = this.picCountPerSecondSpinner.getSelectedItem().toString();
         String picTakeTimeLengthStr = this.picTakeTimeLengthSpinner.getSelectedItem().toString();
 
         settingsTakePic(picCountPerSecondStr,picTakeTimeLengthStr);
-        settingsCamera(cameraNo);
+        settingsCamera(cameraName);
         settingsHandleQuality(quality);
         settingsHandleVideo(videoLength);
        // setPicSize();
@@ -183,17 +183,12 @@ public class SettingsActivity extends Activity {
 
     private void settingsCamera(String cameraName ){
         if (cameraName.equals("Front Camera")){
-            this.cameraNumber = 1;
+            this.cameraNumber = 0;
             this.cameraPos = 0;
 
-            setPicSize();
-            if (!cameraName.equals("1 Min")) {
-                this.videoLength = 600000;
-                this.vLenPos = 0;
-            }
         }
         else if (cameraName.equals("Back Camera")) {
-            this.cameraNumber = 0;
+            this.cameraNumber = 1;
             this.cameraPos = 1;
         }
     }

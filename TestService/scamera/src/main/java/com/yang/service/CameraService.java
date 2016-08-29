@@ -98,8 +98,10 @@ public class CameraService extends Service {
 		mCameraConfig.setmWidth(localSharedPreferences.getInt("savedWidth", 1600));
 		mCameraConfig.setmHeight(localSharedPreferences.getInt("savedHeight", 1200));
 		mCameraConfig.setmVideoLength(localSharedPreferences.getInt("savedVLength", 18000000));
-		mCameraConfig.setmCameraNo(localSharedPreferences.getInt("savedCamera", 0));
+		mCameraConfig.setmCameraNo(localSharedPreferences.getInt("savedCameraPos", 0));
 		mCameraConfig.setmShutterName(localSharedPreferences.getString("savedShutterName", "Click Me"));
+
+		// to do if camera no changed ,reopen camera
 
 		int pos = localSharedPreferences.getInt("savedPicCountPerSecond", 2);
 		int _PicCountPerSecond = 0;
