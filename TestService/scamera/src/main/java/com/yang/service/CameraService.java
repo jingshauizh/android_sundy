@@ -12,11 +12,13 @@ import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.ImageFormat;
 import android.graphics.Matrix;
 import android.graphics.Rect;
 import android.graphics.SurfaceTexture;
 import android.graphics.YuvImage;
 import android.hardware.Camera;
+import android.os.AsyncTask;
 import android.os.Binder;
 import android.os.Environment;
 import android.os.IBinder;
@@ -69,6 +71,7 @@ public class CameraService extends Service {
 	private String shutterName;
 	private CameraConfig mCameraConfig;
 	private final Integer SECOND_COUNT = 1000;
+	private FaceTask mFaceTask;
 
 	/**
 	 * Class for clients to access. Because we know this service always runs in
@@ -256,7 +259,7 @@ public class CameraService extends Service {
 		public void onPreviewFrame(byte[] data, Camera camera) {
 
 			try {
-				Log.i(TAG,"onPreviewFrame=");
+				MLog.v("onPreviewFrame=");
 				long currentTime = new Date().getTime();
 				final Camera lmcamera = camera;
 				byte[] yuvdata = data;
@@ -267,21 +270,54 @@ public class CameraService extends Service {
                     return;
                 }
 				int interval_milsecond = SECOND_COUNT/mCameraConfig.getmPicsPerSec();
-				if(currentTime - checkTime > interval_milsecond && mIsSave){
+				if(currentTime - checkTime > interval_milsecond ){
                     mIsSave = false;
                     checkTime = currentTime;
 					String fileName = "IMG_"
 							+ new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date())
 							.toString() + ".jpg";
-					mIsSave = Storage.savePicture(yuvdata, fileName,
-                            lmcamera.getParameters().getPreviewSize(),
-                            90);
+					MLog.v("fileName="+fileName);
+//					mIsSave = Storage.savePicture(yuvdata, fileName,
+//                            lmcamera.getParameters().getPreviewSize(),
+//                            90);
+					if(null != mFaceTask){
+						switch(mFaceTask.getStatus()){
+							case RUNNING:
+								return;
+							case PENDING:
+								mFaceTask.cancel(false);
+								break;
+						}
+					}
+					mFaceTask = new FaceTask(data, fileName);
+					mFaceTask.execute((Void)null);
                     yuvdata=null;
                 }
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
+	}
+
+
+	private class FaceTask extends AsyncTask<Void, Void, Void> {
+
+		private byte[] mData;
+		private String fileName;
+		//构造函数
+		FaceTask(byte[] data,String pFileName){
+			this.mData = data;
+			this.fileName = pFileName;
+		}
+
+		@Override
+		protected Void doInBackground(Void... params) {
+			// TODO Auto-generated method stub
+			Camera.Size size = camera.getParameters().getPreviewSize(); //获取预览大小
+			Storage.savePicture(mData, fileName,size, 90);
+			return null;
+		}
+
 	}
 
 
