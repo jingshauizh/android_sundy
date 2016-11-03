@@ -45,8 +45,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.jingshuai.appcommonlib.activity.ActivityLibBase" />
         </activity>
+        <activity android:name=".customer.Customer_View_Activity"></activity>
     </application>
-
-
 
 </manifest>

@@ -21,6 +21,7 @@
         <item>@string/frag_listview</item>
         <item>@string/frag_OKHttp_activity</item>
         <item>@string/frag_commonAdapter_activity</item>
+        <item>@string/frag_customer_vieew</item>
 
 
     </string-array>

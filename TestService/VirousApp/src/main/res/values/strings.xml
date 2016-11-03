@@ -4,9 +4,10 @@
     <string name="frag_listview">frag_listview</string>
     <string name="frag_OKHttp_activity">frag_OKHttp_activity</string>
     <string name="frag_commonAdapter_activity">frag_commonAdapter_activity</string>
+    <string name="frag_customer_vieew">frag_customer_vieew</string>
 
 
-    <string name="app_name">FregmentApp</string>
+    <string name="app_name">MulApp</string>
     <string name="dynamicUiTitle">dynamicUiTitle</string>
     <string name="android4NewTitle">android4NewTitle</string>
     <string name="dynamicUiDescription2">rrrrrrrrrrrrrrrrrrrrrrrrrrrrttttttttttttttttttttttttttttttttttttttttttttt</string>
