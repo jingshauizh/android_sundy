@@ -5,6 +5,8 @@
     <string name="frag_OKHttp_activity">frag_OKHttp_activity</string>
     <string name="frag_commonAdapter_activity">frag_commonAdapter_activity</string>
     <string name="frag_customer_vieew">frag_customer_vieew</string>
+    <string name="frag_service_view">frag_service_view</string>
+    <string name="frag_eventbus_view">frag_eventbus_view</string>
 
 
     <string name="app_name">MulApp</string>
@@ -33,5 +35,7 @@
     <string name="text_yes">text_yes</string>
     <string name="text_no">text_no</string>
     <string name="title_activity_ok_http">OkHttpActivity</string>
+
+    <string name="btn_start_service">Start Intent Service</string>
 
 </resources>

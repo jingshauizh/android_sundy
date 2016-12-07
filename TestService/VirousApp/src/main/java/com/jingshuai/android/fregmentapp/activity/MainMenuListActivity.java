@@ -2,7 +2,9 @@ package com.jingshuai.android.fregmentapp.activity;
 
 import com.jingshuai.android.fregmentapp.R;
 import com.jingshuai.android.fregmentapp.customer.Customer_View_Activity;
+import com.jingshuai.android.fregmentapp.eventbus.MainEventActivity;
 import com.jingshuai.android.fregmentapp.interfaces.OnListFragmentIndexChangeListenerIF;
+import com.jingshuai.android.fregmentapp.service.ServiceActivity;
 import com.jingshuai.android.fregmentapp.test.commonadapter.CommonAdapterActivity;
 import com.jingshuai.android.fregmentapp.test.okhttp.OkHttpActivity;
 import com.jingshuai.appcommonlib.activity.ActivityLibBase;
@@ -53,6 +55,12 @@ public class MainMenuListActivity extends ActivityLibBase implements OnListFragm
                 break;
             case 4:
                 openActivity(Customer_View_Activity.class);
+                break;
+            case 5:
+                openActivity(ServiceActivity.class);
+                break;
+            case 6:
+                openActivity(MainEventActivity.class);
                 break;
             default:
                 openActivity(TitlesActivity.class);

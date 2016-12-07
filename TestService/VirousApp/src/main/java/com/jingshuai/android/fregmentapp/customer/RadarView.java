@@ -1,6 +1,8 @@
 package com.jingshuai.android.fregmentapp.customer;
 
+import android.app.IntentService;
 import android.content.Context;
+import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.DashPathEffect;
@@ -9,6 +11,7 @@ import android.graphics.Path;
 import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
+import android.view.MotionEvent;
 import android.view.View;
 
 import com.jingshuai.android.fregmentapp.R;
@@ -24,7 +27,17 @@ public class RadarView extends View {
     private int circleX ;
     private int circleY ;
     private int circleRadius = 150;
+    public String getTextValue() {
+        return textValue;
+    }
+
+    public void setTextValue(String textValue) {
+        this.textValue = textValue;
+    }
+
+    private  String textValue;
     private Paint mPaint;
+    private Paint mPaintText;
     private Integer phase =1;
     private Integer jiaodu = 0;
     public static final int NEED_INVALIDATE = 0X23;
@@ -37,11 +50,14 @@ public class RadarView extends View {
             switch (msg.what){
                 case NEED_INVALIDATE:
                     jiaodu += 4;
+
+                    invalidate();//告诉UI主线程重新绘制
                     if(jiaodu >= 360){
                         jiaodu = 0;
+                    }else{
+                        handler.sendEmptyMessageDelayed(NEED_INVALIDATE,50);
                     }
-                    invalidate();//告诉UI主线程重新绘制
-                    handler.sendEmptyMessageDelayed(NEED_INVALIDATE,50);
+
                     break;
                 default:
                     break;
@@ -71,8 +87,28 @@ public class RadarView extends View {
         //mPaint.setTextSize(mTitleTextSize);
         // mPaint.setColor(this.getResources().getColor(R.color.blue));
         handler.sendEmptyMessage(NEED_INVALIDATE);//向handler发送一个消息，让它开启重绘
+        mPaintText = new Paint();
+        mPaintText.setColor(Color.BLUE);
+        mPaintText.setStrokeWidth(10);
+        mPaintText.setTextAlign(Paint.Align.CENTER);
+        mPaintText.setTextSize(30);
+        TypedArray t = getContext().obtainStyledAttributes(attrs,R.styleable.RadarView);
+        textValue = t.getString(R.styleable.RadarView_textValue);
     }
 
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+
+        return super.onTouchEvent(event);
+
+    }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent event) {
+        this.setTextValue("555");
+        handler.sendEmptyMessageDelayed(NEED_INVALIDATE,50);
+        return super.dispatchTouchEvent(event);
+    }
 
     @Override
     protected void onDraw(Canvas canvas) {
@@ -88,7 +124,7 @@ public class RadarView extends View {
          circleX = width / 2;
          circleY = height / 2;
         canvas.drawCircle(circleX, circleY, circleRadius, mPaint);
-        canvas.drawCircle(circleX, circleY, circleRadius/2, mPaint);
+        canvas.drawCircle(circleX, circleY, circleRadius*2/3, mPaint);
 
         mPaint.setStrokeWidth(5.0f);
         mPaint.setColor(Color.GREEN);
@@ -117,6 +153,28 @@ public class RadarView extends View {
     }
 
     private void drawCircleRoated(Canvas canvas, Integer mParameter){
+
+        Integer angle = mParameter; // angle of rotation in radians
+        Paint myPaint = new Paint();
+        myPaint.setStrokeWidth(6.0f);
+        myPaint.setColor(Color.BLUE);
+        myPaint.setStyle(Paint.Style.STROKE);
+        canvas.save();
+        canvas.rotate(angle,circleX,circleY);
+        float radius = circleRadius; // the difference in y positions or the radius
+        double dx = circleX  ; // the draw x
+        double dy = circleY - radius; // the draw y
+        canvas.drawLine(circleX,circleY,(float)dx,(float)dy,myPaint);
+        canvas.restore();
+        //canvas.drawText(""+mParameter, circleX, circleY+10, mPaintText);
+        //textValue
+        canvas.drawText(""+textValue, circleX, circleY+10, mPaintText);
+        canvas.drawCircle(circleX, circleY,30, mPaint);
+
+    }
+
+
+    private void drawCircleRoated2(Canvas canvas, Integer mParameter){
 
         Double angle = mParameter * Math.PI / 180; // angle of rotation in radians
         Paint myPaint = new Paint();

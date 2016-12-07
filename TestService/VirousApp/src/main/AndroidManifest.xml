@@ -45,7 +45,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.jingshuai.appcommonlib.activity.ActivityLibBase" />
         </activity>
-        <activity android:name=".customer.Customer_View_Activity"></activity>
+        <activity android:name=".customer.Customer_View_Activity" />
+
+        <service
+            android:name=".service.MyIntentService"
+            android:exported="false" />
+
+        <activity android:name=".service.ServiceActivity" />
+        <activity android:name=".eventbus.MainEventActivity"></activity>
     </application>
 
 </manifest>

@@ -22,6 +22,8 @@
         <item>@string/frag_OKHttp_activity</item>
         <item>@string/frag_commonAdapter_activity</item>
         <item>@string/frag_customer_vieew</item>
+        <item>@string/frag_service_view</item>
+        <item>@string/frag_eventbus_view</item>
 
 
     </string-array>
