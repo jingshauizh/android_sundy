@@ -1,6 +1,6 @@
 package com.jingshuai.android.fregmentapp.eventbus.eventfregment;
 
-import android.content.Context;
+
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -14,7 +14,7 @@ import com.jingshuai.android.fregmentapp.R;
 import com.jingshuai.android.fregmentapp.eventbus.FirstEvent;
 import com.jingshuai.appcommonlib.log.MLog;
 
-import de.greenrobot.event.EventBus;
+import org.greenrobot.eventbus.*;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -93,7 +93,8 @@ public class FragmentEventReceive extends Fragment {
 
     }
 
-    public void onEventMainThread(FirstEvent event) {
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void myEventMainThread(FirstEvent event) {
 
         String msg = "onEventMainThread收到了消息：" + event.getMsg();
         MLog.i(TAG, msg);

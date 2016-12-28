@@ -1,3 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_d68484941f4d10c275a376b2f55757280579b6d8.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_dc60c8439b5fd530ab0c3c4cf9375b074590dbdf.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_00474bb15a5c48480be94aa1b4b4cdb766bf85e1.jar" />
+    </item>
+    <item
+        jar="C:\Users\eqruvvz\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.4.0\40340c0748190fe897baf7bffbc1b282734294e5\okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\pre-dexed\debug\okhttp-2.4.0_a799edeba516c5ab8a42f3a31ded02278abca433.jar" />
+    </item>
+    <item
+        jar="C:\1jason\4java\android_sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_a41a282c937326aadc12b918cb7e34e346f01267.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_e50334fc4ca03743ab7024a240ffe224bbe8cbaa.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_7575b708aeeed1255bc0a3dc4714ce9bb01c5342.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_e5a6665436b28e6c2c055cfffccbbc26a0279a7e.jar" />
+    </item>
+    <item
+        jar="C:\Users\eqruvvz\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.5.0\bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a\okio-1.5.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\pre-dexed\debug\okio-1.5.0_28679c3dd0bfa1e5c98857225c5d45085775ee6a.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_78f2e88184540df1f8542a7a6aa6b91ba5d43281.jar" />
+    </item>
+    <item
+        jar="C:\Users\eqruvvz\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\pre-dexed\debug\eventbus-3.0.0_3a472f2d3f474153a3dc32c1750c74477711398b.jar" />
+    </item>
+    <item
+        jar="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\exploded-aar\TestService\appcommonlib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c8b11a4ec36bf07d7b839cacea323f02c88bab0d">
+        <dex dex="C:\1jason\3code\git_code\android_sundy\TestService\VirousApp\build\intermediates\pre-dexed\debug\TestService-appcommonlib-unspecified_53e546a6f5ab770f07087a8a7a11f5754db06670.jar" />
+    </item>
+
+</items>
