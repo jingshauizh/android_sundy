@@ -46,6 +46,8 @@ public class DeviceModel extends BaseModel implements Validation {
     @JsonProperty("lpvr")
      Boolean lpvr;
 
+
+
     @Override
     public void validate() {
         if (StringUtils.isEmpty(deviceId)) {
