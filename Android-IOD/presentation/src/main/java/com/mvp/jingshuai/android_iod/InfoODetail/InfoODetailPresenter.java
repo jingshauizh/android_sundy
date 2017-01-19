@@ -1,0 +1,107 @@
+package com.mvp.jingshuai.android_iod.InfoODetail;
+
+
+import android.content.Context;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.util.Log;
+
+import com.mvp.jingshuai.android_iod.IODApplication;
+import com.mvp.jingshuai.android_iod.di.component.AppComponent;
+import com.mvp.jingshuai.android_iod.event.FetchedInfoEvent;
+import com.mvp.jingshuai.android_iod.job.BaseJob;
+import com.mvp.jingshuai.android_iod.job.Info.FetchFeedJob;
+import com.mvp.jingshuai.android_iod.job.Info.FetchInfoJob;
+import com.mvp.jingshuai.data.model.InfoObjectModel;
+import com.mvp.jingshuai.domain.BusinessIF;
+import com.path.android.jobqueue.JobManager;
+
+import javax.inject.Inject;
+
+import de.greenrobot.event.EventBus;
+
+/**
+ * Created by eqruvvz on 12/31/2016.
+ */
+public class InfoODetailPresenter implements InfoODetailContract.Presenter {
+    private final String TAG = "InfoODetailPresenter";
+
+    private final BusinessIF mBusinessIF;
+    private JobManager jobManager;
+
+    private final InfoODetailContract.View mInfoODetailView;
+
+    @Nullable
+    private String mTaskId;
+
+    @Inject
+    JobManager mJobManager;
+    @Inject
+    Context mAppContext;
+    @Inject
+    EventBus mEventBus;
+
+    public InfoODetailPresenter(@Nullable String taskId,
+                                @NonNull BusinessIF businessIF,
+                                @NonNull InfoODetailContract.View mInfoODetailView){
+        this.mTaskId = taskId;
+        this.mBusinessIF = businessIF;
+        this.mInfoODetailView = mInfoODetailView;
+
+        mInfoODetailView.setPresenter(this);
+        IODApplication.getInstance().getAppComponent().inject(this);
+        mEventBus.register(this,0);
+
+
+    }
+
+
+
+    @Override
+    public void start() {
+        showDetailedInfoO("");
+    }
+
+    private void showDetailedInfoO(String infoObjectId){
+        //mBusinessIF.getDetailedInfoObjectById(infoObjectId);
+        mJobManager.addJobInBackground( new FetchInfoJob(mAppContext,BaseJob.UI_HIGH));
+        //mJobManager.addJobInBackground(new FetchFeedJob(mContext.getApplicationContext(), BaseJob.UI_HIGH,1l));
+    }
+
+
+    public void onEventMainThread(FetchedInfoEvent infoEvent) {
+
+        Log.i(TAG, "FetchedInfoEvent isSuccess="+infoEvent.isSuccess());
+        Log.i(TAG, "FetchedInfoEvent getInfoName="+infoEvent.getOldest().getInfoName());
+        InfoObjectModel mInfoObjectModel = infoEvent.getOldest();
+        mInfoODetailView.showAttribute(mInfoObjectModel.getAttribute());
+        mInfoODetailView.showCategory(mInfoObjectModel.getCategory());
+        mInfoODetailView.showTitle(mInfoObjectModel.getInfoName());
+        mInfoODetailView.showViewCount(String.valueOf(mInfoObjectModel.getViewCount()));
+        mInfoODetailView.showDescription(mInfoObjectModel.getDescription());
+    }
+
+
+
+    @Override
+    public void editTask() {
+
+    }
+
+    @Override
+    public void deleteTask() {
+
+    }
+
+    @Override
+    public void completeTask() {
+
+    }
+
+    @Override
+    public void activateTask() {
+
+    }
+
+
+}

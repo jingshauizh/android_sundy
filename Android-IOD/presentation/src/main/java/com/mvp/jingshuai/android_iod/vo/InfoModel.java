@@ -1,22 +1,14 @@
-package com.mvp.jingshuai.data.model;
+package com.mvp.jingshuai.android_iod.vo;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.mvp.jingshuai.data.storage.IODDatabase;
-import com.mvp.jingshuai.data.util.Validation;
-import com.mvp.jingshuai.data.util.ValidationFailedException;
 import com.raizlabs.android.dbflow.annotation.Column;
 import com.raizlabs.android.dbflow.annotation.PrimaryKey;
-import com.raizlabs.android.dbflow.annotation.Table;
 import com.raizlabs.android.dbflow.structure.BaseModel;
 
-import org.apache.commons.lang3.StringUtils;
-
 /**
- * Created by eqruvvz on 12/28/2016.
+ * Created by eqruvvz on 1/16/2017.
  */
-
-@Table(databaseName = IODDatabase.NAME)
-public class InfoObjectModel extends BaseModel implements Validation {
+public class InfoModel extends BaseModel {
 
     @Column
     @PrimaryKey(autoincrement = false)
@@ -26,10 +18,6 @@ public class InfoObjectModel extends BaseModel implements Validation {
     @Column
     @JsonProperty("name")
     String infoName;
-
-    @Column
-    @JsonProperty("priority")
-    int priority;
 
     @Column
     @JsonProperty("attribute")
@@ -47,51 +35,6 @@ public class InfoObjectModel extends BaseModel implements Validation {
     @JsonProperty("imageUrl")
     String imageUrl;
 
-    @Column
-    @JsonProperty("viewCount")
-    int viewCount;
-
-
-    @JsonProperty("imageUrlFull")
-    String imageUrlFull;
-
-    @JsonProperty("lang")
-    String lang;
-
-    @JsonProperty("deleteFlag")
-    boolean deleteFlag;
-
-    public boolean getDeleteFlag() {
-        return deleteFlag;
-    }
-
-
-
-    public void setDeleteFlag(boolean deleteFlag) {
-        this.deleteFlag = deleteFlag;
-    }
-
-
-
-    public String getImageUrlFull() {
-        return imageUrlFull;
-    }
-
-    public void setImageUrlFull(String imageUrlFull) {
-        this.imageUrlFull = imageUrlFull;
-    }
-
-    public String getLang() {
-        return lang;
-    }
-
-    public void setLang(String lang) {
-        this.lang = lang;
-    }
-
-
-
-
     public String getInfoId() {
         return infoId;
     }
@@ -106,14 +49,6 @@ public class InfoObjectModel extends BaseModel implements Validation {
 
     public void setInfoName(String infoName) {
         this.infoName = infoName;
-    }
-
-    public int getPriority() {
-        return priority;
-    }
-
-    public void setPriority(int priority) {
-        this.priority = priority;
     }
 
     public String getAttribute() {
@@ -146,18 +81,5 @@ public class InfoObjectModel extends BaseModel implements Validation {
 
     public void setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
-    }
-
-    public int getViewCount() {
-        return viewCount;
-    }
-
-    public void setViewCount(int viewCount) {
-        this.viewCount = viewCount;
-    }
-
-    @Override
-    public void validate() {
-
     }
 }
