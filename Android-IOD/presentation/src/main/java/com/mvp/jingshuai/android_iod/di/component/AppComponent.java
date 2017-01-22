@@ -1,6 +1,7 @@
 package com.mvp.jingshuai.android_iod.di.component;
 
 import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
 
 import com.mvp.jingshuai.android_iod.InfoODetail.InfoODetailActivity;
 import com.mvp.jingshuai.android_iod.InfoODetail.InfoODetailPresenter;
@@ -10,6 +11,7 @@ import com.mvp.jingshuai.android_iod.config.DemoConfig;
 import com.mvp.jingshuai.android_iod.di.module.ApplicationModule;
 import com.mvp.jingshuai.android_iod.job.Info.FetchFeedJob;
 import com.mvp.jingshuai.android_iod.job.Info.FetchInfoJob;
+import com.mvp.jingshuai.data.idal.InfoIdal;
 import com.path.android.jobqueue.JobManager;
 
 import javax.inject.Singleton;
@@ -25,10 +27,13 @@ import de.greenrobot.event.EventBus;
 @Component(modules = {ApplicationModule.class, ApiModule.class})
 public interface AppComponent {
     ApiService apiService();
+    InfoIdal infoIdal();
     EventBus eventBus();
     DemoConfig demoConfig();
     Context appContext();
+    SQLiteDatabase database();
     JobManager jobManager();
+
 
     //定义注入的方法
     void inject(InfoODetailActivity activity);

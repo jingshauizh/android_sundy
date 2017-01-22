@@ -12,6 +12,8 @@ public class InfoODetailContract {
 
         void setLoadingIndicator(boolean active);
 
+        void showInfoImage(String imageUrl);
+
         void hideTitle();
 
         void showTitle(String title);

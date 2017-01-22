@@ -12,6 +12,7 @@ import com.mvp.jingshuai.android_iod.event.FetchedInfoEvent;
 import com.mvp.jingshuai.android_iod.job.BaseJob;
 import com.mvp.jingshuai.android_iod.job.NetworkException;
 import com.mvp.jingshuai.android_iod.vo.InfoModel;
+import com.mvp.jingshuai.data.idal.InfoIdal;
 import com.mvp.jingshuai.data.model.InfoObjectModel;
 import com.path.android.jobqueue.Job;
 import com.path.android.jobqueue.Params;
@@ -36,6 +37,9 @@ public class FetchInfoJob extends BaseJob {
 
     @Inject
     transient EventBus mEventBus;
+
+    @Inject
+    InfoIdal mInfoIdal;
 
 
     public FetchInfoJob(Context context, int priority) {
@@ -77,6 +81,7 @@ public class FetchInfoJob extends BaseJob {
 
         InfoObjectModel oldest = null;
         if (body != null) {
+            mInfoIdal.save(body);
             oldest = body;
         }
         return oldest;

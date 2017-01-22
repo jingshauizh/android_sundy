@@ -9,8 +9,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.mvp.jingshuai.android_iod.R;
 
 /**
@@ -30,6 +32,7 @@ public class InfoODetailFragment extends Fragment implements InfoODetailContract
     private TextView mDetailViewCount;
     private TextView mDetailName;
     private TextView mDetailDescription;
+    private ImageView mInfoImageView;
     @NonNull
     private static final String ARGUMENT_TASK_ID = "TASK_ID";
 
@@ -41,6 +44,15 @@ public class InfoODetailFragment extends Fragment implements InfoODetailContract
         InfoODetailFragment fragment = new InfoODetailFragment();
         fragment.setArguments(arguments);
         return fragment;
+    }
+
+
+    @Override
+    public void showInfoImage(String imageUrl) {
+        Glide.with(this)
+                .load(imageUrl)
+                .centerCrop()
+                .into(mInfoImageView);
     }
 
     @Override
@@ -133,6 +145,7 @@ public class InfoODetailFragment extends Fragment implements InfoODetailContract
         mDetailViewCount = (TextView) root.findViewById(R.id.tv_viewcount);
         mDetailName = (TextView) root.findViewById(R.id.tv_fullname);
         mDetailDescription = (TextView) root.findViewById(R.id.tv_description);
+        mInfoImageView = (ImageView) root.findViewById(R.id.im_infoo);
         return root;
     }
 

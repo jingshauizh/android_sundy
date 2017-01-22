@@ -47,7 +47,7 @@ public class DemoConfig {
     }
 
     public String getApiUrl() {
-        return mSharedPreferences.getString(KEY_API_URL, "http://150.236.223.164:8080/");
+        return mSharedPreferences.getString(KEY_API_URL, "http://150.236.223.159:8080/");
     }
 
     public void setApiUrl(String url) {

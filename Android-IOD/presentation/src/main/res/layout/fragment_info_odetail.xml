@@ -12,22 +12,22 @@ tools:context=".view.MainActivity"
 tools:showIn="@layout/activity_main">
 
     <ImageView
-        android:id="@+id/iv_cover"
+        android:id="@+id/im_infoo"
         android:layout_width="@dimen/iv_image_width"
         android:layout_height="@dimen/iv_image_height"
-        android:background="@android:color/darker_gray"
-        />
+        android:padding="3dp"
+        android:background="@drawable/im_bg_border" />
 
     <TextView
         android:id="@+id/tv_fullname"
-        android:layout_toRightOf="@+id/iv_cover"
+        android:layout_toRightOf="@+id/im_infoo"
         style="@style/AppTheme.TextViewHeader"
         android:freezesText="true" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_toRightOf="@+id/iv_cover"
+        android:layout_toRightOf="@+id/im_infoo"
         android:layout_below="@+id/tv_fullname"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
@@ -67,7 +67,7 @@ tools:showIn="@layout/activity_main">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/iv_cover"
+        android:layout_below="@+id/im_infoo"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:orientation="vertical"

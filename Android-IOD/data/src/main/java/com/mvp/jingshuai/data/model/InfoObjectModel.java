@@ -51,10 +51,11 @@ public class InfoObjectModel extends BaseModel implements Validation {
     @JsonProperty("viewCount")
     int viewCount;
 
-
+    @Column
     @JsonProperty("imageUrlFull")
     String imageUrlFull;
 
+    @Column
     @JsonProperty("lang")
     String lang;
 

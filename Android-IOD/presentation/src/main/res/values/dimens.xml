@@ -15,6 +15,7 @@
     <!--Info Object stuff-->
     <dimen name="iv_image_height">186dp</dimen>
     <dimen name="iv_image_width">150dp</dimen>
+    <dimen name="iv_image_margin">10dp</dimen>
 
     <!--Listview rows stuff-->
     <dimen name="lv_row_padding">5dp</dimen>

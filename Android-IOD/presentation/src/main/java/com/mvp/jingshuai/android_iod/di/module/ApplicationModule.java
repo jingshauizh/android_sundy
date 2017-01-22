@@ -1,14 +1,18 @@
 package com.mvp.jingshuai.android_iod.di.module;
 
 import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
 
-import com.mvp.jingshuai.android_iod.IODApplication;
+import com.mvp.jingshuai.android_iod.app.IODApplication;
 import com.mvp.jingshuai.android_iod.config.DemoConfig;
 import com.mvp.jingshuai.android_iod.job.BaseJob;
+import com.mvp.jingshuai.data.idal.InfoIdal;
+import com.mvp.jingshuai.data.storage.IODDatabase;
 import com.path.android.jobqueue.Job;
 import com.path.android.jobqueue.JobManager;
 import com.path.android.jobqueue.config.Configuration;
 import com.path.android.jobqueue.di.DependencyInjector;
+import com.raizlabs.android.dbflow.config.FlowManager;
 
 import javax.inject.Singleton;
 
@@ -29,6 +33,10 @@ public class ApplicationModule {
 
     @Provides
     @Singleton
+    public InfoIdal infoIdal(SQLiteDatabase database){return new InfoIdal( database);}
+
+    @Provides
+    @Singleton
     public EventBus eventBus() {
         return EventBus.getDefault();
     }
@@ -43,6 +51,12 @@ public class ApplicationModule {
     @Singleton
     public Context appContext() {
         return mApp;
+    }
+
+    @Provides
+    @Singleton
+    public SQLiteDatabase database() {
+        return FlowManager.getDatabase(IODDatabase.NAME).getWritableDatabase();
     }
 
     @Provides
