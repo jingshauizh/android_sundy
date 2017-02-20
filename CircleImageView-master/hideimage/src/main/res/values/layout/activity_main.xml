@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dsw="http://schemas.android.com/apk/res/com.dsw.circleimageview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dsw.circleimageview.MainActivity" >
+
+    <com.dsw.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/test"/>
+    
+    <com.dsw.circleimageview.CircleImageViewWithBorder
+        android:layout_width="100dp"  
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/test"
+        dsw:border_color="#0000ff"  
+        dsw:border_size="1dp"  
+        />
+</LinearLayout>

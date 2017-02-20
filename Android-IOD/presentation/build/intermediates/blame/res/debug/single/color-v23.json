@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\1jason\\3code\\git_code\\android_sundy\\Android-IOD\\presentation\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_color_highlight_material.xml"
+    }
+]

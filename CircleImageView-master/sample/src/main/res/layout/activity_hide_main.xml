@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.mvp.jingshuai.hideimage.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/test"/>
+    
+    <com.mvp.jingshuai.hideimage.CircleImageViewWithBorder
+        android:id="@+id/im_view_object"
+        android:layout_width="100dp"  
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/test"
+        app:border_color="#0000ff"
+        app:border_size="1dp"
+        />
+</LinearLayout>
