@@ -24,6 +24,7 @@
         <item>@string/frag_customer_vieew</item>
         <item>@string/frag_service_view</item>
         <item>@string/frag_eventbus_view</item>
+        <item>@string/frag_hook_view</item>
 
 
     </string-array>

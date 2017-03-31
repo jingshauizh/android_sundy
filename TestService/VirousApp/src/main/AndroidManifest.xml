@@ -52,7 +52,8 @@
             android:exported="false" />
 
         <activity android:name=".service.ServiceActivity" />
-        <activity android:name=".eventbus.MainEventActivity"></activity>
+        <activity android:name=".eventbus.MainEventActivity" />
+        <activity android:name=".hookviewpac.HookViewActivity"></activity>
     </application>
 
 </manifest>

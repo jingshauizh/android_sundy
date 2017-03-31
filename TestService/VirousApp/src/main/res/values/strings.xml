@@ -7,6 +7,7 @@
     <string name="frag_customer_vieew">frag_customer_vieew</string>
     <string name="frag_service_view">frag_service_view</string>
     <string name="frag_eventbus_view">frag_eventbus_view</string>
+    <string name="frag_hook_view">frag_hook_view</string>
 
 
     <string name="app_name">MulApp</string>
@@ -37,5 +38,8 @@
     <string name="title_activity_ok_http">OkHttpActivity</string>
 
     <string name="btn_start_service">Start Intent Service</string>
+
+    <string name="hook_btn_1">hook_btn_1</string>
+    <string name="hook_btn_2">hook_btn_1</string>
 
 </resources>
