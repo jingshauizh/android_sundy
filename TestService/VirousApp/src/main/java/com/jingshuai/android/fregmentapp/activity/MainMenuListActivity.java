@@ -9,7 +9,7 @@ import com.jingshuai.android.fregmentapp.service.ServiceActivity;
 import com.jingshuai.android.fregmentapp.test.commonadapter.CommonAdapterActivity;
 import com.jingshuai.android.fregmentapp.test.okhttp.OkHttpActivity;
 import com.jingshuai.appcommonlib.activity.ActivityLibBase;
-
+import com.jingshuai.android.fregmentapp.service.binder_aidl.activity.*;
 /**
  * Created by eqruvvz on 8/1/2016.
  */
@@ -65,6 +65,20 @@ public class MainMenuListActivity extends ActivityLibBase implements OnListFragm
                 break;
             case 7:
                 openActivity(HookViewActivity.class);
+                break;
+            //
+
+            case 8:
+                openActivity(AIDLMainActivity.class);
+                break;
+            case 9:
+                openActivity(CustomMainActivity.class);
+                break;
+            case 10:
+                openActivity(AIDLIODActivity.class);
+                break;
+            case 11:
+                openActivity(IODActivity.class);
                 break;
             default:
                 openActivity(TitlesActivity.class);

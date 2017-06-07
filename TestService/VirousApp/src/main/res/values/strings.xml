@@ -9,6 +9,11 @@
     <string name="frag_eventbus_view">frag_eventbus_view</string>
     <string name="frag_hook_view">frag_hook_view</string>
 
+    <string name="service_aidl_view">service_aidl_view</string>
+    <string name="service_custom_view">service_custom_view</string>
+    <string name="iod_service_aidl_view">iod_service_aidl_view</string>
+    <string name="iod_service_custom_view">iod_service_custom_view</string>
+
 
     <string name="app_name">MulApp</string>
     <string name="dynamicUiTitle">dynamicUiTitle</string>
