@@ -11,7 +11,7 @@ public class Customer_View_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_customer__view_);
+        setContentView(R.layout.activity_customer_iod_view);
        // mRadarView = (RadarView)findViewById(R.id.radarView);
        // mRadarView.setTextValue("876");
     }

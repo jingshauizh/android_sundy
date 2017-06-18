@@ -19,7 +19,7 @@
        myview:textValue = "999"
        android:layout_alignParentTop="true"
        android:padding="10dp" />
-   <com.jingshuai.android.fregmentapp.customer.MyView
+   <com.jingshuai.android.fregmentapp.customer.IODView
        android:id="@+id/myView"
        android:layout_below="@+id/radarView"
        android:layout_width="200dp"
