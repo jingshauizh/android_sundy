@@ -53,40 +53,53 @@
 
         <activity android:name=".service.ServiceActivity" />
         <activity android:name=".eventbus.MainEventActivity" />
-        <activity android:name=".hookviewpac.HookViewActivity"></activity>
+        <activity android:name=".hookviewpac.HookViewActivity" />
+        <activity android:name=".service.binder_aidl.activity.IODActivity" />
+        <activity android:name=".service.binder_aidl.activity.AIDLIODActivity" />
+        <activity android:name=".service.binder_aidl.activity.AIDLMainActivity" />
+        <activity android:name=".service.binder_aidl.activity.CustomMainActivity" />
 
-
-        <activity android:name=".service.binder_aidl.activity.IODActivity"></activity>
-        <activity android:name=".service.binder_aidl.activity.AIDLIODActivity"></activity>
-        <activity android:name=".service.binder_aidl.activity.AIDLMainActivity"></activity>
-        <activity android:name=".service.binder_aidl.activity.CustomMainActivity"></activity>
-
-        <service     android:name=".service.binder_aidl.service.CalcPlusService"   android:exported="false" >
+        <service
+            android:name=".service.binder_aidl.service.CalcPlusService"
+            android:exported="false">
             <intent-filter>
                 <action android:name="service.binder_aidl.service.CalcPlusService" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </service>
-        <service     android:name=".service.binder_aidl.service.CalcService"   android:exported="false" >
-                <intent-filter>
-                    <action android:name="service.binder_aidl.service.CalcService" />
-                    <category android:name="android.intent.category.DEFAULT" />
-                </intent-filter>
+        <service
+            android:name=".service.binder_aidl.service.CalcService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="service.binder_aidl.service.CalcService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </service>
-        <service     android:name=".service.binder_aidl.service.IODService"   android:exported="false" >
+        <service
+            android:name=".service.binder_aidl.service.IODService"
+            android:exported="false">
             <intent-filter>
                 <action android:name="service.binder_aidl.service.IODService" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </service>
-        <service     android:name=".service.binder_aidl.service.IODPlusService"   android:exported="false" >
+        <service
+            android:name=".service.binder_aidl.service.IODPlusService"
+            android:exported="false">
             <intent-filter>
-            <action android:name="service.binder_aidl.service.IODPlusService" />
-            <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="service.binder_aidl.service.IODPlusService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </service>
 
-
+        <activity
+            android:name=".event.EventActivity"
+            android:label="@string/title_activity_event"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

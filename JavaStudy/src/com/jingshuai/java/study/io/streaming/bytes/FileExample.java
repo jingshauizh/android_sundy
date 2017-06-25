@@ -9,7 +9,7 @@ public class FileExample{
     }  
    
   /** 
-   * 文件处理示例 
+   * 文件处理示例    jugong
    */  
   public static void createFile() {  
      File f=new File("F:/android_code/space/create.txt");  

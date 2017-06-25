@@ -1,5 +1,6 @@
 package com.jingshuai.android.fregmentapp.activity;
 
+import com.jingshuai.android.fregmentapp.event.EventActivity;
 import com.jingshuai.android.fregmentapp.hookviewpac.HookViewActivity;
 import com.jingshuai.android.fregmentapp.R;
 import com.jingshuai.android.fregmentapp.customer.Customer_View_Activity;
@@ -79,6 +80,9 @@ public class MainMenuListActivity extends ActivityLibBase implements OnListFragm
                 break;
             case 11:
                 openActivity(IODActivity.class);
+                break;
+            case 12:
+                openActivity(EventActivity.class);
                 break;
             default:
                 openActivity(TitlesActivity.class);

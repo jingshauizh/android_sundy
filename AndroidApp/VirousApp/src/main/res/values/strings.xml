@@ -13,7 +13,7 @@
     <string name="service_custom_view">service_custom_view</string>
     <string name="iod_service_aidl_view">iod_service_aidl_view</string>
     <string name="iod_service_custom_view">iod_service_custom_view</string>
-
+    <string name="event_service_view">event_service_view</string>
 
     <string name="app_name">MulApp</string>
     <string name="dynamicUiTitle">dynamicUiTitle</string>
@@ -46,5 +46,6 @@
 
     <string name="hook_btn_1">hook_btn_1</string>
     <string name="hook_btn_2">hook_btn_1</string>
+    <string name="title_activity_event">EventActivity</string>
 
 </resources>
