@@ -14,6 +14,7 @@
     <string name="iod_service_aidl_view">iod_service_aidl_view</string>
     <string name="iod_service_custom_view">iod_service_custom_view</string>
     <string name="event_service_view">event_service_view</string>
+    <string name="recircle_view">recircle_view</string>
 
     <string name="app_name">MulApp</string>
     <string name="dynamicUiTitle">dynamicUiTitle</string>
@@ -47,5 +48,60 @@
     <string name="hook_btn_1">hook_btn_1</string>
     <string name="hook_btn_2">hook_btn_1</string>
     <string name="title_activity_event">EventActivity</string>
+    <string name="title_activity_recircle_view">RecircleViewActivity</string>
+    <string name="title_activity_recirl_test">RecirlTestActivity</string>
 
+    <!--
+
+    -->
+    <string name="location"> "[
+        {\"provinceId\":1,\"provinceName\":\"菜单\",
+        \"citys\":[
+        {\"cityId\":72,\"cityName\":\"eventbus\",\"areas\":[
+        {\"areaId\":2799,\"areaName\":\"eventbus\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.eventbus\", \"areaClass\":\"com.jingshuai.android.fregmentapp.eventbus.MainEventActivity\"}
+      ]},
+      {\"cityId\":73,\"cityName\":\"listview\",\"areas\":[
+        {\"areaId\":3799,\"areaName\":\"listview\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.activity.MainActivity\"}
+      ]},
+      {\"cityId\":74,\"cityName\":\"OKHttp\",\"areas\":[
+        {\"areaId\":4799,\"areaName\":\"OKHttp\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.test.okhttp\", \"areaClass\":\"com.jingshuai.android.fregmentapp.test.okhttp.OkHttpActivity\"}
+      ]},
+       {\"cityId\":75,\"cityName\":\"commonAdapter\",\"areas\":[
+        {\"areaId\":5799,\"areaName\":\"commonAdapter\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.test.commonadapter\", \"areaClass\":\"com.jingshuai.android.fregmentapp.test.commonadapter.CommonAdapterActivity\"}
+      ]},
+       {\"cityId\":76,\"cityName\":\"customer_view\",\"areas\":[
+        {\"areaId\":6799,\"areaName\":\"customer_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.customer\", \"areaClass\":\"com.jingshuai.android.fregmentapp.customer.Customer_View_Activity\"}
+      ]},
+       {\"cityId\":77,\"cityName\":\"service_view\",\"areas\":[
+        {\"areaId\":7799,\"areaName\":\"service_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.ServiceActivity\"}
+      ]},
+            {\"cityId\":79,\"cityName\":\"hook_view\",\"areas\":[
+        {\"areaId\":7999,\"areaName\":\"hook_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.hookviewpac\", \"areaClass\":\"com.jingshuai.android.fregmentapp.hookviewpac.HookViewActivity\"}
+      ]},
+            {\"cityId\":80,\"cityName\":\"service_view\",\"areas\":[
+        {\"areaId\":8099,\"areaName\":\"service_aidl_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity.AIDLMainActivity\"},
+        {\"areaId\":8099,\"areaName\":\"service_custom_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity.CustomMainActivity\"},
+        {\"areaId\":8099,\"areaName\":\"iod_service_aidl_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity.IODActivity\"},
+        {\"areaId\":8100,\"areaName\":\"iod_service_custom_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity.AIDLIODActivity\"}
+
+
+      ]},
+            {\"cityId\":81,\"cityName\":\"event_service_view\",\"areas\":[
+        {\"areaId\":8199,\"areaName\":\"event_service_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.event\", \"areaClass\":\"com.jingshuai.android.fregmentapp.event.EventActivity\"}
+      ]},
+            {\"cityId\":82,\"cityName\":\"recircle_view\",\"areas\":[
+        {\"areaId\":8299,\"areaName\":\"recircle_test_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.view.recircleview\", \"areaClass\":\"com.jingshuai.android.fregmentapp.view.recircleview.RecirlTestActivity\"},
+        {\"areaId\":8300,\"areaName\":\"recircle_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.view.recircleview\", \"areaClass\":\"com.jingshuai.android.fregmentapp.view.recircleview.RecircleViewActivity\"}
+      ]},
+
+
+        {\"cityId\":78,\"cityName\":\"listfragment\",\"areas\":[
+        {\"areaId\":8799,\"areaName\":\"listfragment\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.activity.TitlesActivity\"}
+      ]}
+        ]
+
+
+        }]"
+</string>
 </resources>
+

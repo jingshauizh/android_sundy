@@ -9,6 +9,8 @@ import com.jingshuai.android.fregmentapp.interfaces.OnListFragmentIndexChangeLis
 import com.jingshuai.android.fregmentapp.service.ServiceActivity;
 import com.jingshuai.android.fregmentapp.test.commonadapter.CommonAdapterActivity;
 import com.jingshuai.android.fregmentapp.test.okhttp.OkHttpActivity;
+import com.jingshuai.android.fregmentapp.view.recircleview.RecircleViewActivity;
+import com.jingshuai.android.fregmentapp.view.recircleview.RecirlTestActivity;
 import com.jingshuai.appcommonlib.activity.ActivityLibBase;
 import com.jingshuai.android.fregmentapp.service.binder_aidl.activity.*;
 /**
@@ -83,6 +85,10 @@ public class MainMenuListActivity extends ActivityLibBase implements OnListFragm
                 break;
             case 12:
                 openActivity(EventActivity.class);
+                break;
+            case 13:
+                //openActivity(RecircleViewActivity.class);
+                openActivity(RecirlTestActivity.class);
                 break;
             default:
                 openActivity(TitlesActivity.class);

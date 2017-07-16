@@ -30,6 +30,7 @@
         <item>@string/iod_service_aidl_view</item>
         <item>@string/iod_service_custom_view</item>
         <item>@string/event_service_view</item>
+        <item>@string/recircle_view</item>
 
 
     </string-array>

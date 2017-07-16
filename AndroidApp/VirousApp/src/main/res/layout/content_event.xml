@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,31 +8,28 @@
     tools:context="com.jingshuai.android.fregmentapp.event.EventActivity"
     tools:showIn="@layout/activity_event"
     android:id="@+id/constraintLayout">
-    <com.jingshuai.android.fregmentapp.event.MyLinearLayout
+    <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="354dp"
         android:layout_height="491dp"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp"
-        android:clickable="true"
         android:weightSum="1">
 
-        <com.jingshuai.android.fregmentapp.event.MyRelativeLayout
+        <RelativeLayout
             android:id="@+id/relativeLayout"
             android:layout_width="281dp"
             android:layout_height="411dp"
-            android:clickable="true"
             android:layout_weight="0.42">
 
-            <com.jingshuai.android.fregmentapp.event.MyImageView
+            <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="147dp"
-                android:clickable="true"
                 app:srcCompat="@android:drawable/star_on" />
-        </com.jingshuai.android.fregmentapp.event.MyRelativeLayout>
-    </com.jingshuai.android.fregmentapp.event.MyLinearLayout>
-</LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

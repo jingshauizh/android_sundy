@@ -40,9 +40,26 @@ public class IODActivity extends Activity
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.act_aidl_service_main);
+		setContentView(R.layout.act_aidl_service_main_start);
 
 	}
+
+	public void startService(View view)
+	{
+		Intent intentPlus = new Intent(this, IODPlusService.class);
+		intentPlus.setAction("service.binder_aidl.service.IODPlusService");
+		startService(intentPlus);
+		Log.e("startService","");
+	}
+
+	public void stopService(View view)
+	{
+		Intent intentPlus = new Intent(this, IODPlusService.class);
+		intentPlus.setAction("service.binder_aidl.service.IODPlusService");
+		stopService(intentPlus);
+		Log.e("startService","");
+	}
+
 
 	public void bindService(View view)
 	{
