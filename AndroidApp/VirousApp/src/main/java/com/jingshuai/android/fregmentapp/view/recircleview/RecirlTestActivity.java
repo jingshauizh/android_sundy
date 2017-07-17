@@ -1,5 +1,6 @@
 package com.jingshuai.android.fregmentapp.view.recircleview;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -9,6 +10,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Toast;
 
 import com.jingshuai.android.fregmentapp.R;
 
@@ -22,7 +24,7 @@ public class RecirlTestActivity extends AppCompatActivity {
 
 
     private List<String> mDatas = new ArrayList<>();
-
+    private Activity activity;
     @BindView( R.id.recircle_test_view )
     RecyclerView mRecyclerView;
 
@@ -34,7 +36,7 @@ public class RecirlTestActivity extends AppCompatActivity {
         setContentView(R.layout.act_recirl_test);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        activity = this;
         ButterKnife.bind(this);
         initDatas();
         adapter = new RecyclerTestAdapter(this,mDatas);
@@ -42,6 +44,17 @@ public class RecirlTestActivity extends AppCompatActivity {
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
         LinearLayoutManager mLinearLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLinearLayoutManager);
+        adapter.setListener(new RecyclerTestAdapter.OnItemClickListener(){
+            @Override
+            public void onItemClick(View v, int position) {
+                Toast.makeText(activity,"第"+position+"项被点击了",Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onItemLongClick(View v,int position) {
+                Toast.makeText(activity,"第"+position+"项被long点击了",Toast.LENGTH_SHORT).show();
+            }
+        });
 
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);

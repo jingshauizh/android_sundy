@@ -32,11 +32,29 @@ public class  RecyclerTestAdapter extends RecyclerView.Adapter<RecyclerTestAdapt
     }
 
     @Override
-    public void onBindViewHolder(RecyclerTestViewHolder holder, int position) {
+    public void onBindViewHolder(RecyclerTestViewHolder holder, final int position) {
 //        ViewGroup.LayoutParams lp = holder.tv.getLayoutParams();
 //        lp.height =20;
 //        holder.tv.setLayoutParams(lp);
         holder.tv.setText(mDatas.get(position));
+        holder.tv.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                if(listener != null){
+                    listener.onItemClick(v,position);
+                }
+            }
+        });
+
+        holder.tv.setOnLongClickListener(new View.OnLongClickListener(){
+            @Override
+            public boolean onLongClick(View v) {
+                if(listener != null){
+                    listener.onItemLongClick(v,position);
+                }
+                return false;
+            }
+        });
     }
 
     @Override
@@ -54,5 +72,18 @@ public class  RecyclerTestAdapter extends RecyclerView.Adapter<RecyclerTestAdapt
             tv = (TextView) itemView.findViewById(R.id.tv);
         }
     }
+
+    public interface OnItemClickListener{
+        void onItemClick(View v,int position);
+        void onItemLongClick(View v,int position);
+    }
+
+
+
+    private OnItemClickListener listener;
+    public void setListener(OnItemClickListener listener) {
+        this.listener = listener;
+    }
+
 
 }
