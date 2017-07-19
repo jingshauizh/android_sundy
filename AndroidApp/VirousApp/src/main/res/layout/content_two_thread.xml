@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.jingshuai.android.fregmentapp.menuhandler.TwoThreadActivity"
+    tools:showIn="@layout/activity_two_thread">
+
+    <Button
+        android:id="@+id/buttonMain"
+        android:layout_width="134dp"
+        android:layout_height="46dp"
+        android:text="ButtonMain"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <Button
+        android:id="@+id/buttonSecond"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ButtonSecond"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <Button
+        android:id="@+id/buttonCallBack"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ButtonCallBack"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="49dp" />
+</LinearLayout>
