@@ -110,9 +110,15 @@
             android:label="@string/title_activity_recirl_test"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+
             android:name=".menuhandler.TwoThreadActivity"
             android:label="@string/title_activity_two_thread"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+    <activity
+    android:name=".handler.OneThreadActivity"
+    android:label="@string/title_activity_one_thread"
+    android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

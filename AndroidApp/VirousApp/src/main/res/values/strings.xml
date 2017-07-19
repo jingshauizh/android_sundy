@@ -94,12 +94,10 @@
         {\"areaId\":8300,\"areaName\":\"recircle_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.view.recircleview\", \"areaClass\":\"com.jingshuai.android.fregmentapp.view.recircleview.RecircleViewActivity\"}
       ]},
 
-      {\"cityId\":88,\"cityName\":\"handler_view\",\"areas\":[
-        {\"areaId\":8899,\"areaName\":\"handler_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.menuhandler\", \"areaClass\":\"com.jingshuai.android.fregmentapp.menuhandler.TwoThreadActivity\"},
-        {\"areaId\":8800,\"areaName\":\"handler_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.menuhandler\", \"areaClass\":\"com.jingshuai.android.fregmentapp.menuhandler.TwoThreadActivity\"}
+       {\"cityId\":83,\"cityName\":\"Handler_view\",\"areas\":[
+        {\"areaId\":8399,\"areaName\":\"One Thread\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.handler\", \"areaClass\":\"com.jingshuai.android.fregmentapp.handler.OneThreadActivity\"},
+        {\"areaId\":8300,\"areaName\":\"Two Thread\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.menuhandler\", \"areaClass\":\"com.jingshuai.android.fregmentapp.menuhandler.TwoThreadActivity\"}
       ]},
-
-
 
         {\"cityId\":78,\"cityName\":\"listfragment\",\"areas\":[
         {\"areaId\":8799,\"areaName\":\"listfragment\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.activity.TitlesActivity\"}
@@ -109,6 +107,9 @@
 
         }]"
 </string>
+
     <string name="title_activity_two_thread">TwoThreadActivity</string>
+    <string name="title_activity_one_thread">OneThreadActivity</string>
+
 </resources>
 
