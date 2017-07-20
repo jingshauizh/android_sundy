@@ -16,11 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    static {
 
-        System.loadLibrary("myNativeLib");
-
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

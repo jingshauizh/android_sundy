@@ -5,5 +5,11 @@ package com.mvp.jingshuai.jinapp;
  */
 
 public class JniClient {
+
+    static {
+
+        System.loadLibrary("myNativeLib");
+
+    }
     static public native String sayName();
 }
