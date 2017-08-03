@@ -1,1 +1,1 @@
-include  ':appcommonlib', ':VirousApp', ':SCamera','RecycleTreeViewLib'
+include ':appcommonlib', ':VirousApp', ':SCamera', ':bluethmono', 'RecycleTreeViewLib'
