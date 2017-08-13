@@ -82,7 +82,8 @@
         {\"areaId\":8099,\"areaName\":\"service_aidl_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity.AIDLMainActivity\"},
         {\"areaId\":8099,\"areaName\":\"service_custom_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity.CustomMainActivity\"},
         {\"areaId\":8099,\"areaName\":\"iod_service_aidl_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity.IODActivity\"},
-        {\"areaId\":8100,\"areaName\":\"iod_service_custom_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity.AIDLIODActivity\"}
+        {\"areaId\":8100,\"areaName\":\"iod_service_custom_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity.AIDLIODActivity\"},
+         {\"areaId\":8101,\"areaName\":\"binder_custom_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service.binder\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.binder.CustomerBinderAct\"}
 
 
       ]},
@@ -110,6 +111,7 @@
 
     <string name="title_activity_two_thread">TwoThreadActivity</string>
     <string name="title_activity_one_thread">OneThreadActivity</string>
+    <string name="title_activity_customer_binder">CustomerBinderAct</string>
 
 </resources>
 

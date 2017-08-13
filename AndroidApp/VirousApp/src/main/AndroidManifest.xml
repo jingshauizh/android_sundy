@@ -97,6 +97,17 @@
             </intent-filter>
         </service>
 
+        <service
+            android:name="com.jingshuai.android.fregmentapp.service.binder.RemoteService"
+            android:process=".Binder_Server"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.jingshuai.android.fregmentapp.service.binder.RemoteService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
         <activity
             android:name=".event.EventActivity"
             android:label="@string/title_activity_event"
@@ -110,15 +121,17 @@
             android:label="@string/title_activity_recirl_test"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-
             android:name=".menuhandler.TwoThreadActivity"
             android:label="@string/title_activity_two_thread"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".handler.OneThreadActivity"
+            android:label="@string/title_activity_one_thread"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".service.binder.CustomerBinderAct"
+            android:label="@string/title_activity_customer_binder"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-
-    <activity
-    android:name=".handler.OneThreadActivity"
-    android:label="@string/title_activity_one_thread"
-    android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
