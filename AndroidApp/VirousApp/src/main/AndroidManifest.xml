@@ -96,11 +96,10 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </service>
-
         <service
-            android:name="com.jingshuai.android.fregmentapp.service.binder.RemoteService"
-            android:process=".Binder_Server"
-            android:exported="false">
+            android:name=".service.binder.RemoteService"
+            android:exported="false"
+            android:process=".Binder_Server">
             <intent-filter>
                 <action android:name="com.jingshuai.android.fregmentapp.service.binder.RemoteService" />
 
@@ -131,7 +130,11 @@
         <activity
             android:name=".service.binder.CustomerBinderAct"
             android:label="@string/title_activity_customer_binder"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".glidesample.GlideActivity"
+            android:label="@string/title_activity_glide"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

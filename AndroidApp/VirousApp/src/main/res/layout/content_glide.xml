@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.jingshuai.android.fregmentapp.glidesample.GlideActivity"
+    tools:showIn="@layout/act_glide_main">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_height="wrap_content"
+
+        android:text="Glide main page"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_glide_sample_loadButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load Image"
+            />
+
+        <ImageView
+            android:id="@+id/img_glide_image_view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

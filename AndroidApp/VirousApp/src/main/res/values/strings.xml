@@ -99,6 +99,10 @@
         {\"areaId\":8399,\"areaName\":\"One Thread\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.handler\", \"areaClass\":\"com.jingshuai.android.fregmentapp.handler.OneThreadActivity\"},
         {\"areaId\":8300,\"areaName\":\"Two Thread\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.menuhandler\", \"areaClass\":\"com.jingshuai.android.fregmentapp.menuhandler.TwoThreadActivity\"}
       ]},
+        {\"cityId\":84,\"cityName\":\"Glide sample\",\"areas\":[
+        {\"areaId\":8499,\"areaName\":\"Glade sample\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.glidesample\", \"areaClass\":\"com.jingshuai.android.fregmentapp.glidesample.GlideActivity\"},
+        {\"areaId\":8400,\"areaName\":\"Glade sample\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.glidesample\", \"areaClass\":\"com.jingshuai.android.fregmentapp.glidesample.GlideActivity\"}
+      ]},
 
         {\"cityId\":78,\"cityName\":\"listfragment\",\"areas\":[
         {\"areaId\":8799,\"areaName\":\"listfragment\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.activity.TitlesActivity\"}
@@ -112,6 +116,7 @@
     <string name="title_activity_two_thread">TwoThreadActivity</string>
     <string name="title_activity_one_thread">OneThreadActivity</string>
     <string name="title_activity_customer_binder">CustomerBinderAct</string>
+    <string name="title_activity_glide">GlideActivity</string>
 
 </resources>
 
