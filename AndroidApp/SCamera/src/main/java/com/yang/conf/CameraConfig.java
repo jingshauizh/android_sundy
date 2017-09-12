@@ -36,7 +36,7 @@ public class CameraConfig {
         this.mWidth = 1600;
         this.mHeight = 1200;
         this.mVideoLength = 18000000;
-        this.mCameraNo = 1;
+        this.mCameraNo = 0;
         this.mShutterName = "";
         this.mPicsPerSec = 5;
         this.mPicTakeSec = 10;

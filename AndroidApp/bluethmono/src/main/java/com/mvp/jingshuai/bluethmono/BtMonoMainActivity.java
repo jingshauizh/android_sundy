@@ -61,16 +61,18 @@ public class BtMonoMainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
     @OnClick(R.id.buttonOn)
-    public void setBlurToothOn(View v){
+    public void setBlurToothOn(View v) {
         MLog.i("setBlurToothOn clicked");
-        Intent mIntent = new Intent(this,BlueThService.class);
+        Intent mIntent = new Intent(this, BlueThService.class);
         startService(mIntent);
     }
+
     @OnClick(R.id.buttonOff)
-    public void setBlurToothOff(View v){
+    public void setBlurToothOff(View v) {
         MLog.i("setBlurToothOff clicked");
-        Intent mIntent = new Intent(this,BlueThService.class);
+        Intent mIntent = new Intent(this, BlueThService.class);
         stopService(mIntent);
     }
 }

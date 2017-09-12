@@ -146,6 +146,7 @@ public class CameraService extends Service {
 
 		CameraEngine.openCamera(mCameraConfig.getmCameraNo());
 		camera = CameraEngine.getCamera();
+
 		mSurfaceTexture = new SurfaceTexture(344);
 		mSurface = new Surface(mSurfaceTexture);
 		mCameraHolder = new CameraHolder(mSurface);
