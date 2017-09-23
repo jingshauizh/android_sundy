@@ -11,6 +11,8 @@ import com.rengwuxian.rxjavasamples.R;
 import com.rengwuxian.rxjavasamples.model.Item;
 import com.rengwuxian.rxjavasamples.util.GankBeautyResultToItemsMapper;
 
+import org.json.JSONObject;
+
 import java.util.List;
 
 import rx.Observable;
@@ -88,6 +90,8 @@ public class Data {
                     }
                 });
     }
+
+
 
     public Subscription subscribeData(@NonNull Observer<List<Item>> observer) {
         if (cache == null) {
