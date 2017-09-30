@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:clickable = "true"
+    android:focusable = "true"
+    android:focusableInTouchMode = "true"
+    android:background="@drawable/recircler_item_bg"
+  >
+    <ImageView
+        android:id="@+id/imgv_homeUI_rv_item"
+        android:layout_width="164dp"
+        android:layout_height="92dp"
+        app:srcCompat="@android:color/holo_green_dark"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <TextView
+        android:id="@+id/tv_homeUI_rv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="@string/hello_blank_fragment"
+        app:layout_constraintLeft_toLeftOf="@+id/imgv_homeUI_rv_item"
+        app:layout_constraintTop_toBottomOf="@+id/imgv_homeUI_rv_item"
+       />
+    <TextView
+        android:id="@+id/tv_homeUI_rv_subTitle"
+        android:textSize="9sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        app:layout_constraintLeft_toLeftOf="@+id/imgv_homeUI_rv_item"
+        app:layout_constraintTop_toBottomOf="@+id/tv_homeUI_rv_title"
+       />
+
+</android.support.constraint.ConstraintLayout>

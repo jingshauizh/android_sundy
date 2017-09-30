@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/search_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="搜索内容..."
+            />
+
+        <ImageButton
+            android:id="@+id/search_clear_input"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/close"
+            />
+    </FrameLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="搜索"
+        />
+</LinearLayout>

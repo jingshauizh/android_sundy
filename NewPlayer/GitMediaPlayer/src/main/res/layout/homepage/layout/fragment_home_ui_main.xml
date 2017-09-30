@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/frag_linearLayout_menu_top"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/frag_scrollableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <com.lzy.widget.loop.LoopViewPager
+                android:id="@+id/frag_pagerHeader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:lvp_delayTime="2000"
+                app:lvp_isAutoLoop="true"/>
+
+
+            <com.lzy.widget.tab.CircleIndicator
+                android:id="@+id/frag_ci"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                android:background="#4000"
+                app:layout_constraintBottom_toBottomOf="@+id/frag_pagerHeader"
+                app:ci_normalRadiusColor="#FFF"
+                app:ci_selectedRadiusColor="#FFF"/>
+            <TextView
+                android:id="@+id/homepage_recommendview_title"
+                style="@style/style_home_frag_image_title"
+                app:layout_constraintBottom_toTopOf="@+id/frag_ci"
+                android:text="@string/homepage_menu_tvseries" />
+        </android.support.constraint.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/frag_linearLayout"
+            android:orientation="vertical"
+            android:paddingTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
