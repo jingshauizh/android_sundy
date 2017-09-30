@@ -68,6 +68,8 @@ public class HomeUIFragment extends HeaderViewPagerFragment {
             }
         };
 
+
+
         PlayerApp.getRefWatcher(parentActivity).watch(this);
 
         mHomeTopMenuFragment.setListener(mOnItemClickListener);
