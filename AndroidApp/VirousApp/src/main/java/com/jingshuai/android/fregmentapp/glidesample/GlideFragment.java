@@ -13,15 +13,9 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.jingshuai.android.fregmentapp.R;
-import com.google.android.gms.plus.PlusOneButton;
 import com.jingshuai.appcommonlib.log.MLog;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 import butterknife.Unbinder;
-
-import static com.jingshuai.android.fregmentapp.R.id.imageView;
 
 /**
  * A fragment with a Google +1 button.
