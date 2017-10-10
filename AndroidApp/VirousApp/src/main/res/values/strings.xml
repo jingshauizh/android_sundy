@@ -105,8 +105,10 @@
       ]},
 
         {\"cityId\":78,\"cityName\":\"listfragment\",\"areas\":[
-        {\"areaId\":8799,\"areaName\":\"listfragment\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.activity.TitlesActivity\"}
+        {\"areaId\":8799,\"areaName\":\"listfragment\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.activity.TitlesActivity\"},
+         {\"areaId\":8800,\"areaName\":\"memmary\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.artmemmory\", \"areaClass\":\"com.jingshuai.android.fregmentapp.artmemmory.MemmaryActivity\"}
       ]}
+
         ]
 
 
@@ -117,6 +119,7 @@
     <string name="title_activity_one_thread">OneThreadActivity</string>
     <string name="title_activity_customer_binder">CustomerBinderAct</string>
     <string name="title_activity_glide">GlideActivity</string>
+    <string name="title_activity_memmary">MemmaryActivity</string>
 
 </resources>
 

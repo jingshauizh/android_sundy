@@ -135,6 +135,10 @@
             android:name=".glidesample.GlideActivity"
             android:label="@string/title_activity_glide"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".artmemmory.MemmaryActivity"
+            android:label="@string/title_activity_memmary"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
