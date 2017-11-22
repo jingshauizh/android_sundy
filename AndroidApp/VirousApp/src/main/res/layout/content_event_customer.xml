@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jingshuai.android.fregmentapp.event.ConstraintLayoutGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.jingshuai.android.fregmentapp.event.EventActivity"
+    tools:showIn="@layout/content_event_customer"
+    android:id="@+id/constraintLayoutc">
+    <com.jingshuai.android.fregmentapp.event.LinearLayoutGroup
+        android:id="@+id/linearLayoutc"
+        android:layout_width="354dp"
+        android:layout_height="491dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:weightSum="1">
+
+        <com.jingshuai.android.fregmentapp.event.RelativeLayoutGroup
+            android:id="@+id/relativeLayoutc"
+            android:layout_width="281dp"
+            android:layout_height="411dp"
+            android:layout_weight="0.42">
+
+            <com.jingshuai.android.fregmentapp.event.ImageViewCustomer
+                android:id="@+id/imageViewc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="147dp"
+                app:srcCompat="@drawable/image" />
+        </com.jingshuai.android.fregmentapp.event.RelativeLayoutGroup>
+    </com.jingshuai.android.fregmentapp.event.LinearLayoutGroup>
+</com.jingshuai.android.fregmentapp.event.ConstraintLayoutGroup>

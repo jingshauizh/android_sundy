@@ -87,8 +87,8 @@
 
 
       ]},
-            {\"cityId\":81,\"cityName\":\"event_service_view\",\"areas\":[
-        {\"areaId\":8199,\"areaName\":\"event_service_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.event\", \"areaClass\":\"com.jingshuai.android.fregmentapp.event.EventActivity\"}
+            {\"cityId\":81,\"cityName\":\"event_follow_view\",\"areas\":[
+        {\"areaId\":8199,\"areaName\":\"event_follow_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.event\", \"areaClass\":\"com.jingshuai.android.fregmentapp.event.EventActivity\"}
       ]},
             {\"cityId\":82,\"cityName\":\"recircle_view\",\"areas\":[
         {\"areaId\":8299,\"areaName\":\"recircle_test_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.view.recircleview\", \"areaClass\":\"com.jingshuai.android.fregmentapp.view.recircleview.RecirlTestActivity\"},

@@ -6,31 +6,33 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.MotionEvent;
 import android.view.View;
-import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import com.jingshuai.android.fregmentapp.R;
+import com.jingshuai.appcommonlib.log.MLog;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class EventActivity extends AppCompatActivity {
 
-    @BindView( R.id.imageView )
-    public ImageButton imageButton ;
-    @BindView( R.id.constraintLayout )
+    @BindView( R.id.imageViewc )
+    public ImageView imageButton ;
+    @BindView( R.id.constraintLayoutc )
     public ConstraintLayout constraintLayout ;
-    @BindView( R.id.linearLayout )
+    @BindView( R.id.linearLayoutc )
     public LinearLayout linearLayout ;
-    @BindView( R.id.relativeLayout )
+    @BindView( R.id.relativeLayoutc )
     public RelativeLayout relativeLayout ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_event);
+        setContentView(R.layout.activity_event_customer);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         ButterKnife.bind(this);
@@ -42,6 +44,19 @@ public class EventActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+        MLog.i("dispatchTouchEvent default type="+ev.getAction());
+        return super.dispatchTouchEvent(ev);
+    }
+
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        MLog.i("onTouchEvent onTouchEvent type="+event.getAction());
+        return super.onTouchEvent(event);
     }
 
 }
