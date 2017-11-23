@@ -35,7 +35,8 @@ public class LinearLayoutGroup extends LinearLayout {
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
         MLog.i("onInterceptTouchEvent default type="+ev.getAction());
-        return super.onInterceptTouchEvent(ev);
+        //super.onInterceptTouchEvent(ev);
+        return true;
     }
 
     @Override
