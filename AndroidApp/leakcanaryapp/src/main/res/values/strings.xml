@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LeakcanaryApp</string>
+    <string name="title_activity_file_not_cloas_leak">FileNotCloasLeakActivity</string>
 </resources>

@@ -138,7 +138,22 @@
         <activity
             android:name=".artmemmory.MemmaryActivity"
             android:label="@string/title_activity_memmary"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".remoteviews.RemoteViewActivity"
+            android:label="@string/title_activity_remote_view"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <receiver android:name=".remoteviews.MyAppWidgetProvider" >
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_provider_info" />
+
+            <intent-filter>
+                <action android:name="com.jingshuai.android.fregmentapp.remoteviews" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

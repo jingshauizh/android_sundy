@@ -6,30 +6,41 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+
+import com.mvp.jingshuai.leakcanaryapp.LeakActivity.FileNotCloseLeakActivity;
+import com.mvp.jingshuai.leakcanaryapp.LeakActivity.StaticActivitysAct;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+import butterknife.Unbinder;
 
 
 public class MainActivity extends Activity {
 
     private TestHelper mTestHelper;
+    @BindView(R.id.btn_Static)
+    Button gotoTestBtn;
 
+    private Unbinder mUnbinder;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        findViewById(R.id.btn_go_to_test).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                goToTest();
-            }
-        });
 
-        mTestHelper = TestHelper.getOutInstance(this);
+        //mTestHelper = TestHelper.getOutInstance(this);
+        mUnbinder = ButterKnife.bind(this);
 
-        ExampleApplication.getmRefWatcher().watch(this);
+
+    }
+    @OnClick(R.id.btn_Static)
+    public void gotoTestBtnClick(View v){
+        goToTest();
     }
 
     private void goToTest() {
-        Intent intent = new Intent(this, TestActivity.class);
+        Intent intent = new Intent(this, StaticActivitysAct.class);
         startActivity(intent);
     }
 
@@ -49,5 +60,13 @@ public class MainActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        //utterKnife移除了ButterKnife.unBind()方法,当时取而代之的是ButterKnife.bind(this)会返回一个Unbinder的引用,通过Unbinder的unbind()方法进行unbind.
+        mUnbinder.unbind();
+        ExampleApplication.getmRefWatcher().watch(this);
     }
 }

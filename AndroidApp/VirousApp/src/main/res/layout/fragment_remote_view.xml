@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jingshuai.android.fregmentapp.remoteviews.RemoteViewActivityFragment"
+    tools:showIn="@layout/act_remote_view">
+
+
+    <Button
+        android:id="@+id/rmv_buttonOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ButtonOriginal"
+        app:layout_constraintBottom_toTopOf="@+id/rmv_buttonRemote"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rmv_buttonRemote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ButtonRemoteView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rmv_buttonOr" />
+
+    <Button
+        android:id="@+id/rmv_buttonRemoteUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ButtonRemoteViewUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rmv_buttonRemote" />
+
+    <Button
+        android:id="@+id/rmv_buttonRemoteCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ButtonRemoteViewCancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rmv_buttonRemoteUpdate" />
+
+
+</android.support.constraint.ConstraintLayout>

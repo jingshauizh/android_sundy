@@ -75,9 +75,10 @@
        {\"cityId\":77,\"cityName\":\"service_view\",\"areas\":[
         {\"areaId\":7799,\"areaName\":\"service_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.ServiceActivity\"}
       ]},
-            {\"cityId\":79,\"cityName\":\"hook_view\",\"areas\":[
+        {\"cityId\":79,\"cityName\":\"hook_view\",\"areas\":[
         {\"areaId\":7999,\"areaName\":\"hook_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.hookviewpac\", \"areaClass\":\"com.jingshuai.android.fregmentapp.hookviewpac.HookViewActivity\"}
       ]},
+
             {\"cityId\":80,\"cityName\":\"service_view\",\"areas\":[
         {\"areaId\":8099,\"areaName\":\"service_aidl_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity.AIDLMainActivity\"},
         {\"areaId\":8099,\"areaName\":\"service_custom_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.binder_aidl.activity.CustomMainActivity\"},
@@ -103,6 +104,9 @@
         {\"areaId\":8499,\"areaName\":\"Glade sample\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.glidesample\", \"areaClass\":\"com.jingshuai.android.fregmentapp.glidesample.GlideActivity\"},
         {\"areaId\":8400,\"areaName\":\"Glade sample\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.glidesample\", \"areaClass\":\"com.jingshuai.android.fregmentapp.glidesample.GlideActivity\"}
       ]},
+     {\"cityId\":85,\"cityName\":\"remote_view_activity\",\"areas\":[
+        {\"areaId\":7999,\"areaName\":\"remote_view_activity\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.remoteviews\", \"areaClass\":\"com.jingshuai.android.fregmentapp.remoteviews.RemoteViewActivity\"}
+      ]},
 
         {\"cityId\":78,\"cityName\":\"listfragment\",\"areas\":[
         {\"areaId\":8799,\"areaName\":\"listfragment\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.activity.TitlesActivity\"},
@@ -120,6 +124,8 @@
     <string name="title_activity_customer_binder">CustomerBinderAct</string>
     <string name="title_activity_glide">GlideActivity</string>
     <string name="title_activity_memmary">MemmaryActivity</string>
+    <string name="title_activity_remote_view">RemoteViewActivity</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
 
