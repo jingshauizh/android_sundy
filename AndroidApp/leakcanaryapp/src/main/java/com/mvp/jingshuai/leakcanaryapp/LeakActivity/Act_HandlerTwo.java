@@ -11,12 +11,13 @@ import android.widget.TextView;
 
 import com.jingshuai.appcommonlib.log.MLog;
 import com.mvp.jingshuai.leakcanaryapp.ExampleApplication;
+import com.mvp.jingshuai.leakcanaryapp.LeakBaseActivity;
 import com.mvp.jingshuai.leakcanaryapp.R;
 
 import java.lang.ref.WeakReference;
 
 
-public class Act_HandlerTwo extends AppCompatActivity {
+public class Act_HandlerTwo extends LeakBaseActivity {
 
     private TextView tvHelloWorld;
     private Button btnSetText;
@@ -51,8 +52,6 @@ public class Act_HandlerTwo extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        MLog.i("Act_HandlerTwo onDestroy");
-        ExampleApplication.getmRefWatcher().watch(this);
     }
 
 

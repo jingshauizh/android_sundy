@@ -9,11 +9,12 @@ import android.widget.Button;
 
 import com.jingshuai.appcommonlib.log.MLog;
 import com.mvp.jingshuai.leakcanaryapp.ExampleApplication;
+import com.mvp.jingshuai.leakcanaryapp.LeakBaseActivity;
 import com.mvp.jingshuai.leakcanaryapp.MainActivity;
 import com.mvp.jingshuai.leakcanaryapp.MenuActivity;
 import com.mvp.jingshuai.leakcanaryapp.R;
 
-public class Act_StaticActivitys extends AppCompatActivity {
+public class Act_StaticActivitys extends LeakBaseActivity {
 
     private  static Activity activity;
 
@@ -46,9 +47,6 @@ public class Act_StaticActivitys extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        MLog.i("111111 MenuActivity onDestroy");
-        ExampleApplication.getmRefWatcher().watch(this);
-
     }
 
 

@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.jingshuai.appcommonlib.log.MLog;
 import com.mvp.jingshuai.leakcanaryapp.ExampleApplication;
+import com.mvp.jingshuai.leakcanaryapp.LeakBaseActivity;
 import com.mvp.jingshuai.leakcanaryapp.R;
 
 import java.lang.ref.WeakReference;
@@ -29,7 +30,7 @@ import java.lang.ref.WeakReference;
  *
  *
  * ***/
-public class Act_Handler extends AppCompatActivity {
+public class Act_Handler extends LeakBaseActivity {
 
     private  Handler mHandler;
     private TextView mTextView;
@@ -59,7 +60,6 @@ public class Act_Handler extends AppCompatActivity {
         //方案1  移除 Message 并且 set mHandler = null
         //mHandler.removeCallbacksAndMessages(null);
         //mHandler=null;
-        ExampleApplication.getmRefWatcher().watch(this);
     }
 
 /**** 方案2  静态内部类的 Handler

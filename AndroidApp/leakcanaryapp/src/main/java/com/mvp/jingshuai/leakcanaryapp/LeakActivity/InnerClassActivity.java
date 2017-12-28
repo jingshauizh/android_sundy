@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.jingshuai.appcommonlib.log.MLog;
 import com.mvp.jingshuai.leakcanaryapp.ExampleApplication;
+import com.mvp.jingshuai.leakcanaryapp.LeakBaseActivity;
 import com.mvp.jingshuai.leakcanaryapp.MainActivity;
 import com.mvp.jingshuai.leakcanaryapp.MenuActivity;
 import com.mvp.jingshuai.leakcanaryapp.R;
@@ -23,7 +24,7 @@ import com.mvp.jingshuai.leakcanaryapp.R;
  *
  *
  * ****/
-public class InnerClassActivity extends AppCompatActivity {
+public class InnerClassActivity extends LeakBaseActivity {
     private static Object inner;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,8 +61,6 @@ public class InnerClassActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        MLog.i("111111 InnerClassActivity onDestroy");
-        ExampleApplication.getmRefWatcher().watch(this);
 
     }
 

@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import com.jingshuai.appcommonlib.log.MLog;
 import com.mvp.jingshuai.leakcanaryapp.ExampleApplication;
+import com.mvp.jingshuai.leakcanaryapp.LeakBaseActivity;
 import com.mvp.jingshuai.leakcanaryapp.R;
 
 /*****
@@ -23,7 +24,7 @@ import com.mvp.jingshuai.leakcanaryapp.R;
  *    避免任务在后台执行浪费资源，进而避免内存泄漏的发生。
  *
  * ****/
-public class Act_AsyncTask extends AppCompatActivity {
+public class Act_AsyncTask extends LeakBaseActivity {
     private AsyncTask<Void, Void, Integer> asyncTask;
     private TextView mTextView;
 
@@ -73,7 +74,6 @@ public class Act_AsyncTask extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         //destroyAsyncTask();
-        ExampleApplication.getmRefWatcher().watch(this);
         MLog.e("Act_AsyncTask onDestroy ");
     }
 

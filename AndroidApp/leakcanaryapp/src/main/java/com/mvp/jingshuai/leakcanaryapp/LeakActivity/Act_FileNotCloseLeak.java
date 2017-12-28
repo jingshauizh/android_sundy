@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.jingshuai.appcommonlib.log.MLog;
+import com.mvp.jingshuai.leakcanaryapp.LeakBaseActivity;
 import com.mvp.jingshuai.leakcanaryapp.R;
 
 import java.io.File;
@@ -23,7 +24,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class Act_FileNotCloseLeak extends AppCompatActivity {
+public class Act_FileNotCloseLeak extends LeakBaseActivity {
     private static final int MY_PERMISSIONS_REQUEST_CAMERA = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

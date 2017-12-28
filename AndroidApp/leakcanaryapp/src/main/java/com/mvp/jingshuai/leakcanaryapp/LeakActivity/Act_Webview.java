@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.jingshuai.appcommonlib.log.MLog;
 import com.mvp.jingshuai.leakcanaryapp.ExampleApplication;
+import com.mvp.jingshuai.leakcanaryapp.LeakBaseActivity;
 import com.mvp.jingshuai.leakcanaryapp.R;
 
 /****
@@ -29,7 +30,7 @@ import com.mvp.jingshuai.leakcanaryapp.R;
  *
  *
  * ****/
-public class Act_Webview extends AppCompatActivity {
+public class Act_Webview extends LeakBaseActivity {
     private WebView mWebView;
 
     @Override
@@ -61,12 +62,10 @@ public class Act_Webview extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-
+        //解决方案
         //destroyWebView();
         //android.os.Process.killProcess(android.os.Process.myPid());
         super.onDestroy();
-        MLog.i("111111 Act_Webview onDestroy");
-        ExampleApplication.getmRefWatcher().watch(this);
 
     }
 

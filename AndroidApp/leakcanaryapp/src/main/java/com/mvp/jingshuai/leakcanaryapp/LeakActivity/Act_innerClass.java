@@ -5,11 +5,12 @@ import android.os.Bundle;
 
 import com.jingshuai.appcommonlib.log.MLog;
 import com.mvp.jingshuai.leakcanaryapp.ExampleApplication;
+import com.mvp.jingshuai.leakcanaryapp.LeakBaseActivity;
 import com.mvp.jingshuai.leakcanaryapp.R;
 
 
 
-public class Act_innerClass extends AppCompatActivity {
+public class Act_innerClass extends LeakBaseActivity {
     private static Config mConfig;
 
     @Override
@@ -31,7 +32,6 @@ public class Act_innerClass extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        ExampleApplication.getmRefWatcher().watch(this);
     }
 
     class Config {

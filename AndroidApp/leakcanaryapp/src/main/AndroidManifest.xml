@@ -35,7 +35,8 @@
         <activity
             android:name=".LeakActivity.Act_Webview"
             android:process="LeakActivity.Act_Webview.webview" />
-        <activity android:name=".LeakActivity.Act_HandlerTwo"></activity>
+        <activity android:name=".LeakActivity.Act_HandlerTwo" />
+        <activity android:name=".LeakBaseActivity"></activity>
     </application>
 
 </manifest>
