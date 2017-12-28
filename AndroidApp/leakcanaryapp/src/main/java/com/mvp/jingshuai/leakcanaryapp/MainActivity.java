@@ -8,8 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import com.mvp.jingshuai.leakcanaryapp.LeakActivity.FileNotCloseLeakActivity;
-import com.mvp.jingshuai.leakcanaryapp.LeakActivity.StaticActivitysAct;
+import com.mvp.jingshuai.leakcanaryapp.LeakActivity.Act_StaticActivitys;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -40,7 +39,7 @@ public class MainActivity extends Activity {
     }
 
     private void goToTest() {
-        Intent intent = new Intent(this, StaticActivitysAct.class);
+        Intent intent = new Intent(this, Act_StaticActivitys.class);
         startActivity(intent);
     }
 

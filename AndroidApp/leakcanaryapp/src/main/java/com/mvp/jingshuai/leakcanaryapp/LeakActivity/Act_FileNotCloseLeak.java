@@ -6,7 +6,6 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -24,7 +23,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class FileNotCloseLeakActivity extends AppCompatActivity {
+public class Act_FileNotCloseLeak extends AppCompatActivity {
     private static final int MY_PERMISSIONS_REQUEST_CAMERA = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,7 +75,7 @@ public class FileNotCloseLeakActivity extends AppCompatActivity {
             } else
             {
                 // Permission Denied
-                Toast.makeText(FileNotCloseLeakActivity.this, "Permission Denied", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Act_FileNotCloseLeak.this, "Permission Denied", Toast.LENGTH_SHORT).show();
             }
             return;
         }

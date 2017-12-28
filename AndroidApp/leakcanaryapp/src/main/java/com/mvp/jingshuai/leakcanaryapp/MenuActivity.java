@@ -7,8 +7,13 @@ import android.view.View;
 import android.widget.Button;
 
 import com.jingshuai.appcommonlib.log.MLog;
+import com.mvp.jingshuai.leakcanaryapp.LeakActivity.Act_AsyncTask;
+import com.mvp.jingshuai.leakcanaryapp.LeakActivity.Act_Handler;
+import com.mvp.jingshuai.leakcanaryapp.LeakActivity.Act_HandlerTwo;
+import com.mvp.jingshuai.leakcanaryapp.LeakActivity.Act_Webview;
+import com.mvp.jingshuai.leakcanaryapp.LeakActivity.Act_innerClass;
 import com.mvp.jingshuai.leakcanaryapp.LeakActivity.InnerClassActivity;
-import com.mvp.jingshuai.leakcanaryapp.LeakActivity.StaticActivitysAct;
+import com.mvp.jingshuai.leakcanaryapp.LeakActivity.Act_StaticActivitys;
 
 public class MenuActivity extends AppCompatActivity {
     Button gotoTestBtn;
@@ -28,7 +33,7 @@ public class MenuActivity extends AppCompatActivity {
         gotoTestBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), StaticActivitysAct.class);
+                Intent intent = new Intent(getApplicationContext(), Act_StaticActivitys.class);
                 startActivity(intent);
             }
         });
@@ -38,6 +43,44 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), InnerClassActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button handlerBtn = findViewById(R.id.btn_handler);
+        handlerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Act_Handler.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button handler2Btn = findViewById(R.id.btn_handler2);
+        handler2Btn.setText("Handler Two");
+        handler2Btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Act_HandlerTwo.class);
+                startActivity(intent);
+            }
+        });
+
+        Button asynctaskBtn = findViewById(R.id.btn_asynctask);
+        asynctaskBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Act_AsyncTask.class);
+                startActivity(intent);
+            }
+        });
+
+        Button webBtn = findViewById(R.id.btn_webview);
+        webBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Act_Webview.class);
                 startActivity(intent);
             }
         });

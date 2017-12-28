@@ -13,7 +13,7 @@ import com.mvp.jingshuai.leakcanaryapp.MainActivity;
 import com.mvp.jingshuai.leakcanaryapp.MenuActivity;
 import com.mvp.jingshuai.leakcanaryapp.R;
 
-public class StaticActivitysAct extends AppCompatActivity {
+public class Act_StaticActivitys extends AppCompatActivity {
 
     private  static Activity activity;
 
@@ -27,8 +27,10 @@ public class StaticActivitysAct extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 setStaticActivity();
-                Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
-                startActivity(intent);
+                Act_StaticActivitys.this.finish();
+//                Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
+//                startActivity(intent);
+
             }
         });
 

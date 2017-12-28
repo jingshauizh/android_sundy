@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mvp.jingshuai.leakcanaryapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
@@ -13,13 +14,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".TestActivity" />
         <activity
-            android:name=".LeakActivity.FileNotCloseLeakActivity"
+            android:name=".LeakActivity.Act_FileNotCloseLeak"
             android:label="@string/title_activity_file_not_cloas_leak"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".LeakActivity.StaticActivitysAct" />
+        <activity android:name=".LeakActivity.Act_StaticActivitys" />
         <activity android:name=".MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +28,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LeakActivity.InnerClassActivity"></activity>
+        <activity android:name=".LeakActivity.InnerClassActivity" />
+        <activity android:name=".LeakActivity.Act_Handler" />
+        <activity android:name=".LeakActivity.Act_innerClass" />
+        <activity android:name=".LeakActivity.Act_AsyncTask" />
+        <activity
+            android:name=".LeakActivity.Act_Webview"
+            android:process="LeakActivity.Act_Webview.webview" />
+        <activity android:name=".LeakActivity.Act_HandlerTwo"></activity>
     </application>
 
 </manifest>

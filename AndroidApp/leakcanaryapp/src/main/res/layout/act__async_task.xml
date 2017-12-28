@@ -4,8 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.mvp.jingshuai.leakcanaryapp.LeakActivity.Act_FileNotCloseLeak"
-    tools:showIn="@layout/act_file_not_cloas_leak">
+    tools:context="com.mvp.jingshuai.leakcanaryapp.LeakActivity.Act_AsyncTask">
 
 </android.support.constraint.ConstraintLayout>
