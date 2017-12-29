@@ -38,10 +38,9 @@ public class Act_FileNotCloseLeak extends LeakBaseActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //File mFile =  getDir();
-                //writer("aaaaaaaaaaaaaaa",mFile);
                 try {
                     writeDataFile("aaaaaaaaaaaaaaa","aa.txt");
+                    Act_FileNotCloseLeak.this.finish();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -82,6 +81,67 @@ public class Act_FileNotCloseLeak extends LeakBaseActivity {
         }
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
+
+
+
+    //写数据
+    private void writeDataFile(String fileName,String writestr) throws IOException{
+        try{
+            FileOutputStream fout =openFileOutput(fileName, Context.MODE_PRIVATE | Context.MODE_APPEND);
+
+            byte[] bytes = writestr.getBytes();
+            String str = new String(bytes);
+            MLog.i("writeDataFile:" + "bytes.toString=" + str + ";");
+            fout.write(bytes);
+           // fout.close();
+        }
+
+        catch(Exception e){
+            e.printStackTrace();
+            Log.e("","writeDataFile Error!");
+        }
+    }
+
+    //读数据
+    public String readDataFile(String fileName) throws IOException{
+        String res = "";
+        try{
+
+//            String[] strings = fileList();
+//            for(int i = 0; i < strings.length; i++){
+//                Log.i(TAG, "fileList String["+i+"]="+strings[i].toString());
+//            }
+            FileInputStream fin = openFileInput(fileName);
+            int length = fin.available();
+            byte [] buffer = new byte[length];
+            fin.read(buffer);
+            res = new String(buffer);
+            fin.close();
+
+        }
+        catch(Exception e){
+            e.printStackTrace();
+            Log.e("", "readDataFile Error!");
+        }
+        return res;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -155,51 +215,6 @@ public class Act_FileNotCloseLeak extends LeakBaseActivity {
         }
     }
 
-    //写数据
-    private void writeDataFile(String fileName,String writestr) throws IOException{
-        try{
-            FileOutputStream fout =openFileOutput(fileName, Context.MODE_PRIVATE | Context.MODE_APPEND);
-
-            byte[] bytes = writestr.getBytes();
-
-//            String str = new String(bytes);
-
-//            Log.i(TAG, "writeDataFile:" + "bytes.toString=" + str + ";");
-
-            fout.write(bytes);
-
-           // fout.close();
-        }
-
-        catch(Exception e){
-            e.printStackTrace();
-            Log.e("","writeDataFile Error!");
-        }
-    }
-
-    //读数据
-    public String readDataFile(String fileName) throws IOException{
-        String res = "";
-        try{
-
-//            String[] strings = fileList();
-//            for(int i = 0; i < strings.length; i++){
-//                Log.i(TAG, "fileList String["+i+"]="+strings[i].toString());
-//            }
-            FileInputStream fin = openFileInput(fileName);
-            int length = fin.available();
-            byte [] buffer = new byte[length];
-            fin.read(buffer);
-            res = new String(buffer);
-            fin.close();
-
-        }
-        catch(Exception e){
-            e.printStackTrace();
-            Log.e("", "readDataFile Error!");
-        }
-        return res;
-    }
 
 
 }

@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.jingshuai.appcommonlib.log.MLog;
 import com.mvp.jingshuai.leakcanaryapp.LeakActivity.Act_AsyncTask;
+import com.mvp.jingshuai.leakcanaryapp.LeakActivity.Act_FileNotCloseLeak;
 import com.mvp.jingshuai.leakcanaryapp.LeakActivity.Act_Handler;
 import com.mvp.jingshuai.leakcanaryapp.LeakActivity.Act_HandlerTwo;
 import com.mvp.jingshuai.leakcanaryapp.LeakActivity.Act_Webview;
@@ -81,6 +82,15 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Act_Webview.class);
+                startActivity(intent);
+            }
+        });
+
+        Button fileBtn = findViewById(R.id.btn_FileStreaming);
+        fileBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Act_FileNotCloseLeak.class);
                 startActivity(intent);
             }
         });
