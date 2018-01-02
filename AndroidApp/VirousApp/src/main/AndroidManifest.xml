@@ -142,9 +142,9 @@
         <activity
             android:name=".remoteviews.RemoteViewActivity"
             android:label="@string/title_activity_remote_view"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
 
-        <receiver android:name=".remoteviews.MyAppWidgetProvider" >
+        <receiver android:name=".remoteviews.MyAppWidgetProvider">
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/appwidget_provider_info" />
@@ -154,6 +154,9 @@
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
         </receiver>
+
+        <activity android:name=".bitmap.ActBitMapMenu" />
+        <activity android:name=".bitmap.ActBitMapLoad"></activity>
     </application>
 
 </manifest>

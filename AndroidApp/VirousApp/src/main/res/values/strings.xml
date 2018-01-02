@@ -108,6 +108,10 @@
         {\"areaId\":7999,\"areaName\":\"remote_view_activity\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.remoteviews\", \"areaClass\":\"com.jingshuai.android.fregmentapp.remoteviews.RemoteViewActivity\"}
       ]},
 
+      {\"cityId\":86,\"cityName\":\"BitMapExample\",\"areas\":[
+        {\"areaId\":8699,\"areaName\":\"BitMapExample\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.bitmap\", \"areaClass\":\"com.jingshuai.android.fregmentapp.bitmap.ActBitMapMenu\"}
+      ]},
+
         {\"cityId\":78,\"cityName\":\"listfragment\",\"areas\":[
         {\"areaId\":8799,\"areaName\":\"listfragment\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.activity.TitlesActivity\"},
          {\"areaId\":8800,\"areaName\":\"memmary\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.artmemmory\", \"areaClass\":\"com.jingshuai.android.fregmentapp.artmemmory.MemmaryActivity\"}
