@@ -12,6 +12,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.jingshuai.android.fregmentapp.R;
+import com.jingshuai.appcommonlib.bitmap.BitMapRoatateUtil;
+import com.jingshuai.appcommonlib.bitmap.BitmapCacheLoadUtil;
+import com.jingshuai.appcommonlib.bitmap.BitmapCutUtil;
+import com.jingshuai.appcommonlib.bitmap.BitmapUtils;
 import com.jingshuai.appcommonlib.log.MLog;
 
 import butterknife.BindView;
@@ -24,6 +28,8 @@ public class ActBitMapLoad extends AppCompatActivity {
     Button btnLoad;
     @BindView(R.id.img_bitmap_pic)
     ImageView imgBitmap;
+
+    private ImageLoadTask mImageLoadTask;
 
     private Unbinder mUnbinder;
     @Override
@@ -39,13 +45,15 @@ public class ActBitMapLoad extends AppCompatActivity {
         String[] params = {
                 "http://images.cnitblog.com/i/169207/201408/112229149526951.png",
                 "p2" };
-        new ImageLoadTask(getApplicationContext(), null).execute(params);
+        mImageLoadTask = new ImageLoadTask(getApplicationContext(), null);
+        mImageLoadTask.execute(params);
     }
 
 
     @Override
     protected void onDestroy() {
         mUnbinder.unbind();
+        mImageLoadTask.cancel(true);
         super.onDestroy();
 
     }
@@ -63,10 +71,12 @@ public class ActBitMapLoad extends AppCompatActivity {
         protected Void doInBackground(String... params) {
             String url = params[0];
             String p2 = params[1];
-            ImageEntity bean = new ImageEntity();
             bitmap = BitmapFactory.decodeStream(Request
                     .HandlerData(url));
-            bean.setImage(bitmap);
+            Bitmap bitmapNew = BitmapCacheLoadUtil.setBitmapSize(bitmap,200,200);
+            BitmapCutUtil.recycleBitmap(bitmap);
+            //bean.setImage(bitmapNew);
+            bitmap = bitmapNew;
             publishProgress(); // Í¨ÖªÈ¥¸üÐÂUI
             return null;
         }
