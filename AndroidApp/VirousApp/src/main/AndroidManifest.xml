@@ -156,7 +156,9 @@
         </receiver>
 
         <activity android:name=".bitmap.ActBitMapMenu" />
-        <activity android:name=".bitmap.ActBitMapLoad"></activity>
+        <activity android:name=".bitmap.ActBitMapLoad" />
+        <activity android:name=".customer.scroller.ActScrollerExample" />
+        <activity android:name=".customer.scroller.ActScrollerLayoutExample"></activity>
     </application>
 
 </manifest>

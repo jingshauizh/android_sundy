@@ -70,7 +70,9 @@
         {\"areaId\":5799,\"areaName\":\"commonAdapter\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.test.commonadapter\", \"areaClass\":\"com.jingshuai.android.fregmentapp.test.commonadapter.CommonAdapterActivity\"}
       ]},
        {\"cityId\":76,\"cityName\":\"customer_view\",\"areas\":[
-        {\"areaId\":6799,\"areaName\":\"customer_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.customer\", \"areaClass\":\"com.jingshuai.android.fregmentapp.customer.Customer_View_Activity\"}
+        {\"areaId\":6799,\"areaName\":\"customer_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.customer\", \"areaClass\":\"com.jingshuai.android.fregmentapp.customer.Customer_View_Activity\"},
+        {\"areaId\":7600,\"areaName\":\"scroller_example\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.customer.scroller\", \"areaClass\":\"com.jingshuai.android.fregmentapp.customer.scroller.ActScrollerExample\"},
+        {\"areaId\":7601,\"areaName\":\"scroller_layout_example\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.customer.scroller\", \"areaClass\":\"com.jingshuai.android.fregmentapp.customer.scroller.ActScrollerLayoutExample\"}
       ]},
        {\"cityId\":77,\"cityName\":\"service_view\",\"areas\":[
         {\"areaId\":7799,\"areaName\":\"service_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.service\", \"areaClass\":\"com.jingshuai.android.fregmentapp.service.ServiceActivity\"}

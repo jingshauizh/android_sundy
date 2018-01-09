@@ -73,7 +73,9 @@ public class ActBitMapLoad extends AppCompatActivity {
             String p2 = params[1];
             bitmap = BitmapFactory.decodeStream(Request
                     .HandlerData(url));
-            Bitmap bitmapNew = BitmapCacheLoadUtil.setBitmapSize(bitmap,200,200);
+            //Bitmap bitmapNew = BitmapCacheLoadUtil.setBitmapSize(bitmap,200,200);
+            Bitmap bitmapNew = BitMapRoatateUtil.getRoundImage(bitmap,200);
+
             BitmapCutUtil.recycleBitmap(bitmap);
             //bean.setImage(bitmapNew);
             bitmap = bitmapNew;
