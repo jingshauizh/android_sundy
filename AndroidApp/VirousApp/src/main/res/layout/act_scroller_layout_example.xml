@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.jingshuai.android.fregmentapp.customer.scroller.ScrollerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.jingshuai.android.fregmentapp.customer.scroller.ScrollerLayoutV xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -8,16 +8,44 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="This is first child view"/>
+        android:text="This is first child view 1"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="This is second child view"/>
+        android:text="This is second child view 2"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="This is third child view"/>
+        android:text="This is third child view 3"/>
 
-</com.jingshuai.android.fregmentapp.customer.scroller.ScrollerLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="This is first child view 4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="This is second child view 5"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="This is third child view 6"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="This is first child view 7"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="This is second child view 8"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="This is third child view 9"/>
+</com.jingshuai.android.fregmentapp.customer.scroller.ScrollerLayoutV>

@@ -72,6 +72,7 @@
        {\"cityId\":76,\"cityName\":\"customer_view\",\"areas\":[
         {\"areaId\":6799,\"areaName\":\"customer_view\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.customer\", \"areaClass\":\"com.jingshuai.android.fregmentapp.customer.Customer_View_Activity\"},
         {\"areaId\":7600,\"areaName\":\"scroller_example\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.customer.scroller\", \"areaClass\":\"com.jingshuai.android.fregmentapp.customer.scroller.ActScrollerExample\"},
+        {\"areaId\":7600,\"areaName\":\"ViewSlideActivity\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.customer.scroller\", \"areaClass\":\"com.jingshuai.android.fregmentapp.customer.scroller.ViewSlideActivity\"},
         {\"areaId\":7601,\"areaName\":\"scroller_layout_example\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.customer.scroller\", \"areaClass\":\"com.jingshuai.android.fregmentapp.customer.scroller.ActScrollerLayoutExample\"}
       ]},
        {\"cityId\":77,\"cityName\":\"service_view\",\"areas\":[
