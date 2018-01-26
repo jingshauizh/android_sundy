@@ -159,12 +159,9 @@
         <activity android:name=".bitmap.ActBitMapLoad" />
         <activity android:name=".customer.scroller.ActScrollerExample" />
         <activity android:name=".customer.scroller.ViewSlideActivity" />
-
-        <activity android:name=".customer.scroller.ActScrollerLayoutExample"></activity>
-
-
-
-
+        <activity android:name=".customer.scroller.ActScrollerLayoutExample" />
+        <activity android:name=".lifecircle.ActLifeCircleMenu" />
+        <activity android:name=".lifecircle.ActLifeFregment"></activity>
     </application>
 
 </manifest>

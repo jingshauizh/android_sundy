@@ -115,6 +115,10 @@
         {\"areaId\":8699,\"areaName\":\"BitMapExample\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.bitmap\", \"areaClass\":\"com.jingshuai.android.fregmentapp.bitmap.ActBitMapMenu\"}
       ]},
 
+      {\"cityId\":87,\"cityName\":\"LifeCircleExample\",\"areas\":[
+        {\"areaId\":8799,\"areaName\":\"LifeCircleExample\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.lifecircle\", \"areaClass\":\"com.jingshuai.android.fregmentapp.lifecircle.ActLifeCircleMenu\"}
+      ]},
+
         {\"cityId\":78,\"cityName\":\"listfragment\",\"areas\":[
         {\"areaId\":8799,\"areaName\":\"listfragment\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.activity.TitlesActivity\"},
          {\"areaId\":8800,\"areaName\":\"memmary\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.artmemmory\", \"areaClass\":\"com.jingshuai.android.fregmentapp.artmemmory.MemmaryActivity\"}
