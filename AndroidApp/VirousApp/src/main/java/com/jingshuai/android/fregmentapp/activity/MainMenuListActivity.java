@@ -1,5 +1,10 @@
 package com.jingshuai.android.fregmentapp.activity;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
+
 import com.jingshuai.android.fregmentapp.event.EventActivity;
 import com.jingshuai.android.fregmentapp.hookviewpac.HookViewActivity;
 import com.jingshuai.android.fregmentapp.R;
@@ -17,6 +22,8 @@ import com.jingshuai.android.fregmentapp.service.binder_aidl.activity.*;
  * Created by eqruvvz on 8/1/2016.
  */
 public class MainMenuListActivity extends ActivityLibBase implements OnListFragmentIndexChangeListenerIF {
+
+    private int REQUEST_CODE_ASK_PERMISSIONS = 2235;
     @Override
     public void setContentView() {
         setContentView(R.layout.act_main_menu_list);
@@ -24,6 +31,7 @@ public class MainMenuListActivity extends ActivityLibBase implements OnListFragm
 
     @Override
     public void initViews() {
+        opCheckPermission();
 
     }
 
@@ -40,6 +48,20 @@ public class MainMenuListActivity extends ActivityLibBase implements OnListFragm
     @Override
     protected boolean cancelRequest() {
         return false;
+    }
+
+    public void opCheckPermission() {
+        int checkLocationPermission = ContextCompat.checkSelfPermission(this,Manifest.permission.ACCESS_FINE_LOCATION);
+        int checkCallPhonePermission = ContextCompat.checkSelfPermission(this,  Manifest.permission.CALL_PHONE);
+
+        //????
+        if (checkLocationPermission != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(MainMenuListActivity.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_CODE_ASK_PERMISSIONS);
+        }
+        //????
+        if (checkCallPhonePermission != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(MainMenuListActivity.this, new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CODE_ASK_PERMISSIONS);
+        }
     }
 
     @Override

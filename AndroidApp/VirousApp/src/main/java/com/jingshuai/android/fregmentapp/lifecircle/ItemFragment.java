@@ -2,6 +2,7 @@ package com.jingshuai.android.fregmentapp.lifecircle;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
@@ -13,6 +14,7 @@ import android.view.ViewGroup;
 import com.jingshuai.android.fregmentapp.R;
 import com.jingshuai.android.fregmentapp.lifecircle.dummy.DummyContent;
 import com.jingshuai.android.fregmentapp.lifecircle.dummy.DummyContent.DummyItem;
+import com.jingshuai.appcommonlib.log.MLog;
 
 import java.util.List;
 
@@ -35,6 +37,7 @@ public class ItemFragment extends Fragment {
      * fragment (e.g. upon screen orientation changes).
      */
     public ItemFragment() {
+        MLog.d("ItemFragment constractor");
     }
 
     // TODO: Customize parameter initialization
@@ -49,6 +52,7 @@ public class ItemFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        MLog.d("ItemFragment onCreate");
         super.onCreate(savedInstanceState);
 
         if (getArguments() != null) {
@@ -60,7 +64,7 @@ public class ItemFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_item_list2, container, false);
-
+        MLog.d("ItemFragment onCreateView");
         // Set the adapter
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
@@ -78,7 +82,9 @@ public class ItemFragment extends Fragment {
 
     @Override
     public void onAttach(Context context) {
+        MLog.d("ItemFragment onAttach");
         super.onAttach(context);
+
         if (context instanceof OnListFragmentInteractionListener) {
             mListener = (OnListFragmentInteractionListener) context;
         } else {
@@ -88,8 +94,59 @@ public class ItemFragment extends Fragment {
     }
 
     @Override
+    public void onStart() {
+        MLog.d("ItemFragment onStart");
+        super.onStart();
+
+    }
+
+    @Override
+    public void onResume() {
+        MLog.d("ItemFragment onResume");
+        super.onResume();
+
+    }
+
+    @Override
+    public void onPause() {
+        MLog.d("ItemFragment onPause");
+        super.onPause();
+
+    }
+
+    @Override
+    public void onStop() {
+        MLog.d("ItemFragment onStop");
+        super.onStop();
+
+    }
+
+    @Override
+    public void onDestroyView() {
+        MLog.d("ItemFragment onDestroyView");
+        super.onDestroyView();
+
+    }
+
+    @Override
+    public void onDestroy() {
+        MLog.d("ItemFragment onDestroy");
+        super.onDestroy();
+
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        MLog.d("ItemFragment onActivityCreated");
+        super.onActivityCreated(savedInstanceState);
+
+    }
+
+    @Override
     public void onDetach() {
+        MLog.d("ItemFragment onDetach");
         super.onDetach();
+
         mListener = null;
     }
 

@@ -10,21 +10,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="btn_lifecircle_1" />
+        android:text="btn_lifecircle_common" />
 
     <Button
-        android:id="@+id/btn_lifecircle_2"
+        android:id="@+id/btn_JS_URL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="btn_lifecircle_2" />
+        android:text="btn_JS_URL" />
 
     <Button
-        android:id="@+id/btn_lifecircle_3"
+        android:id="@+id/btn_JS_API"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="btn_lifecircle_3" />
+        android:text="btn_JS_API" />
 
     <Button
         android:id="@+id/btn_lifecircle_4"
