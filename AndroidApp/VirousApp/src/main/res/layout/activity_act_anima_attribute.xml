@@ -6,52 +6,52 @@
     tools:context=".lifecircle.ActLifeCircleMenu">
 
     <Button
-        android:id="@+id/btn_lifecircle_common"
+        android:id="@+id/btn_anima_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="btn_lifecircle_common" />
+        android:text="btn_anima_1" />
 
     <Button
-        android:id="@+id/btn_JS_URL"
+        android:id="@+id/btn_anima_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="btn_JS_URL" />
+        android:text="btn_anima_2" />
 
     <Button
-        android:id="@+id/btn_JS_API"
+        android:id="@+id/btn_anima_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="btn_JS_API" />
+        android:text="btn_anima_API" />
 
     <Button
-        android:id="@+id/btn_JS_HACK"
+        android:id="@+id/btn_anima_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="btn_JS_HACK" />
     <Button
-        android:id="@+id/btn_lifecircle_5"
+        android:id="@+id/btn_anima_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="btn_lifecircle_5" />
+        android:text="btn_anima_5" />
 
     <Button
-        android:id="@+id/btn_lifecircle_6"
+        android:id="@+id/btn_anima_6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="btn_lifecircle_6" />
+        android:text="btn_anima_6" />
 
     <Button
-        android:id="@+id/btn_lifecircle_7"
+        android:id="@+id/btn_anima_7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="btn_lifecircle_7" />
+        android:text="btn_anima_7" />
 
 
 </LinearLayout>

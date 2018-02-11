@@ -6,6 +6,8 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
@@ -164,7 +166,10 @@
         <activity android:name=".lifecircle.ActLifeFregment" />
         <activity android:name=".jsnative.ActJsUrl" />
         <activity android:name=".jsnative.ActJsApi" />
-        <activity android:name=".jsnative.ButterKnifeActivity"></activity>
+        <activity android:name=".jsnative.ButterKnifeActivity" />
+        <activity android:name=".jsnative.ActHackJs" />
+        <activity android:name=".animation.ActAnimationMenu" />
+        <activity android:name=".animation.ActAnimaAttribute"></activity>
     </application>
 
 </manifest>
