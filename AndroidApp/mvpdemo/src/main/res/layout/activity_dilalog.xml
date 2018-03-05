@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.arouter.jingshuai.mvpdemo.newa.ActNews">
+
+
+    <Button
+        android:id="@+id/btn_dialog_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通Dialog" />
+    <Button
+        android:id="@+id/btn_dialog_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="列表Dialog" />
+    <Button
+        android:id="@+id/btn_dialog_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选Dialog" />
+    <Button
+        android:id="@+id/btn_dialog_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多选Dialog" />
+    <Button
+        android:id="@+id/btn_dialog_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="等待Dialog" />
+    <Button
+        android:id="@+id/btn_dialog_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进度条Dialog" />
+
+    <TextView
+        android:id="@+id/tv_dialog_newstext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="tv_news_newstext" />
+</LinearLayout>

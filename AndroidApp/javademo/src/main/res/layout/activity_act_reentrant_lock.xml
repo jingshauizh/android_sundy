@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.arouter.jingshuai.javademo.ActJavaMain">
+
+
+    <Button
+        android:id="@+id/btn_reentrantlock_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_reentrantlock_1 " />
+    <Button
+        android:id="@+id/btn_reentrantlock_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_reentrantlock_2" />
+    <Button
+        android:id="@+id/btn_reentrantlock_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_reentrantlock_3" />
+    <Button
+        android:id="@+id/btn_reentrantlock_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_reentrantlock_4" />
+    <Button
+        android:id="@+id/btn_reentrantlock_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_reentrantlock_5" />
+    <Button
+        android:id="@+id/btn_reentrantlock_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_reentrantlock_6" />
+
+    <TextView
+        android:id="@+id/tv_dialog_newstext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Reentrantlock" />
+</LinearLayout>

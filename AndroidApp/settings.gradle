@@ -1,1 +1,2 @@
-include ':appcommonlib', ':VirousApp', ':SCamera', ':leakcanaryapp', 'RecycleTreeViewLib'
+//include ':appcommonlib', ':VirousApp', ':SCamera', ':leakcanaryapp', ':mvpdemo', ':javademo', 'RecycleTreeViewLib'
+include ':appcommonlib',':javademo',':mvpdemo'
