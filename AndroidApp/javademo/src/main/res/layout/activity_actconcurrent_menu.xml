@@ -9,32 +9,32 @@
 
 
     <Button
-        android:id="@+id/btn_dialog_1"
+        android:id="@+id/btn_current_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reentrantlock Demo1 lock" />
+        android:text="CountDownLatch" />
     <Button
-        android:id="@+id/btn_dialog_2"
+        android:id="@+id/btn_current_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Reentrantlock Demo2 no lock" />
     <Button
-        android:id="@+id/btn_dialog_3"
+        android:id="@+id/btn_current_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Reentrantlock Demo3 condition" />
     <Button
-        android:id="@+id/btn_dialog_4"
+        android:id="@+id/btn_current_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="open countdownlatch demo" />
+        android:text="多选Dialog" />
     <Button
-        android:id="@+id/btn_dialog_5"
+        android:id="@+id/btn_current_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="等待Dialog" />
     <Button
-        android:id="@+id/btn_dialog_6"
+        android:id="@+id/btn_current_6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="进度条Dialog" />

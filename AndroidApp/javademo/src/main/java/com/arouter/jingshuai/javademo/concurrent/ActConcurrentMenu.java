@@ -1,14 +1,16 @@
-package com.arouter.jingshuai.javademo;
+package com.arouter.jingshuai.javademo.concurrent;
 
 
 import android.os.Bundle;
 import android.view.View;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.arouter.jingshuai.javademo.ButterKnifeActivity;
+import com.arouter.jingshuai.javademo.R;
 
 import butterknife.OnClick;
 
-public class ActJavaMain extends ButterKnifeActivity {
+public class ActConcurrentMenu extends ButterKnifeActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,10 +33,5 @@ public class ActJavaMain extends ButterKnifeActivity {
     @OnClick(R.id.btn_dialog_3)
     public void onBtnClickOpenThread(View v){
         ARouter.getInstance().build("/thread/act_reentrantlock_demo3","thread").navigation();
-    }
-
-    @OnClick(R.id.btn_dialog_4)
-    public void onBtnClickCountThread(View v){
-        ARouter.getInstance().build("/thread/act_countdownlatch","thread").navigation();
     }
 }
