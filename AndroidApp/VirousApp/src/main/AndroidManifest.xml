@@ -2,174 +2,172 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jingshuai.android.fregmentapp">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.CALL_PHONE"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
-    <application
-        android:name=".MyApplication"
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+  <application
+      android:name=".MyApplication"
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:supportsRtl="true"
+      android:theme="@style/AppTheme">
+    <activity android:name=".activity.MainActivity"/>
+    <activity
+        android:name=".activity.DescActivity"
+        android:label="@string/title_activity_desc"
+        android:theme="@style/AppTheme.NoActionBar"/>
+    <activity
+        android:name=".activity.ListActivity"
+        android:label="@string/title_activity_desc"
+        android:theme="@style/AppTheme.NoActionBar"/>
+    <activity
+        android:name=".activity.TitlesActivity"
+        android:label="@string/title_activity_desc"
+        android:theme="@style/AppTheme.NoActionBar"/>
+    <activity
+        android:name=".activity.CityListActivity"
         android:label="@string/app_name"
-        android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity" />
-        <activity
-            android:name=".activity.DescActivity"
-            android:label="@string/title_activity_desc"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activity.ListActivity"
-            android:label="@string/title_activity_desc"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activity.TitlesActivity"
-            android:label="@string/title_activity_desc"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activity.CityListActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".test.commonadapter.CommonAdapterActivity" />
-        <activity
-            android:name=".test.okhttp.OkHttpActivity"
-            android:label="@string/title_activity_ok_http"
-            android:parentActivityName="com.jingshuai.appcommonlib.activity.ActivityLibBase"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jingshuai.appcommonlib.activity.ActivityLibBase" />
-        </activity>
-        <activity android:name=".customer.Customer_View_Activity" />
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:name=".test.commonadapter.CommonAdapterActivity"/>
 
-        <service
-            android:name=".service.MyIntentService"
-            android:exported="false" />
+    <activity android:name=".customer.Customer_View_Activity"/>
 
-        <activity android:name=".service.ServiceActivity" />
-        <activity android:name=".eventbus.MainEventActivity" />
-        <activity android:name=".hookviewpac.HookViewActivity" />
-        <activity android:name=".service.binder_aidl.activity.IODActivity" />
-        <activity android:name=".service.binder_aidl.activity.AIDLIODActivity" />
-        <activity android:name=".service.binder_aidl.activity.AIDLMainActivity" />
-        <activity android:name=".service.binder_aidl.activity.CustomMainActivity" />
+    <service
+        android:name=".service.MyIntentService"
+        android:exported="false"/>
 
-        <service
-            android:name=".service.binder_aidl.service.CalcPlusService"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="service.binder_aidl.service.CalcPlusService" />
+    <activity android:name=".service.ServiceActivity"/>
+    <activity android:name=".eventbus.MainEventActivity"/>
+    <activity android:name=".hookviewpac.HookViewActivity"/>
+    <activity android:name=".service.binder_aidl.activity.IODActivity"/>
+    <activity android:name=".service.binder_aidl.activity.AIDLIODActivity"/>
+    <activity android:name=".service.binder_aidl.activity.AIDLMainActivity"/>
+    <activity android:name=".service.binder_aidl.activity.CustomMainActivity"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </service>
-        <service
-            android:name=".service.binder_aidl.service.CalcService"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="service.binder_aidl.service.CalcService" />
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </service>
-        <service
-            android:name=".service.binder_aidl.service.IODService"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="service.binder_aidl.service.IODService" />
+    <service
+        android:name=".service.binder_aidl.service.CalcPlusService"
+        android:exported="false">
+      <intent-filter>
+        <action android:name="service.binder_aidl.service.CalcPlusService"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </service>
-        <service
-            android:name=".service.binder_aidl.service.IODPlusService"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="service.binder_aidl.service.IODPlusService" />
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </service>
+    <service
+        android:name=".service.binder_aidl.service.CalcService"
+        android:exported="false">
+      <intent-filter>
+        <action android:name="service.binder_aidl.service.CalcService"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </service>
-        <service
-            android:name=".service.binder.RemoteService"
-            android:exported="false"
-            android:process=".Binder_Server">
-            <intent-filter>
-                <action android:name="com.jingshuai.android.fregmentapp.service.binder.RemoteService" />
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </service>
+    <service
+        android:name=".service.binder_aidl.service.IODService"
+        android:exported="false">
+      <intent-filter>
+        <action android:name="service.binder_aidl.service.IODService"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </service>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </service>
+    <service
+        android:name=".service.binder_aidl.service.IODPlusService"
+        android:exported="false">
+      <intent-filter>
+        <action android:name="service.binder_aidl.service.IODPlusService"/>
 
-        <activity
-            android:name=".event.EventActivity"
-            android:label="@string/title_activity_event"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".view.recircleview.RecircleViewActivity"
-            android:label="@string/title_activity_recircle_view"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".view.recircleview.RecirlTestActivity"
-            android:label="@string/title_activity_recirl_test"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".menuhandler.TwoThreadActivity"
-            android:label="@string/title_activity_two_thread"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".handler.OneThreadActivity"
-            android:label="@string/title_activity_one_thread"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".service.binder.CustomerBinderAct"
-            android:label="@string/title_activity_customer_binder"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".glidesample.GlideActivity"
-            android:label="@string/title_activity_glide"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".artmemmory.MemmaryActivity"
-            android:label="@string/title_activity_memmary"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".remoteviews.RemoteViewActivity"
-            android:label="@string/title_activity_remote_view"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </service>
+    <service
+        android:name=".service.binder.RemoteService"
+        android:exported="false"
+        android:process=".Binder_Server">
+      <intent-filter>
+        <action android:name="com.jingshuai.android.fregmentapp.service.binder.RemoteService"/>
 
-        <receiver android:name=".remoteviews.MyAppWidgetProvider">
-            <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/appwidget_provider_info" />
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </service>
 
-            <intent-filter>
-                <action android:name="com.jingshuai.android.fregmentapp.remoteviews" />
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-            </intent-filter>
-        </receiver>
+    <activity
+        android:name=".event.EventActivity"
+        android:label="@string/title_activity_event"
+        android:theme="@style/AppTheme.NoActionBar"/>
+    <activity
+        android:name=".view.recircleview.RecircleViewActivity"
+        android:label="@string/title_activity_recircle_view"
+        android:theme="@style/AppTheme.NoActionBar"/>
+    <activity
+        android:name=".view.recircleview.RecirlTestActivity"
+        android:label="@string/title_activity_recirl_test"
+        android:theme="@style/AppTheme.NoActionBar"/>
+    <activity
+        android:name=".menuhandler.TwoThreadActivity"
+        android:label="@string/title_activity_two_thread"
+        android:theme="@style/AppTheme.NoActionBar"/>
+    <activity
+        android:name=".handler.OneThreadActivity"
+        android:label="@string/title_activity_one_thread"
+        android:theme="@style/AppTheme.NoActionBar"/>
+    <activity
+        android:name=".service.binder.CustomerBinderAct"
+        android:label="@string/title_activity_customer_binder"
+        android:theme="@style/AppTheme.NoActionBar"/>
+    <activity
+        android:name=".glidesample.GlideActivity"
+        android:label="@string/title_activity_glide"
+        android:theme="@style/AppTheme.NoActionBar"/>
+    <activity
+        android:name=".artmemmory.MemmaryActivity"
+        android:label="@string/title_activity_memmary"
+        android:theme="@style/AppTheme.NoActionBar"/>
+    <activity
+        android:name=".remoteviews.RemoteViewActivity"
+        android:label="@string/title_activity_remote_view"
+        android:theme="@style/AppTheme.NoActionBar"/>
 
-        <activity android:name=".bitmap.ActBitMapMenu" />
-        <activity android:name=".bitmap.ActBitMapLoad" />
-        <activity android:name=".customer.scroller.ActScrollerExample" />
-        <activity android:name=".customer.scroller.ViewSlideActivity" />
-        <activity android:name=".customer.scroller.ActScrollerLayoutExample" />
-        <activity android:name=".lifecircle.ActLifeCircleMenu" />
-        <activity android:name=".lifecircle.ActLifeFregment" />
-        <activity android:name=".jsnative.ActJsUrl" />
-        <activity android:name=".jsnative.ActJsApi" />
-        <activity android:name=".jsnative.ButterKnifeActivity" />
-        <activity android:name=".jsnative.ActHackJs" />
-        <activity android:name=".animation.ActAnimationMenu" />
-        <activity android:name=".animation.ActAnimaAttribute"></activity>
-    </application>
+    <receiver android:name=".remoteviews.MyAppWidgetProvider">
+      <meta-data
+          android:name="android.appwidget.provider"
+          android:resource="@xml/appwidget_provider_info"/>
+
+      <intent-filter>
+        <action android:name="com.jingshuai.android.fregmentapp.remoteviews"/>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+      </intent-filter>
+    </receiver>
+
+    <activity android:name=".bitmap.ActBitMapMenu"/>
+    <activity android:name=".bitmap.ActBitMapLoad"/>
+    <activity android:name=".customer.scroller.ActScrollerExample"/>
+    <activity android:name=".customer.scroller.ViewSlideActivity"/>
+    <activity android:name=".customer.scroller.ActScrollerLayoutExample"/>
+    <activity android:name=".lifecircle.ActLifeCircleMenu"/>
+    <activity android:name=".lifecircle.ActLifeFregment"/>
+    <activity android:name=".jsnative.ActJsUrl"/>
+    <activity android:name=".jsnative.ActJsApi"/>
+    <activity android:name=".jsnative.ButterKnifeActivity"/>
+    <activity android:name=".jsnative.ActHackJs"/>
+    <activity android:name=".animation.ActAnimationMenu"/>
+    <activity android:name=".animation.ActAnimaAttribute"/>
+    <activity
+        android:name=".pattern.ActivityPatternMenu"
+        android:label="@string/title_activity_command_pattern"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+  </application>
 
 </manifest>

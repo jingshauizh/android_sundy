@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="100dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <Button
+      android:id="@+id/btn_command_pattern"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="命令模式"
+      />
+  <Button
+      android:id="@+id/btn_command_web_color"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="web 攻击测试color"
+      />
+
+  <Button
+      android:id="@+id/btn_command_web_parameter"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="web 攻击测试parameter"
+      />
+  <Button
+    android:id="@+id/btn_command_web_friends"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="web 攻击测试friends"
+    />
+  <Button
+    android:id="@+id/btn_command_web_chatlist"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="web 攻击测试chatlist"
+    />
+
+  <Button
+      android:id="@+id/btn_command_web_UPActivitySearchOrganize"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="web 攻击测试UPActivitySearchOrganize"
+      />
+
+  <Button
+      android:id="@+id/btn_command_webUPActivityMine"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="web 攻击测试UPActivityMine"
+      />
+  <Button
+      android:id="@+id/btn_command_webUPActivityAllGroup"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="web 攻击测试UPActivityAllGroup"
+      />
+  <Button
+      android:id="@+id/btn_command_webUPActivityAllService"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="web 攻击测试UPActivityAllService"
+      />
+  <Button
+      android:id="@+id/button"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+
+      android:text="Button"
+      />
+</LinearLayout>

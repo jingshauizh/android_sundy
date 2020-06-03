@@ -1,60 +1,60 @@
 <resources>
-    <!-- main activity menu -->
-    <string name="frag_listfragment">frag_listfragment</string>
-    <string name="frag_listview">frag_listview</string>
-    <string name="frag_OKHttp_activity">frag_OKHttp_activity</string>
-    <string name="frag_commonAdapter_activity">frag_commonAdapter_activity</string>
-    <string name="frag_customer_vieew">frag_customer_vieew</string>
-    <string name="frag_service_view">frag_service_view</string>
-    <string name="frag_eventbus_view">frag_eventbus_view</string>
-    <string name="frag_hook_view">frag_hook_view</string>
+  <!-- main activity menu -->
+  <string name="frag_listfragment">frag_listfragment</string>
+  <string name="frag_listview">frag_listview</string>
+  <string name="frag_OKHttp_activity">frag_OKHttp_activity</string>
+  <string name="frag_commonAdapter_activity">frag_commonAdapter_activity</string>
+  <string name="frag_customer_vieew">frag_customer_vieew</string>
+  <string name="frag_service_view">frag_service_view</string>
+  <string name="frag_eventbus_view">frag_eventbus_view</string>
+  <string name="frag_hook_view">frag_hook_view</string>
 
-    <string name="service_aidl_view">service_aidl_view</string>
-    <string name="service_custom_view">service_custom_view</string>
-    <string name="iod_service_aidl_view">iod_service_aidl_view</string>
-    <string name="iod_service_custom_view">iod_service_custom_view</string>
-    <string name="event_service_view">event_service_view</string>
-    <string name="recircle_view">recircle_view</string>
+  <string name="service_aidl_view">service_aidl_view</string>
+  <string name="service_custom_view">service_custom_view</string>
+  <string name="iod_service_aidl_view">iod_service_aidl_view</string>
+  <string name="iod_service_custom_view">iod_service_custom_view</string>
+  <string name="event_service_view">event_service_view</string>
+  <string name="recircle_view">recircle_view</string>
 
-    <string name="app_name">MulApp</string>
-    <string name="dynamicUiTitle">dynamicUiTitle</string>
-    <string name="android4NewTitle">android4NewTitle</string>
-    <string name="dynamicUiDescription2">rrrrrrrrrrrrrrrrrrrrrrrrrrrrttttttttttttttttttttttttttttttttttttttttttttt</string>
-    <string name="dynamicUiDescription">111111111111111111112222222222222222222222222222222222</string>
-
-
-    <string name="androidSysDevTitle">androidSysDevTitle</string>
-    <string name="androidEngineTitle">androidEngineTitle</string>
-    <string name="androidDbProgTitle">androidDbProgTitle</string>
+  <string name="app_name">MulApp</string>
+  <string name="dynamicUiTitle">dynamicUiTitle</string>
+  <string name="android4NewTitle">android4NewTitle</string>
+  <string name="dynamicUiDescription2">rrrrrrrrrrrrrrrrrrrrrrrrrrrrttttttttttttttttttttttttttttttttttttttttttttt</string>
+  <string name="dynamicUiDescription">111111111111111111112222222222222222222222222222222222</string>
 
 
-    <string name="android4NewDescription">android4NewDescription</string>
-    <string name="androidSysDevDescription">androidSysDevDescription</string>
-    <string name="androidEngineDescription">androidEngineDescription</string>
-    <string name="androidDbProgDescription">androidDbProgDescription</string>
+  <string name="androidSysDevTitle">androidSysDevTitle</string>
+  <string name="androidEngineTitle">androidEngineTitle</string>
+  <string name="androidDbProgTitle">androidDbProgTitle</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_desc">DescActivity</string>
 
-    <string name="dialogSimpleFragmentPrompt">dialogSimpleFragmentPrompt</string>
-    <string name="btn_frag_desc_text">Dialog</string>
-    <string name="text_yes">text_yes</string>
-    <string name="text_no">text_no</string>
-    <string name="title_activity_ok_http">OkHttpActivity</string>
+  <string name="android4NewDescription">android4NewDescription</string>
+  <string name="androidSysDevDescription">androidSysDevDescription</string>
+  <string name="androidEngineDescription">androidEngineDescription</string>
+  <string name="androidDbProgDescription">androidDbProgDescription</string>
 
-    <string name="btn_start_service">Start Intent Service</string>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="title_activity_desc">DescActivity</string>
 
-    <string name="hook_btn_1">hook_btn_1</string>
-    <string name="hook_btn_2">hook_btn_1</string>
-    <string name="title_activity_event">EventActivity</string>
-    <string name="title_activity_recircle_view">RecircleViewActivity</string>
-    <string name="title_activity_recirl_test">RecirlTestActivity</string>
+  <string name="dialogSimpleFragmentPrompt">dialogSimpleFragmentPrompt</string>
+  <string name="btn_frag_desc_text">Dialog</string>
+  <string name="text_yes">text_yes</string>
+  <string name="text_no">text_no</string>
+  <string name="title_activity_ok_http">OkHttpActivity</string>
 
-    <!--
+  <string name="btn_start_service">Start Intent Service</string>
+
+  <string name="hook_btn_1">hook_btn_1</string>
+  <string name="hook_btn_2">hook_btn_1</string>
+  <string name="title_activity_event">EventActivity</string>
+  <string name="title_activity_recircle_view">RecircleViewActivity</string>
+  <string name="title_activity_recirl_test">RecirlTestActivity</string>
+
+  <!--
 
     -->
-    <string name="location"> "[
+  <string name="location"> "[
         {\"provinceId\":1,\"provinceName\":\"菜单\",
         \"citys\":[
         {\"cityId\":72,\"cityName\":\"eventbus\",\"areas\":[
@@ -122,6 +122,9 @@
       {\"cityId\":88,\"cityName\":\"Animation\",\"areas\":[
         {\"areaId\":8899,\"areaName\":\"Animation\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.animation\", \"areaClass\":\"com.jingshuai.android.fregmentapp.animation.ActAnimationMenu\"}
       ]},
+          {\"cityId\":89,\"cityName\":\"模式\",\"areas\":[
+        {\"areaId\":8901,\"areaName\":\"设计模式\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.pattern\", \"areaClass\":\"com.jingshuai.android.fregmentapp.pattern.ActivityPatternMenu\"}
+      ]},
 
         {\"cityId\":78,\"cityName\":\"listfragment\",\"areas\":[
         {\"areaId\":8799,\"areaName\":\"listfragment\", \"areaPackage\":\"com.jingshuai.android.fregmentapp.activity\", \"areaClass\":\"com.jingshuai.android.fregmentapp.activity.TitlesActivity\"},
@@ -134,13 +137,14 @@
         }]"
 </string>
 
-    <string name="title_activity_two_thread">TwoThreadActivity</string>
-    <string name="title_activity_one_thread">OneThreadActivity</string>
-    <string name="title_activity_customer_binder">CustomerBinderAct</string>
-    <string name="title_activity_glide">GlideActivity</string>
-    <string name="title_activity_memmary">MemmaryActivity</string>
-    <string name="title_activity_remote_view">RemoteViewActivity</string>
-    <string name="action_settings">Settings</string>
+  <string name="title_activity_two_thread">TwoThreadActivity</string>
+  <string name="title_activity_one_thread">OneThreadActivity</string>
+  <string name="title_activity_customer_binder">CustomerBinderAct</string>
+  <string name="title_activity_glide">GlideActivity</string>
+  <string name="title_activity_memmary">MemmaryActivity</string>
+  <string name="title_activity_remote_view">RemoteViewActivity</string>
+  <string name="action_settings">Settings</string>
+  <string name="title_activity_command_pattern">ActivityCommandPattern</string>
 
 </resources>
 

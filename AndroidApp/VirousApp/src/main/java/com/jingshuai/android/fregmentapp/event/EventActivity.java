@@ -48,15 +48,19 @@ public class EventActivity extends AppCompatActivity {
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent ev) {
-        MLog.i("dispatchTouchEvent default type="+ev.getAction());
-        return super.dispatchTouchEvent(ev);
+        MLog.i(Constaint.LOG_TAG,"EventActivity dispatchTouchEvent default type="+ev.getAction());
+        boolean returnflag = super.dispatchTouchEvent(ev);
+        MLog.i(Constaint.LOG_TAG,"EventActivity dispatchTouchEvent return="+returnflag);
+        return returnflag;
     }
 
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        MLog.i("onTouchEvent onTouchEvent type="+event.getAction());
-        return super.onTouchEvent(event);
+        MLog.i(Constaint.LOG_TAG,"EventActivity onTouchEvent onTouchEvent type="+event.getAction());
+        boolean returnflag = super.onTouchEvent(event);
+        MLog.i(Constaint.LOG_TAG,"EventActivity onTouchEvent return="+returnflag);
+        return returnflag;
     }
 
 }

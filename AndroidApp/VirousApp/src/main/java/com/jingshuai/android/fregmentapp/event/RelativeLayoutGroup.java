@@ -26,20 +26,26 @@ public class RelativeLayoutGroup extends RelativeLayout {
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent ev) {
-        MLog.i("dispatchTouchEvent default type="+ev.getAction());
-        return super.dispatchTouchEvent(ev);
+        MLog.i(Constaint.LOG_TAG,"RelativeLayoutGroup dispatchTouchEvent default type="+ev.getAction());
+        boolean returnflag = super.dispatchTouchEvent(ev);
+        MLog.i(Constaint.LOG_TAG,"RelativeLayoutGroup dispatchTouchEvent return="+returnflag);
+        return returnflag;
     }
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
-        MLog.i("onInterceptTouchEvent default type="+ev.getAction());
-        return super.onInterceptTouchEvent(ev);
+        MLog.i(Constaint.LOG_TAG,"RelativeLayoutGroup onInterceptTouchEvent default type="+ev.getAction());
+        boolean returnflag = super.onInterceptTouchEvent(ev);
+        MLog.i(Constaint.LOG_TAG,"RelativeLayoutGroup onInterceptTouchEvent return="+returnflag);
+        return returnflag;
     }
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        MLog.i("onTouchEvent onTouchEvent type="+event.getAction());
-        return super.onTouchEvent(event);
+        MLog.i(Constaint.LOG_TAG,"RelativeLayoutGroup onTouchEvent onTouchEvent type="+event.getAction());
+        boolean returnflag = super.onTouchEvent(event);
+        MLog.i(Constaint.LOG_TAG,"RelativeLayoutGroup onTouchEvent return="+returnflag);
+        return returnflag;
     }
 
 

@@ -28,20 +28,27 @@ public class LinearLayoutGroup extends LinearLayout {
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent ev) {
-        MLog.i("dispatchTouchEvent default type="+ev.getAction());
-        return super.dispatchTouchEvent(ev);
+        MLog.i(Constaint.LOG_TAG,"LinearLayoutGroup dispatchTouchEvent default type="+ev.getAction());
+        boolean returnflag = super.dispatchTouchEvent(ev);
+        MLog.i(Constaint.LOG_TAG,"LinearLayoutGroup dispatchTouchEvent return="+returnflag);
+        return returnflag;
     }
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
-        MLog.i("onInterceptTouchEvent default type="+ev.getAction());
-        //super.onInterceptTouchEvent(ev);
-        return true;
+        MLog.i(Constaint.LOG_TAG,"LinearLayoutGroup onInterceptTouchEvent default type="+ev.getAction());
+        boolean returnflag = super.onInterceptTouchEvent(ev);
+        returnflag = true;
+        MLog.i(Constaint.LOG_TAG,"LinearLayoutGroup onInterceptTouchEvent return="+returnflag);
+        return returnflag;
     }
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        MLog.i("onTouchEvent onTouchEvent type="+event.getAction());
-        return super.onTouchEvent(event);
+        MLog.i(Constaint.LOG_TAG,"LinearLayoutGroup onTouchEvent onTouchEvent type="+event.getAction());
+        boolean returnflag = super.onTouchEvent(event);
+        //returnflag = true;
+        MLog.i(Constaint.LOG_TAG,"LinearLayoutGroup onTouchEvent return="+returnflag);
+        return returnflag;
     }
 }

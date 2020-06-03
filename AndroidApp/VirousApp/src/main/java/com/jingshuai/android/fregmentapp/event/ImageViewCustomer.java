@@ -31,7 +31,7 @@ public class ImageViewCustomer extends AppCompatImageView {
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent ev) {
-        MLog.i("dispatchTouchEvent default type="+ev.getAction());
+        MLog.i(Constaint.LOG_TAG,"ImageViewCustomer dispatchTouchEvent default type="+ev.getAction());
         return super.dispatchTouchEvent(ev);
     }
 
@@ -39,7 +39,7 @@ public class ImageViewCustomer extends AppCompatImageView {
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        MLog.i("onTouchEvent onTouchEvent type="+event.getAction() );
+        MLog.i(Constaint.LOG_TAG,"ImageViewCustomer onTouchEvent onTouchEvent type="+event.getAction() );
         return super.onTouchEvent(event);
     }
 

@@ -10,6 +10,7 @@ import android.widget.TextView;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.arouter.jingshuai.mvpdemo.ButterKnifeActivity;
 import com.arouter.jingshuai.mvpdemo.R;
+import com.arouter.jingshuai.mvpdemo.retrofit.ClientType;
 import com.jingshuai.appcommonlib.log.MLog;
 
 import butterknife.BindView;
@@ -44,7 +45,8 @@ public class ActNews extends ButterKnifeActivity implements  IContract.IView{
     @OnClick(R.id.btn_news_getnext)
     public void onBtnClick(View v){
 
-        mNewPresenter.getNextNews();
+        //mNewPresenter.getNextNews();
+        mNewPresenter.get12306Test(getApplicationContext(), ClientType.TYPE_OKHTTPCLIENT);
     }
 
     @Override
