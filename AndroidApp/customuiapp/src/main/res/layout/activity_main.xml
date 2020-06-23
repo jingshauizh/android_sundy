@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jings.ex.android.com.customuiapp.ui.FlowLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <TextView
+      android:layout_width="100dp"
+      android:layout_height="50dp"
+      android:text="aaaaa  第一行"
+      android:background="@color/colorAccent"
+
+      />
+
+  <TextView
+      android:layout_width="90dp"
+      android:layout_height="70dp"
+      android:text="bbbb  第二行"
+      android:background="@color/colorPrimary"
+
+      />
+  <TextView
+      android:layout_width="120dp"
+      android:layout_height="30dp"
+      android:text="aaaaa  第一行"
+      android:background="@color/colorAccent"
+
+      />
+
+  <TextView
+      android:layout_width="80dp"
+      android:layout_height="20dp"
+      android:text="bbbb  第二行"
+      android:background="@color/colorPrimary"/>
+  <TextView
+      android:layout_width="30dp"
+      android:layout_height="90dp"
+      android:text="aaaaa  第一行"
+      android:background="@color/colorAccent"
+
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="bbbb  第二行"
+      android:background="@color/colorPrimary"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="aaaaa  第一行"
+      android:background="@color/colorAccent"
+
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="bbbb  第二行"
+      android:background="@color/colorPrimary"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="aaaaa  第一行"
+      android:background="@color/colorAccent"
+
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="bbbb  第二行"
+      android:background="@color/colorPrimary"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="aaaaa  第一行"
+      android:background="@color/colorAccent"
+
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="bbbb  第二行"
+      android:background="@color/colorPrimary"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="aaaaa  第一行"
+      android:background="@color/colorAccent"
+
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="bbbb  第二行"
+      android:background="@color/colorPrimary"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="aaaaa  第一行"
+      android:background="@color/colorAccent"
+
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="bbbb  第二行"
+      android:background="@color/colorPrimary"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="aaaaa  第一行"
+      android:background="@color/colorAccent"
+
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="bbbb  第二行"
+      android:background="@color/colorPrimary"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="aaaaa  第一行"
+      android:background="@color/colorAccent"
+
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="bbbb  第二行"
+      android:background="@color/colorPrimary"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="aaaaa  第一行"
+      android:background="@color/colorAccent"
+
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="bbbb  第二行"
+      android:background="@color/colorPrimary"/>
+
+
+
+
+
+</jings.ex.android.com.customuiapp.ui.FlowLayout>

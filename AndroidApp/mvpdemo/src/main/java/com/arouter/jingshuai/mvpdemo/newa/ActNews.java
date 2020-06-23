@@ -11,6 +11,7 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.arouter.jingshuai.mvpdemo.ButterKnifeActivity;
 import com.arouter.jingshuai.mvpdemo.R;
 import com.arouter.jingshuai.mvpdemo.retrofit.ClientType;
+import com.arouter.jingshuai.mvpdemo.testxml.UPXmlReplace;
 import com.jingshuai.appcommonlib.log.MLog;
 
 import butterknife.BindView;
@@ -46,7 +47,11 @@ public class ActNews extends ButterKnifeActivity implements  IContract.IView{
     public void onBtnClick(View v){
 
         //mNewPresenter.getNextNews();
-        mNewPresenter.get12306Test(getApplicationContext(), ClientType.TYPE_OKHTTPCLIENT);
+       // mNewPresenter.get12306Test(getApplicationContext(), ClientType.TYPE_OKHTTPCLIENT);
+       // mNewPresenter.testRetroFit();
+
+        UPXmlReplace.runTest();
+
     }
 
     @Override

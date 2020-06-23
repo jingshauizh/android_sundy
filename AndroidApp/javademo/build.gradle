@@ -1,5 +1,10 @@
 apply plugin: 'com.android.application'
-
+repositories{
+    mavenLocal()
+    flatDir {
+        dirs 'libs'
+    }
+}
 android {
     compileSdkVersion 26
 
