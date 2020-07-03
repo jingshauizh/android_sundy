@@ -19,6 +19,10 @@
     </activity>
 
     <activity android:name=".suspensiondemo.MainActivity">
+
+    </activity>
+
+    <activity android:name=".bigimage.BigImageActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
 
