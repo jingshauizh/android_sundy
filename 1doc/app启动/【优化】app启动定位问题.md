@@ -20,3 +20,34 @@
     通过梳理业务逻辑，延迟初始化组件、操作
     正确使用线程
     去掉无用代码、重复逻辑等
+####启动耗时测试
+	在app的oncreate 方法中开始添加 
+	Debug.startMethodTracing(filepath);
+	结束的地方添加：
+	Debug.stopMethodTracing();
+
+	2 也可以在log 里面用 Displayed 过滤查看activity的启动时间
+	4.4版本以后Logcat 输入Display筛选系统日志  不过滤信息No Filters
+
+####黑白屏问题
+	解决办法：
+	1.在自己的<style name="AppTheme" parent="Theme.AppCompat.Light">中加入windowsbackground
+	2.设置windowbackground为透明的  <item name="android:windowIsTranslucent">true</item>
+	但这2种方法会有个问题，所有的activity启动都会显示
+	3.单独做成一个主题
+	<style name="AppTheme.Launcher">
+	        <item name="android:windowBackground">@drawable/bg</item>
+	    </style>
+	    <style name="AppTheme.Launcher1">
+	        <item name="android:windowBackground">@drawable/bg</item>
+	    </style>
+	    <style name="AppTheme.Launcher2">
+	        <item name="android:windowBackground">@drawable/bg</item>
+	    </style>
+	再在功能清单中的单独activity下设置
+	<activity
+	            android:theme="@style/AppTheme.Launcher"
+	然后在程序中使用setTheme(R.style.AppTheme);
+	让APP中所有的activity还是使用以前的样式，这样做就只有启动时才使用自己的样式
+
+	

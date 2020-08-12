@@ -1,2 +1,2 @@
 //include ':appcommonlib', ':VirousApp', ':SCamera', ':leakcanaryapp', ':mvpdemo', ':javademo', 'RecycleTreeViewLib'
-include ':appcommonlib',':javademo',':mvpdemo',':VirousApp', ':kotlin', ':customuiapp', 'RecycleTreeViewLib'
+include ':appcommonlib',':javademo',':mvpdemo',':VirousApp', ':kotlin', ':customuiapp', ':plugin', ':dagger2demo', ':fix', 'RecycleTreeViewLib'
